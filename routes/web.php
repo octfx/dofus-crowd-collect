@@ -27,5 +27,7 @@ Route::group(
         Route::get('/dash', 'DashboardController@index')->name('dash');
 
         Route::resource('collections', 'CollectionController')->only(['index', 'create', 'edit']);
+
+        Route::get('/logs', 'LogController@index')->name('logs.index');
     }
 );

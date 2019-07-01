@@ -19,6 +19,7 @@ Route::namespace('Api')
         Route::resource('collections', 'CollectionController')->except(['create', 'edit']);
 
         Route::get('personal/collections', 'CollectionController@indexPersonal')->name('collections.personal.index');
+        Route::get('personal/logs', 'LogController@indexPersonal')->name('logs.personal.index');
 
         Route::post('logs', 'LogController@store')->name('logs.store');
     });

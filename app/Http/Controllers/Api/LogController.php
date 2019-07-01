@@ -17,7 +17,12 @@ class LogController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth:api');
+    }
+
+    public function indexPersonal()
+    {
+        return Auth::user()->collectionLogs()->with('collection')->get();
     }
 
     /**
@@ -42,6 +47,8 @@ class LogController extends Controller
             'user_id' => Auth::id(),
             'amount' => $data['update_amount'],
         ]);
+
+        $log->load(['user', 'resource']);
 
         return response()->json($log);
     }

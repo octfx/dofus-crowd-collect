@@ -9,7 +9,7 @@
                         <button class="btn btn-link collapsed flex-grow-1 text-left" type="button"
                                 data-toggle="collapse" :data-target="'#collection-'+index" aria-expanded="true"
                                 :aria-controls="'collection-'+index">
-                            {{ collection.name }}
+                            <span v-if="publicMode">{{ collection.user.username }}: </span> {{ collection.name }}
                         </button>
                         <button v-if="deleteMethod" type="button" class="btn btn-outline-danger flex-grow-0"
                                 v-on:click.prevent="deleteMethod(collection)">&times;
@@ -20,7 +20,7 @@
                 <div :id="'collection-'+index" class="collapse" :aria-labelledby="'collectionHeading-'+index"
                      data-parent="#collectionList">
                     <div class="card-body" v-if="collection.content.length" :id="'collectionForm-'+index">
-                        <table class="table table-borderless table-responsive">
+                        <table class="table table-borderless">
                             <thead>
                             <tr>
                                 <th>Ressource</th>
@@ -68,7 +68,8 @@
         props: {
             updateMethod: Function,
             deleteMethod: Function,
-            collections: Array
+            collections: Array,
+            publicMode: Boolean
         },
         data() {
             return {
