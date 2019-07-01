@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &.login {
+    background-image: url(/img/otomai-blurred.jpg);
+  }
+
+  &.register {
+    background-image: url(/img/madestram-blurred.jpg);
+  }
+}
