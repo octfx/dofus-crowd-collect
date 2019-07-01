@@ -19,7 +19,7 @@
                             <a class="nav-link" href="{{ route('collections.index') }}">{{ __('Alle aktiven Sammlungen') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">{{ __('Deine Beiträge') }}</a>
+                            <a class="nav-link" href="{{ route('logs.index') }}">{{ __('Deine Beiträge') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>

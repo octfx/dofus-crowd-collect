@@ -19,6 +19,7 @@ class Collection extends Model
     protected $with = [
         'logs',
         'content',
+        'user'
     ];
 
     protected $withCount = [

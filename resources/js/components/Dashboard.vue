@@ -12,6 +12,7 @@
                 v-if="!loading && publicMode"
                 :update-method="updateCollection"
                 :collections="collections"
+                :public-mode="publicMode"
         ></collection-card-list>
     </div>
 </template>
@@ -63,9 +64,12 @@
                     'resource_id': parseInt(content.resource_id),
                     'update_amount': parseInt(content.update_amount),
                 }).then(response => {
-                    let updatedContent = this.collections.find(col => col.id === parseInt(content.collection_id)).content.find(con => con.id === parseInt(content.id));
+                    let collection = this.collections.find(col => col.id === parseInt(content.collection_id));
+                    let updatedContent = collection.content.find(con => con.id === parseInt(content.id));
                     updatedContent.sum += parseInt(content.update_amount);
                     content.update_amount = 0;
+
+                    collection.logs.unshift(response.data);
                 }).catch(error => {
 
                 });
