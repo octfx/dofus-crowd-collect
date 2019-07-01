@@ -20,7 +20,7 @@
                 <div :id="'collection-'+index" class="collapse" :aria-labelledby="'collectionHeading-'+index"
                      data-parent="#collectionList">
                     <div class="card-body" v-if="collection.content.length" :id="'collectionForm-'+index">
-                        <table class="table table-borderless">
+                        <table class="table table-borderless table-responsive">
                             <thead>
                             <tr>
                                 <th>Ressource</th>
@@ -31,13 +31,13 @@
                             </thead>
                             <tbody>
                             <tr v-for="content in collection.content" :key="content.name">
-                                <td class="pt-3">{{ content.resource.name }}</td>
+                                <td class="pt-3 text-nowrap">{{ content.resource.name }}</td>
                                 <td>
                                     <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
                                            class="form-control-sm w-100" v-model="content.update_amount">
                                 </td>
-                                <td class="pt-3">/ {{ calculateMissing(content) }}</td>
-                                <td class="pt-3">{{ content.sum }} / {{ content.amount }}</td>
+                                <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
+                                <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
                                 <td>
                                     <button type="button" class="btn btn-outline-success flex-fill"
                                             v-on:click.prevent="updateMethod(content)">&plus;

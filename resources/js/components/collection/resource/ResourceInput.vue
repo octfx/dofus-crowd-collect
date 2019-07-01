@@ -1,10 +1,10 @@
 <template>
     <div class="form-group row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mb-2 mb-sm-0">
             <input type="text" class="form-control" name="resource[]" placeholder="Ressourcenname"
                    v-model="content.name">
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 mb-2 mb-sm-0">
             <input type="number" class="form-control" name="amount[]" placeholder="Anzahl" min="1" max="10000"
                    v-model="content.amount">
         </div>
