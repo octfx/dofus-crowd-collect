@@ -14,7 +14,7 @@
                             @csrf
 
                             <div class="form-group">
-                                <label for="username">{{ __('Username') }}</label>
+                                <label for="username">{{ __('Benutzername') }}</label>
 
                                 <input id="username" type="text"
                                        class="form-control @error('username') is-invalid @enderror" name="username"
@@ -28,7 +28,7 @@
                             </div>
 
                             <div class="form-group ">
-                                <label for="password">{{ __('Password') }}</label>
+                                <label for="password">{{ __('Passwort') }}</label>
 
                                 <input id="password" type="password"
                                        class="form-control @error('password') is-invalid @enderror" name="password"
@@ -47,7 +47,7 @@
                                            id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
+                                        {{ __('Angemeldet bleiben') }}
                                     </label>
                                 </div>
                             </div>
