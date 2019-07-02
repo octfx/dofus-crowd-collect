@@ -77,12 +77,6 @@
                     return content.name.length > 0
                 });
 
-                console.log({
-                    name: this.collectionName,
-                    'public': this.collectionPublic,
-                    content: this.collectionContent
-                });
-
                 this.axios.post(this.postUrl, {
                     name: this.collectionName,
                     'public': this.collectionPublic,

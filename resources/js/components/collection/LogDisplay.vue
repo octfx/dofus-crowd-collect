@@ -36,9 +36,6 @@
                 default: "singleCollection"
             }
         },
-        mounted: function() {
-            console.log(this.logs);
-        },
         methods: {
             formatLogTime: function (time) {
                 let parsed = new Date(time);
