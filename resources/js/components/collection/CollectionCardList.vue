@@ -21,7 +21,7 @@
                             <span v-if="collection.public">👁️</span>
                             <span v-else>🔒</span>
                         </button>
-                        <button v-if="deleteMethod" type="button" class="btn btn-outline-danger flex-grow-0"
+                        <button v-if="deleteMethod && !publicMode" type="button" class="btn btn-outline-danger flex-grow-0"
                                 v-on:click.prevent="deleteMethod(collection)" title="Löschen">🗑️
                         </button>
                     </div>
@@ -41,7 +41,7 @@
                             </thead>
                             <tbody>
                             <tr v-for="content in collection.content" :key="content.name">
-                                <td class="pt-3 text-nowrap">{{ content.resource.name }}</td>
+                                <td class="pt-3 text-nowrap" :class="resourceFinished(content) ? 'text-success' : ''">{{ content.resource.name }}</td>
                                 <td>
                                     <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
                                            class="form-control-sm w-100" v-model="content.update_amount">
@@ -91,6 +91,9 @@
             calculateMissing: function (content) {
                 return Math.max(content.amount - content.sum, 0);
             },
-        }
+            resourceFinished: function (content) {
+                return parseInt(content.sum) === parseInt(content.amount);
+            }
+        },
     }
 </script>
