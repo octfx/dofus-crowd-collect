@@ -42,6 +42,11 @@ class LogController extends Controller
 
         /** @var Collection $collection */
         $collection = Collection::findOrFail($data['collection_id']);
+
+        if ($request->user()->id !== $collection->user->id && !$collection->public) {
+            return response()->json([], 401);
+        }
+
         $log = $collection->logs()->create([
             'resource_id' => $data['resource_id'],
             'user_id' => Auth::id(),

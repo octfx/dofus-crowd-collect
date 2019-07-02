@@ -92,7 +92,7 @@
                 return Math.max(content.amount - content.sum, 0);
             },
             resourceFinished: function (content) {
-                return parseInt(content.sum) === parseInt(content.amount);
+                return parseInt(content.sum) >= parseInt(content.amount);
             }
         },
     }
