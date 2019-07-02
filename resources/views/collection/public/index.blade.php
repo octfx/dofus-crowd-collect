@@ -6,7 +6,7 @@
             {{ __('Alle öffentlichen Sammlungen') }}
         @endslot
         <dashboard
-                get-url="{{ route('api.collections.personal.index') }}"
+                get-url="{{ route('api.collections.index') }}"
                 create-log-url="{{ route('api.logs.store') }}"
                 api-key="{{ Auth::user()->api_token }}"
                 :public-mode="true"
