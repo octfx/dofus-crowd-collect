@@ -7,6 +7,7 @@
                 :delete-method="removeCollection"
                 :update-method="updateCollection"
                 :collections="collections"
+                :update-collection-visibility="updateCollectionVisibility"
         ></collection-card-list>
         <collection-card-list
                 v-if="!loading && publicMode"
@@ -24,9 +25,9 @@
         components: {CollectionCardList},
         props: {
             getUrl: String,
-            viewUrl: String,
-            editUrl: String,
             updateUrl: String,
+            editUrl: String,
+            createLogUrl: String,
             deleteUrl: String,
             publicMode: Boolean
         },
@@ -54,12 +55,19 @@
                         this.collections.push(collection);
                     });
             },
+            updateCollectionVisibility: function (collection) {
+                this.axios.patch(this.replaceUrl(this.updateUrl, collection), {
+                    'public': !collection.public
+                }).then(response => {
+                    collection.public = response.data.public;
+                });
+            },
             updateCollection: function (content) {
                 if (typeof content.update_amount === "undefined" || parseInt(content.update_amount) <= 0) {
                     return;
                 }
 
-                this.axios.post(this.updateUrl, {
+                this.axios.post(this.createLogUrl, {
                     'collection_id': parseInt(content.collection_id),
                     'resource_id': parseInt(content.resource_id),
                     'update_amount': parseInt(content.update_amount),

@@ -93,4 +93,20 @@ class CollectionController extends Controller
 
         return response()->json([], 401);
     }
+
+    public function update(Request $request, Collection $collection)
+    {
+        $data = $request->validate([
+            'public' => ['required', 'boolean']
+        ]);
+
+        if ($collection->user->id === $request->user()->id) {
+            $collection->public = $data['public'] === true;
+            $collection->save();
+
+            return response()->json($collection);
+        }
+
+        return response()->json([], 401);
+    }
 }

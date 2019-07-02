@@ -11,8 +11,18 @@
                                 :aria-controls="'collection-'+index">
                             <span v-if="publicMode">{{ collection.user.username }}: </span> {{ collection.name }}
                         </button>
+                        <button v-if="!publicMode"
+                                type="button"
+                                class="btn flex-grow-0"
+                                :class="collection.public ? 'btn-outline-success' : 'btn-outline-info'"
+                                :title="collection.public ? 'Öffentlich' : 'Nicht Öffentlich'"
+                                @click.prevent="updateCollectionVisibility(collection)"
+                        >
+                            <span v-if="collection.public">👁️</span>
+                            <span v-else>🔒</span>
+                        </button>
                         <button v-if="deleteMethod" type="button" class="btn btn-outline-danger flex-grow-0"
-                                v-on:click.prevent="deleteMethod(collection)">&times;
+                                v-on:click.prevent="deleteMethod(collection)" title="Löschen">🗑️
                         </button>
                     </div>
                 </div>
@@ -67,6 +77,7 @@
         components: {LogDisplay},
         props: {
             updateMethod: Function,
+            updateCollectionVisibility: Function,
             deleteMethod: Function,
             collections: Array,
             publicMode: Boolean
