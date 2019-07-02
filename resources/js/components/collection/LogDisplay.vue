@@ -1,5 +1,5 @@
 <template>
-    <table v-if="logs.length" class="table table-striped table-sm mb-0">
+    <table class="table table-striped table-sm mb-0">
         <thead>
         <tr>
             <th v-if="mode === 'singleCollection'">Benutzer</th>
@@ -10,6 +10,9 @@
         </tr>
         </thead>
         <tbody>
+        <tr v-if="logs.length === 0">
+            <td colspan="5">Keine Beiträge vorhanden.</td>
+        </tr>
         <tr v-for="log in logs">
             <td v-if="mode === 'singleCollection'">{{ log.user.username }}</td>
             <td v-else>
@@ -22,7 +25,6 @@
             <td class="text-right">{{ formatLogTime(log.created_at) }}</td>
         </tr>
         </tbody>
-
     </table>
 </template>
 

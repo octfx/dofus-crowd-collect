@@ -3,7 +3,7 @@
 @section('card-content')
     @component('components.card')
         @slot('title')
-            {{ __('Alle aktiven Sammlungen') }}
+            {{ __('Alle öffentlichen Sammlungen') }}
         @endslot
         <dashboard
                 get-url="{{ route('api.collections.index') }}"

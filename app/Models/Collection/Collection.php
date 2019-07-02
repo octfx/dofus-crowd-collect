@@ -31,6 +31,9 @@ class Collection extends Model
         'updated_at',
     ];
 
+    protected $casts = [
+        'public' => 'boolean',
+    ];
 
     public function user(): BelongsTo
     {
