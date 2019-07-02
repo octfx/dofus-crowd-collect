@@ -21,3 +21,23 @@ body {
     background-image: url(/img/madestram-blurred.jpg);
   }
 }
+
+.autocomplete {
+  input {
+    @extend .form-control;
+  }
+
+  ul {
+    @extend .list-unstyled;
+    @extend .bg-white;
+    @extend .shadow-sm;
+    @extend .mb-0;
+
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+    li {
+      @extend .my-2;
+      @extend .ml-2;
+    }
+  }
+}

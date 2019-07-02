@@ -7,6 +7,7 @@
         @endslot
         <create-collection
                 post-url="{{ route('api.collections.store') }}"
+                search-url="{{ route('api.resource.search') }}"
                 api-key="{{ Auth::user()->api_token }}"
         ></create-collection>
     @endcomponent

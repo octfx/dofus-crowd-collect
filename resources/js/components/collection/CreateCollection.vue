@@ -34,6 +34,7 @@
                 :key="index"
                 :content="content"
                 :add-method="addContent"
+                :search-method="search"
                 :remove-method="removeContent"
         ></resource-input>
 
@@ -55,6 +56,7 @@
         props: {
             postUrl: String,
             editUrl: String,
+            searchUrl: String,
         },
         data() {
             return {
@@ -73,6 +75,12 @@
             submit: function () {
                 this.collectionContent = this.collectionContent.filter(content => {
                     return content.name.length > 0
+                });
+
+                console.log({
+                    name: this.collectionName,
+                    'public': this.collectionPublic,
+                    content: this.collectionContent
                 });
 
                 this.axios.post(this.postUrl, {
@@ -105,6 +113,13 @@
                 this.collectionName = '';
 
                 this.addContent();
+            },
+            search: function (input) {
+                return this.axios.post(this.searchUrl, {
+                    name: input
+                }).then(result => {
+                    return result.data;
+                })
             }
         }
     }

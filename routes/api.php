@@ -14,7 +14,7 @@
 Route::namespace('Api')
     ->middleware('auth:api')
     ->group(function () {
-        Route::post('resource/search', 'ResourceController@search');
+        Route::post('resource/search', 'ResourceController@search')->name('resource.search');
 
         Route::resource('collections', 'CollectionController')->except(['create', 'edit']);
 
