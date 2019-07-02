@@ -39,12 +39,23 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    public function username()
+    /**
+     * Explicitly set the identifier
+     *
+     * @return string
+     */
+    public function username(): string
     {
         return 'username';
     }
 
-    protected function authenticated(Request $request, User $user)
+    /**
+     * Generate a new API Key on Login
+     *
+     * @param  Request  $request
+     * @param  User  $user
+     */
+    protected function authenticated(Request $request, User $user): void
     {
         $user->rollApiKey();
     }
