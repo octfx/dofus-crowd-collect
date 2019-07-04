@@ -1,20 +1,18 @@
 <template>
     <form @submit.prevent="submit" method="POST" :action="postUrl" class="mx-auto w-75 mb-4">
-        <div v-if="errors.length" class="error-container">
-            <div v-for="(error, index) in errors" :key="index" class="alert alert-danger">
-                Fehler!<br>
-                Sammlung <i>{{error.collectionName}}</i> konnte nicht erstellt werden.
-            </div>
+        <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger">
+            Fehler<br>
+            Sammlung <i>{{error.collectionName}}</i> konnte nicht erstellt werden.
         </div>
-        <div v-if="successes.length" class="success-container">
-            <div v-for="(collection, index) in successes" :key="index" class="alert alert-success">
-                Sammlung <i>{{collection.name}}</i> erfolgreich erstellt!
-            </div>
+        <div v-for="(collection, index) in successes" :key="'success-'+index" class="alert alert-success">
+            Sammlung <i>{{collection.name}}</i> erfolgreich erstellt!
+        </div>
+        <div v-if="creating" class="alert alert-info">
+            {{ creating }}
         </div>
         <div class="form-group">
             <label for="name">Name</label>
-
-            <input id="name" type="text" class="form-control" name="name" required autofocus v-model="collectionName">
+            <input id="name" type="text" class="form-control" name="name" placeholder="Bezeichnung der Sammlung" required autofocus v-model="collectionName">
         </div>
 
         <div class="form-group">
@@ -28,16 +26,15 @@
             </small>
         </div>
 
-        <h5>Inhalt:</h5>
+        <h5>Inhalt</h5>
         <resource-input
                 v-for="(content, index) in collectionContent"
-                :key="index"
+                :key="'resourceInput-'+index"
                 :content="content"
                 :add-method="addContent"
                 :search-method="search"
                 :remove-method="removeContent"
         ></resource-input>
-
 
         <div class="form-group mb-0">
             <button type="submit" class="btn btn-block btn-outline-dark">
@@ -65,7 +62,8 @@
                 collectionContent: [],
                 errors: [],
                 successes: [],
-            }
+                creating: '',
+            };
         },
         mounted() {
             this.initAxios();
@@ -73,27 +71,30 @@
         },
         methods: {
             submit: function () {
-                this.collectionContent = this.collectionContent.filter(content => {
-                    return content.name.length > 0
+                this.creating = `Erstelle Sammlung ${this.collectionName}...`;
+
+                console.log({
+                    name: this.collectionName,
+                    public: this.collectionPublic,
+                    content: this.collectionContent,
                 });
 
                 this.axios.post(this.postUrl, {
                     name: this.collectionName,
-                    'public': this.collectionPublic,
-                    content: this.collectionContent
+                    public: this.collectionPublic,
+                    content: this.collectionContent,
                 }).then((response) => {
+                    this.creating = '';
                     this.successes.push(response.data);
                     this.clear();
                 }).catch((error) => {
+                    this.creating = '';
                     error.collectionName = this.collectionName;
                     this.errors.push(error);
                 })
             },
             addContent: function () {
-                this.collectionContent.push({
-                    name: '',
-                    amount: 0,
-                });
+                this.collectionContent.push({});
             },
             removeContent: function (content) {
                 const len = this.collectionContent.length;
@@ -102,7 +103,7 @@
                 }
             },
             clear: function () {
-                this.collectionContent = [];
+                this.collectionContent.length = 0;
                 this.collectionPublic = true;
                 this.collectionName = '';
 
@@ -110,10 +111,10 @@
             },
             search: function (input) {
                 return this.axios.post(this.searchUrl, {
-                    name: input
+                    name: input,
                 }).then(result => {
                     return result.data;
-                })
+                });
             }
         }
     }

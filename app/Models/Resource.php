@@ -18,6 +18,10 @@ class Resource extends Model
         'type'
     ];
 
+    protected $casts = [
+        'type_id' => 'integer',
+    ];
+
     public function type(): BelongsTo
     {
         return $this->belongsTo(ResourceType::class);

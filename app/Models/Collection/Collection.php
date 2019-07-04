@@ -33,6 +33,7 @@ class Collection extends Model
 
     protected $casts = [
         'public' => 'boolean',
+        'user_id' => 'integer',
     ];
 
     public function user(): BelongsTo
