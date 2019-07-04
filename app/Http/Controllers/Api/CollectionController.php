@@ -30,7 +30,7 @@ class CollectionController extends Controller
      */
     public function index()
     {
-        return Collection::public()->paginate(100);
+        return Collection::public()->paginate(25);
     }
 
     /**
@@ -40,7 +40,7 @@ class CollectionController extends Controller
      */
     public function indexPersonal()
     {
-        return Auth::user()->collections()->paginate(100);
+        return Auth::user()->collections()->orderByDesc('public')->paginate(25);
     }
 
     /**
