@@ -18,6 +18,14 @@
                 :collections="collections"
                 :public-mode="publicMode"
         ></collection-card-list>
+        <div class="d-flex mt-3">
+            <button v-if="response.prev_page_url !== null"
+                    @click.prevent="loadContent(response.prev_page_url)"
+                    class="btn btn-outline-dark mr-auto">Zurück</button>
+            <button v-if="response.next_page_url !== null"
+                    @click.prevent="loadContent(response.next_page_url)"
+                    class="btn btn-outline-dark ml-auto">Weiter</button>
+        </div>
     </div>
 </template>
 
@@ -39,18 +47,23 @@
                 loading: true,
                 errors: [],
                 collections: [],
+                response: {},
             };
         },
         mounted() {
             this.initAxios();
-
-            this.axios.get(this.getUrl)
-                .then((response) => {
-                    this.loading = false;
-                    this.collections = response.data.data;
-                })
+            this.loadContent(this.getUrl);
         },
         methods: {
+            loadContent: function(url) {
+                this.loading = true;
+                this.axios.get(url)
+                    .then((response) => {
+                        this.loading = false;
+                        this.response = response.data;
+                        this.collections = response.data.data;
+                    });
+            },
             removeCollection: function (collection) {
                 this.collections = this.collections.filter(item => item !== collection);
                 this.axios.delete(this.replaceUrl(this.deleteUrl, collection))

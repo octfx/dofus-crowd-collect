@@ -22,7 +22,7 @@ class LogController extends Controller
 
     public function indexPersonal()
     {
-        return Auth::user()->collectionLogs()->with('collection')->get();
+        return Auth::user()->collectionLogs()->with('collection')->orderByDesc('id')->paginate(25);
     }
 
     /**
