@@ -1,6 +1,9 @@
 <template>
     <div>
         <p v-if="loading" class="mb-0">Lade Sammlungen...</p>
+        <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger">
+            {{ error }}
+        </div>
         <collection-card-list
                 v-if="!loading && !publicMode"
                 :edit-url="editUrl"
@@ -29,13 +32,14 @@
             editUrl: String,
             createLogUrl: String,
             deleteUrl: String,
-            publicMode: Boolean
+            publicMode: Boolean,
         },
         data() {
             return {
                 loading: true,
-                collections: []
-            }
+                errors: [],
+                collections: [],
+            };
         },
         mounted() {
             this.initAxios();
@@ -50,36 +54,38 @@
             removeCollection: function (collection) {
                 this.collections = this.collections.filter(item => item !== collection);
                 this.axios.delete(this.replaceUrl(this.deleteUrl, collection))
-                    .catch(error => {
-                        console.error(error);
+                    .catch(() => {
+                        this.errors.push(`Fehler beim Löschen von ${collection.name}.`);
                         this.collections.push(collection);
                     });
             },
             updateCollectionVisibility: function (collection) {
                 this.axios.patch(this.replaceUrl(this.updateUrl, collection), {
-                    'public': !collection.public
+                    public: !collection.public,
                 }).then(response => {
                     collection.public = response.data.public;
+                }).catch(() => {
+                    this.errors.push(`Fehler beim Ändern der Sichtbarkeit von ${collection.name}.`);
                 });
             },
             updateCollection: function (content) {
-                if (typeof content.update_amount === "undefined" || parseInt(content.update_amount) <= 0) {
+                if (typeof content.update_amount === "undefined" || content.update_amount <= 0) {
                     return;
                 }
 
                 this.axios.post(this.createLogUrl, {
-                    'collection_id': parseInt(content.collection_id),
-                    'resource_id': parseInt(content.resource_id),
-                    'update_amount': parseInt(content.update_amount),
+                    collection_id: content.collection_id,
+                    resource_id: content.resource_id,
+                    update_amount: content.update_amount,
                 }).then(response => {
-                    let collection = this.collections.find(col => col.id === parseInt(content.collection_id));
-                    let updatedContent = collection.content.find(con => con.id === parseInt(content.id));
-                    updatedContent.sum += parseInt(content.update_amount);
+                    let collection = this.collections.find(col => col.id === content.collection_id);
+                    let updatedContent = collection.content.find(con => con.id === content.id);
+                    updatedContent.sum += (content.update_amount);
                     content.update_amount = 0;
 
                     collection.logs.unshift(response.data);
-                }).catch(error => {
-
+                }).catch(() => {
+                    this.errors.push(`Konnte <i>${content.resource.name}</i> nicht zur Sammlung hinzufügen.`);
                 });
             }
         }

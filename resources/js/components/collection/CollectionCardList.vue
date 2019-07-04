@@ -40,11 +40,11 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr v-for="content in collection.content" :key="content.name">
-                                <td class="pt-3 text-nowrap" :class="resourceFinished(content) ? 'text-success' : ''">{{ content.resource.name }}</td>
+                            <tr v-for="content in filterUnFinished(collection.content)" :key="content.name">
+                                <td class="pt-3 text-nowrap">{{ content.resource.name }}</td>
                                 <td>
                                     <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
-                                           class="form-control-sm w-100" v-model="content.update_amount">
+                                           class="form-control-sm w-100" v-model.number="content.update_amount">
                                 </td>
                                 <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
                                 <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
@@ -53,6 +53,12 @@
                                             v-on:click.prevent="updateMethod(content)">&plus;
                                     </button>
                                 </td>
+                            </tr>
+                            <tr v-for="content in filterFinished(collection.content)" :key="content.name">
+                                <td class="pt-3 text-nowrap text-success">{{ content.resource.name }}</td>
+                                <td class="pt-3 text-nowrap" colspan="2">0</td>
+                                <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
+                                <td></td>
                             </tr>
                             </tbody>
                         </table>
@@ -92,8 +98,18 @@
                 return Math.max(content.amount - content.sum, 0);
             },
             resourceFinished: function (content) {
-                return parseInt(content.sum) >= parseInt(content.amount);
-            }
+                return content.sum >= content.amount;
+            },
+            filterUnFinished: function (contents) {
+                return contents.filter(content => {
+                    return !this.resourceFinished(content);
+                });
+            },
+            filterFinished: function (contents) {
+                return contents.filter(content => {
+                    return this.resourceFinished(content);
+                });
+            },
         },
     }
 </script>
