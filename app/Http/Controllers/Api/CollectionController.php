@@ -91,7 +91,7 @@ class CollectionController extends Controller
             return response()->json($collection->delete());
         }
 
-        return response()->json([], 401);
+        return abort(403);
     }
 
     public function update(Request $request, Collection $collection)
@@ -107,6 +107,6 @@ class CollectionController extends Controller
             return response()->json($collection);
         }
 
-        return response()->json([], 401);
+        return abort(403);
     }
 }

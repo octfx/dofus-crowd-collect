@@ -39,13 +39,10 @@ class LogController extends Controller
             'update_amount' => ['required', 'integer', 'min:1', 'max:10000'],
         ]);
 
-
         /** @var Collection $collection */
         $collection = Collection::findOrFail($data['collection_id']);
 
-        if ($request->user()->id !== $collection->user->id && !$collection->public) {
-            return response()->json([], 401);
-        }
+        abort_if($request->user()->id !== $collection->user->id && !$collection->public, 403);
 
         $log = $collection->logs()->create([
             'resource_id' => $data['resource_id'],
