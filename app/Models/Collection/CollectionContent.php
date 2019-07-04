@@ -23,6 +23,13 @@ class CollectionContent extends Model
         'sum',
     ];
 
+    protected $casts = [
+        'collection_id' => 'integer',
+        'resource_id' => 'integer',
+        'amount' => 'integer',
+        'sum' => 'integer',
+    ];
+
     public function collection(): BelongsTo
     {
         return $this->belongsTo(Collection::class);

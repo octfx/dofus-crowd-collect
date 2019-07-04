@@ -20,6 +20,13 @@ class CollectionLog extends Model
         'resource',
     ];
 
+    protected $casts = [
+        'collection_id' => 'integer',
+        'resource_id' => 'integer',
+        'user_id' => 'integer',
+        'amount' => 'integer',
+    ];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
