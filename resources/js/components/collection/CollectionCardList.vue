@@ -34,7 +34,7 @@
                             <thead>
                             <tr>
                                 <th>Ressource</th>
-                                <th colspan="2">Fehlend</th>
+                                <th colspan="2">Hinzufügen</th>
                                 <th>Gesammelt</th>
                                 <th></th>
                             </tr>
