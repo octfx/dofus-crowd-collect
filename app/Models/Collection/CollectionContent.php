@@ -42,7 +42,7 @@ class CollectionContent extends Model
 
     public function logs(): HasMany
     {
-        return $this->hasMany(CollectionLog::class, 'resource_id');
+        return $this->hasMany(CollectionLog::class, 'resource_id', 'resource_id');
     }
 
     public function getSumAttribute(): int
