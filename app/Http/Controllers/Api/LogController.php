@@ -44,6 +44,14 @@ class LogController extends Controller
 
         abort_if($request->user()->id !== $collection->user->id && !$collection->public, 403);
 
+        $amount = $collection->logs()->where('resource_id', $data['resource_id'])->sum('amount');
+        $maxAmount = $collection->content()->where('resource_id', $data['resource_id'])->firstOrFail();
+        $maxAmount = $maxAmount->amount;
+
+        if ($amount + $data['update_amount'] > $maxAmount) {
+            abort(409, "Amount + Update = $amount + ". $data['update_amount']." > $maxAmount");
+        }
+
         $log = $collection->logs()->create([
             'resource_id' => $data['resource_id'],
             'user_id' => Auth::id(),
