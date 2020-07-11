@@ -25,6 +25,12 @@
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link @if(Route::currentRouteName() === 'logs.index')active @endif" href="{{ route('logs.index') }}">{{ __('Deine Beiträge') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-secondary" href="{{ route('logout') }}"
                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}

@@ -6,6 +6,7 @@ use App\Models\Collection\Collection;
 use App\Models\Collection\CollectionContent;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 class Resource extends Model
@@ -30,5 +31,10 @@ class Resource extends Model
     public function collections(): HasManyThrough
     {
         return $this->hasManyThrough(Collection::class, CollectionContent::class);
+    }
+
+    public function prices(): HasMany
+    {
+        return $this->hasMany(ResourcePrice::class);
     }
 }
