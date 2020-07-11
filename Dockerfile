@@ -55,5 +55,3 @@ RUN chown -R www-data:www-data /var/www/html && \
     chmod u+w /var/www/html/storage && \
     chmod g+w /var/www/html/storage && \
     a2enmod rewrite
-
-CMD ["/usr/local/bin/start"]
