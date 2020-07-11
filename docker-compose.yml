@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dofus-cc:
+    image: dofus-cc:latest
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    expose:
+      - 80
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./env:/var/www/html/.env
+      - ./db.sqlite:/var/www/html/database/db.sqlite

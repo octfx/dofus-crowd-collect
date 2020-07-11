@@ -52,7 +52,6 @@ COPY . ./
 RUN /usr/bin/composer dump-autoload --optimize --classmap-authoritative
 
 RUN chown -R www-data:www-data /var/www/html && \
-    chmod u+x /usr/local/bin/start && \
     chmod u+w /var/www/html/storage && \
     chmod g+w /var/www/html/storage && \
     a2enmod rewrite
