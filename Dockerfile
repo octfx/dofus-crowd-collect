@@ -1,9 +1,5 @@
 FROM php:7.4-apache
 
-# Arguments defined in docker-compose.yml
-ARG user
-ARG uid
-
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
@@ -32,13 +28,13 @@ opcache.save_comments=1\n\
 opcache.fast_shutdown=0\n\
 ' >> /usr/local/etc/php/conf.d/docker-php-ext-opcache.ini
 
+# Set working directory
+WORKDIR /var/www/html
+
 COPY ./docker/vhost.conf /etc/apache2/sites-available/000-default.conf
 
 # Get latest Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# Set working directory
-WORKDIR /var/www/html
 
 COPY composer.json composer.lock ./
 
