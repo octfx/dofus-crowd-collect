@@ -46,6 +46,9 @@
 </template>
 
 <script>
+    import ResourceList from "./resource/ResourceList";
+    import LogDisplay from "./LogDisplay";
+
     export default {
         name: "Collection",
         components: {ResourceList, LogDisplay},
