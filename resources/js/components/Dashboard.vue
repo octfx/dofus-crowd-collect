@@ -53,6 +53,10 @@
         mounted() {
             this.initAxios();
             this.loadContent(this.getUrl);
+
+            setInterval(function() {
+                this.loadContentUpdated(this.getUrl);
+            }.bind(this), 5000);
         },
         methods: {
             loadContent: function(url) {
@@ -60,6 +64,13 @@
                 this.axios.get(url)
                     .then((response) => {
                         this.loading = false;
+                        this.response = response.data;
+                        this.collections = response.data.data;
+                    });
+            },
+            loadContentUpdated: function(url) {
+                this.axios.get(url)
+                    .then((response) => {
                         this.response = response.data;
                         this.collections = response.data.data;
                     });
@@ -97,8 +108,12 @@
                     content.update_amount = 0;
 
                     collection.logs.unshift(response.data);
-                }).catch(() => {
-                    this.errors.push(`Konnte <i>${content.resource.name}</i> nicht zur Sammlung hinzufügen.`);
+                }).catch(error => {
+                    if (error.response.status === 409) {
+                        this.errors.push(`Die angegebene Anzahl von '${content.resource.name}' übersteigt das Sammlungsziel.`);
+                    } else {
+                        this.errors.push(`Konnte '${content.resource.name}' nicht zur Sammlung hinzufügen.`);
+                    }
                 });
             }
         }

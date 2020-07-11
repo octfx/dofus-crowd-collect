@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class ResourceType extends Model
 {
+    protected $fillable = [
+        'name'
+    ];
+
     public function resources(): HasMany
     {
         return $this->hasMany(Resource::class);

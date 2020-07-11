@@ -71,13 +71,8 @@
         },
         methods: {
             submit: function () {
+                this.errors = [];
                 this.creating = `Erstelle Sammlung ${this.collectionName}...`;
-
-                console.log({
-                    name: this.collectionName,
-                    public: this.collectionPublic,
-                    content: this.collectionContent,
-                });
 
                 this.axios.post(this.postUrl, {
                     name: this.collectionName,
@@ -90,7 +85,7 @@
                 }).catch((error) => {
                     this.creating = '';
                     error.collectionName = this.collectionName;
-                    this.errors.push(error);
+                    this.errors = [error];
                 })
             },
             addContent: function () {

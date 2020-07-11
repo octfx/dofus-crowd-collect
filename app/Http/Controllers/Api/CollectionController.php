@@ -55,7 +55,7 @@ class CollectionController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'public' => ['required', 'boolean'],
             'content' => ['required', 'array'],
-            'content.*.name' => ['required', 'string', 'max:255'],
+            'content.*.name' => ['required', 'string', 'max:255', 'exists:resources'],
             'content.*.amount' => ['required', 'integer', 'max:10000', 'min:1']
         ]);
 

@@ -1,9 +1,9 @@
 <template>
     <div>
-        <p v-if="collections.length === 0" class="mb-0">Keine Sammlungen vorhanden.</p>
+        <p v-if="collectionData.length === 0" class="mb-0">Keine Sammlungen vorhanden.</p>
 
         <div class="accordion" id="collectionList">
-            <div class="card" v-for="(collection, index) in collections">
+            <div class="card" v-for="(collection, index) in collectionData">
                 <div class="card-header" :id="'collectionHeading-'+index">
                     <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
                         <button class="btn btn-link collapsed flex-grow-1 text-left" type="button"
@@ -77,6 +77,7 @@
 
 
 <script>
+    import {isEqual} from "lodash";
     import LogDisplay from "./LogDisplay";
 
     export default {
@@ -90,7 +91,26 @@
         },
         data() {
             return {
+                collectionData: [],
                 updatedValues: [],
+            }
+        },
+        watch: {
+            collections: {
+                immediate: true,
+                handler(collections) {
+                    if (collections.length !== this.collectionData) {
+                        this.collectionData = collections;
+                        return;
+                    }
+
+                    for (let i = 0; i < collections.length; i++) {
+                        if (!isEqual(this.collectionData[i].content, collections[i].content)) {
+                            console.log('Does not equal');
+                            this.collectionData[i].content = collections[i].content;
+                        }
+                    }
+                }
             }
         },
         methods: {

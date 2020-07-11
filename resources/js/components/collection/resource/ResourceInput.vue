@@ -36,6 +36,7 @@
             removeMethod: Function,
             searchMethod: Function,
             content: Object,
+            errors: Object
         },
         methods: {
             remove: function () {

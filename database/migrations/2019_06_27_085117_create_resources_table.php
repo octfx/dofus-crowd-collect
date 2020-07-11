@@ -17,6 +17,9 @@ class CreateResourcesTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('type_id')->default(1);
             $table->string('name')->unique();
+            $table->integer('level')->unsigned();
+            $table->text('description')->nullable();
+            $table->string('img_url')->nullable();
             $table->timestamps();
         });
     }
