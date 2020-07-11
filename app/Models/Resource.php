@@ -12,6 +12,9 @@ class Resource extends Model
 {
     protected $fillable = [
         'name',
+        'description',
+        'level',
+        'img_url'
     ];
 
     protected $with = [
@@ -20,6 +23,7 @@ class Resource extends Model
 
     protected $casts = [
         'type_id' => 'integer',
+        'level' => 'integer'
     ];
 
     public function type(): BelongsTo
