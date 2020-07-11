@@ -83,7 +83,7 @@
                 this.errors = [];
 
                 this.axios.post(this.createLogUrl, {
-                    collection_id: content.collection_id,
+                    collection_id: this.collection.id,
                     resource_id: content.resource_id,
                     update_amount: content.update_amount,
                 }).then(response => {

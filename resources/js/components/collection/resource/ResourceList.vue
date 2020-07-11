@@ -9,14 +9,16 @@
         </tr>
         </thead>
         <ResourceListItem
-            v-for="content in filterUnFinished(content)"
-            :content="content"
+            v-for="item in filterUnFinished(content)"
+            :key="'item_' + item.id + '_' + item.vueKey"
+            :content="item"
             :update-method="updateMethod"
             unfinished
         ></ResourceListItem>
         <ResourceListItem
-            v-for="content in filterFinished(content)"
-            :content="content"
+            v-for="item in filterFinished(content)"
+            :key="'item_' + item.id + '_' + item.vueKey"
+            :content="item"
             finished
         ></ResourceListItem>
     </table>

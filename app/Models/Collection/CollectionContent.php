@@ -6,6 +6,7 @@ use App\Models\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Str;
 
 class CollectionContent extends Model
 {
@@ -21,6 +22,7 @@ class CollectionContent extends Model
 
     protected $appends = [
         'sum',
+        'vueKey',
     ];
 
     protected $casts = [
@@ -29,6 +31,10 @@ class CollectionContent extends Model
         'amount' => 'integer',
         'sum' => 'integer',
     ];
+
+    public function getVueKeyAttribute(): string  {
+        return Str::slug($this->updated_at);
+    }
 
     public function collection(): BelongsTo
     {

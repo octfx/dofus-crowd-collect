@@ -5,7 +5,7 @@
         <div class="accordion" id="collectionList">
             <Collection
                 v-for="(collection, index) in collections"
-                :key="collection.vueKey"
+                :key="collection.id + '_' + collection.vueKey"
                 :collection="collection"
                 :index="index"
                 :public-mode="publicMode"
