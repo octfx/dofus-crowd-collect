@@ -26,9 +26,6 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  */
 
 window.Vue.mixin({
-    props: {
-        apiKey: null,
-    },
     data() {
         return {
             axios: null,
@@ -36,14 +33,14 @@ window.Vue.mixin({
     },
     methods: {
         initAxios: function() {
-            if (this.apiKey === null) {
+            if (window.apiKey === null) {
                 console.error('Missing Token');
                 return;
             }
 
             this.axios = axios.create({
                 headers: {
-                    'Authorization': 'Bearer ' + this.apiKey
+                    'Authorization': 'Bearer ' + window.apiKey
                 }
             });
         },

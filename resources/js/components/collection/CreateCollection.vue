@@ -28,12 +28,14 @@
 
         <h5>Inhalt</h5>
         <resource-input
-                v-for="(content, index) in collectionContent"
-                :key="'resourceInput-'+index"
-                :content="content"
-                :add-method="addContent"
-                :search-method="search"
-                :remove-method="removeContent"
+            v-for="(content, index) in collectionContent"
+            :key="'resourceInput-'+index"
+            :content="content"
+            :add-method="addContent"
+            :search-method="search"
+            :remove-method="removeContent"
+            :has-resource-error="hasResourceError(index)"
+            :has-value-error="hasValueError(index)"
         ></resource-input>
 
         <div class="form-group mb-0">
@@ -61,6 +63,7 @@
                 collectionPublic: true,
                 collectionContent: [],
                 errors: [],
+                invalidFields: {},
                 successes: [],
                 creating: '',
             };
@@ -72,6 +75,7 @@
         methods: {
             submit: function () {
                 this.errors = [];
+                this.invalidFields = {};
                 this.creating = `Erstelle Sammlung ${this.collectionName}...`;
 
                 this.axios.post(this.postUrl, {
@@ -83,9 +87,11 @@
                     this.successes.push(response.data);
                     this.clear();
                 }).catch((error) => {
+                    console.log(error.response);
                     this.creating = '';
                     error.collectionName = this.collectionName;
                     this.errors = [error];
+                    this.invalidFields = error.response.data.errors;
                 })
             },
             addContent: function () {
@@ -110,7 +116,24 @@
                 }).then(result => {
                     return result.data;
                 });
+            },
+            hasResourceError(index) {
+                for (const invalidFieldsKey in this.invalidFields) {
+                    if (invalidFieldsKey === `content.${index}.name`) {
+                        return true;
+                    }
+                }
+                return false;
+            },
+            hasValueError(index) {
+                for (const invalidFieldsKey in this.invalidFields) {
+                    if (invalidFieldsKey === `content.${index}.amount`) {
+                        return true;
+                    }
+                }
+                return false;
             }
-        }
+        },
+        computed: {}
     }
 </script>

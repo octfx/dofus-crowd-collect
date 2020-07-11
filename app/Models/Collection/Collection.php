@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Str;
 
 class Collection extends Model
 {
@@ -28,13 +29,20 @@ class Collection extends Model
 
     protected $hidden = [
         'user_id',
-        'updated_at',
     ];
 
     protected $casts = [
         'public' => 'boolean',
         'user_id' => 'integer',
     ];
+
+    protected $appends = [
+        'vueKey',
+    ];
+
+    public function getVueKeyAttribute(): string  {
+        return Str::slug($this->updated_at);
+    }
 
     public function user(): BelongsTo
     {

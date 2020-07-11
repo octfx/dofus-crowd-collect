@@ -1,22 +1,19 @@
 <template>
     <div>
         <p v-if="loading" class="mb-0">Lade Sammlungen...</p>
-        <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger">
-            {{ error }}
-        </div>
         <collection-card-list
                 v-if="!loading && !publicMode"
                 :edit-url="editUrl"
-                :delete-method="removeCollection"
-                :update-method="updateCollection"
                 :collections="collections"
-                :update-collection-visibility="updateCollectionVisibility"
+                :create-log-url="createLogUrl"
+                :remove-collection="removeCollection"
+                :update-url="updateUrl"
         ></collection-card-list>
         <collection-card-list
                 v-if="!loading && publicMode"
-                :update-method="updateCollection"
                 :collections="collections"
                 :public-mode="publicMode"
+                :create-log-url="createLogUrl"
         ></collection-card-list>
         <div class="d-flex mt-3">
             <button v-if="response.prev_page_url !== null"
@@ -83,39 +80,6 @@
                         this.collections.push(collection);
                     });
             },
-            updateCollectionVisibility: function (collection) {
-                this.axios.patch(this.replaceUrl(this.updateUrl, collection), {
-                    public: !collection.public,
-                }).then(response => {
-                    collection.public = response.data.public;
-                }).catch(() => {
-                    this.errors.push(`Fehler beim Ändern der Sichtbarkeit von ${collection.name}.`);
-                });
-            },
-            updateCollection: function (content) {
-                if (typeof content.update_amount === "undefined" || content.update_amount <= 0) {
-                    return;
-                }
-
-                this.axios.post(this.createLogUrl, {
-                    collection_id: content.collection_id,
-                    resource_id: content.resource_id,
-                    update_amount: content.update_amount,
-                }).then(response => {
-                    let collection = this.collections.find(col => col.id === content.collection_id);
-                    let updatedContent = collection.content.find(con => con.id === content.id);
-                    updatedContent.sum += (content.update_amount);
-                    content.update_amount = 0;
-
-                    collection.logs.unshift(response.data);
-                }).catch(error => {
-                    if (error.response.status === 409) {
-                        this.errors.push(`Die angegebene Anzahl von '${content.resource.name}' übersteigt das Sammlungsziel.`);
-                    } else {
-                        this.errors.push(`Konnte '${content.resource.name}' nicht zur Sammlung hinzufügen.`);
-                    }
-                });
-            }
         }
     }
 </script>

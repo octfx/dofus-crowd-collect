@@ -18,6 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    @auth
+        <script>
+            window.apiKey = "{!! Auth::user()->api_token !!}"
+        </script>
+    @endauth
 </head>
 <body class="@yield('body-class')">
     <div id="app">

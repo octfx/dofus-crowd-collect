@@ -8,10 +8,14 @@
                     :default-value="content.name"
                     @submit="submit"
             ></autocomplete>
+            <small v-if="hasResourceError" class="d-block invalid-feedback">Diese Ressource existiert nicht im
+                Spiel.</small>
         </div>
         <div class="col-12 col-md-3 mb-2 mb-sm-0">
             <input type="number" class="form-control" name="amount[]" placeholder="Anzahl" min="1" max="10000"
                    v-model.number="content.amount">
+            <small v-if="hasValueError" class="d-block invalid-feedback">Die Anzahl übersteigt die zulässigen
+                10.000.</small>
         </div>
         <div class="col-12 col-md-3">
             <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
@@ -20,6 +24,7 @@
                 </button>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -36,7 +41,8 @@
             removeMethod: Function,
             searchMethod: Function,
             content: Object,
-            errors: Object
+            hasResourceError: Boolean,
+            hasValueError: Boolean
         },
         methods: {
             remove: function () {

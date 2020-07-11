@@ -1,135 +1,35 @@
 <template>
     <div>
-        <p v-if="collectionData.length === 0" class="mb-0">Keine Sammlungen vorhanden.</p>
+        <p v-if="collections.length === 0" class="mb-0">Keine Sammlungen vorhanden.</p>
 
         <div class="accordion" id="collectionList">
-            <div class="card" v-for="(collection, index) in collectionData">
-                <div class="card-header" :id="'collectionHeading-'+index">
-                    <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
-                        <button class="btn btn-link collapsed flex-grow-1 text-left" type="button"
-                                data-toggle="collapse" :data-target="'#collection-'+index" aria-expanded="true"
-                                :aria-controls="'collection-'+index">
-                            <span v-if="publicMode">{{ collection.user.username }}: </span> {{ collection.name }}
-                        </button>
-                        <button v-if="!publicMode"
-                                type="button"
-                                class="btn flex-grow-0"
-                                :class="collection.public ? 'btn-outline-success' : 'btn-outline-info'"
-                                :title="collection.public ? 'Öffentlich' : 'Nicht Öffentlich'"
-                                @click.prevent="updateCollectionVisibility(collection)"
-                        >
-                            <span v-if="collection.public">👁️</span>
-                            <span v-else>🔒</span>
-                        </button>
-                        <button v-if="deleteMethod && !publicMode" type="button" class="btn btn-outline-danger flex-grow-0"
-                                v-on:click.prevent="deleteMethod(collection)" title="Löschen">🗑️
-                        </button>
-                    </div>
-                </div>
-
-                <div :id="'collection-'+index" class="collapse" :aria-labelledby="'collectionHeading-'+index"
-                     data-parent="#collectionList">
-                    <div class="card-body" v-if="collection.content.length" :id="'collectionForm-'+index">
-                        <table class="table table-borderless">
-                            <thead>
-                            <tr>
-                                <th>Ressource</th>
-                                <th colspan="2">Hinzufügen</th>
-                                <th>Gesammelt</th>
-                                <th></th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr v-for="content in filterUnFinished(collection.content)" :key="content.name">
-                                <td class="pt-3 text-nowrap">{{ content.resource.name }}</td>
-                                <td>
-                                    <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
-                                           class="form-control-sm w-100" v-model.number="content.update_amount">
-                                </td>
-                                <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
-                                <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
-                                <td>
-                                    <button type="button" class="btn btn-outline-success flex-fill"
-                                            v-on:click.prevent="updateMethod(content)">&plus;
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr v-for="content in filterFinished(collection.content)" :key="content.name">
-                                <td class="pt-3 text-nowrap text-success">{{ content.resource.name }}</td>
-                                <td class="pt-3 text-nowrap" colspan="2">0</td>
-                                <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
-                                <td></td>
-                            </tr>
-                            </tbody>
-                        </table>
-
-                        <hr class="my-5">
-                        <div>
-                            <h5>Log:</h5>
-                            <log-display :logs="collection.logs"></log-display>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Collection
+                v-for="(collection, index) in collections"
+                :key="collection.vueKey"
+                :collection="collection"
+                :index="index"
+                :public-mode="publicMode"
+                :create-log-url="createLogUrl"
+                :update-url="updateUrl"
+                :remove-collection="removeCollection"
+            ></Collection>
         </div>
     </div>
 </template>
 
-
 <script>
-    import {isEqual} from "lodash";
     import LogDisplay from "./LogDisplay";
+    import ResourceList from "./resource/ResourceList";
+    import Collection from "./Collection";
 
     export default {
-        components: {LogDisplay},
+        components: {Collection, ResourceList, LogDisplay},
         props: {
-            updateMethod: Function,
-            updateCollectionVisibility: Function,
-            deleteMethod: Function,
             collections: Array,
-            publicMode: Boolean
-        },
-        data() {
-            return {
-                collectionData: [],
-                updatedValues: [],
-            }
-        },
-        watch: {
-            collections: {
-                immediate: true,
-                handler(collections) {
-                    if (collections.length !== this.collectionData) {
-                        this.collectionData = collections;
-                        return;
-                    }
-
-                    for (let i = 0; i < collections.length; i++) {
-                        if (!isEqual(this.collectionData[i].content, collections[i].content)) {
-                            console.log('Does not equal');
-                            this.collectionData[i].content = collections[i].content;
-                        }
-                    }
-                }
-            }
-        },
-        methods: {
-            calculateMissing: function (content) {
-                return Math.max(content.amount - content.sum, 0);
-            },
-            resourceFinished: function (content) {
-                return content.sum >= content.amount;
-            },
-            filterUnFinished: function (contents) {
-                return contents.filter(content => {
-                    return !this.resourceFinished(content);
-                });
-            },
-            filterFinished: function (contents) {
-                return contents.filter(content => {
-                    return this.resourceFinished(content);
-                });
-            },
+            publicMode: Boolean,
+            createLogUrl: String,
+            updateUrl: String,
+            removeCollection: Function
         },
     }
 </script>
