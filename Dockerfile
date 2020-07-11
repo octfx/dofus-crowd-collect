@@ -32,6 +32,8 @@ opcache.save_comments=1\n\
 opcache.fast_shutdown=0\n\
 ' >> /usr/local/etc/php/conf.d/docker-php-ext-opcache.ini
 
+COPY ./docker/vhost.conf /etc/apache2/sites-available/000-default.conf
+
 # Get latest Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
