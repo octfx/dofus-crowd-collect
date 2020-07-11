@@ -10,7 +10,7 @@
         <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
         <td>
             <button type="button" class="btn btn-outline-success flex-fill"
-                    v-on:click.prevent="callUpdate(content)">&plus;
+                    v-on:click.prevent="callUpdate">&plus;
             </button>
         </td>
     </tr>
@@ -41,8 +41,8 @@
             }
         },
         methods: {
-            callUpdate: function (content) {
-                this.updateMethod(content);
+            callUpdate: function () {
+                this.updateMethod(this.content);
                 this.update = null;
             },
             saveAmount: function () {
