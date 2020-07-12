@@ -29,7 +29,7 @@
         <h5>Inhalt</h5>
         <resource-input
             v-for="(content, index) in collectionContent"
-            :key="'resourceInput-'+index"
+            :key="'resourceInput-'+index+'_'+id"
             :content="content"
             :add-method="addContent"
             :search-method="search"
@@ -66,6 +66,7 @@
                 invalidFields: {},
                 successes: [],
                 creating: '',
+                id: 0
             };
         },
         mounted() {
@@ -85,9 +86,9 @@
                 }).then((response) => {
                     this.creating = '';
                     this.successes.push(response.data);
+                    this.id = response.data.id + 1;
                     this.clear();
                 }).catch((error) => {
-                    console.log(error.response);
                     this.creating = '';
                     error.collectionName = this.collectionName;
                     this.errors = [error];
@@ -105,6 +106,8 @@
             },
             clear: function () {
                 this.collectionContent.length = 0;
+                this.collectionContent = [];
+
                 this.collectionPublic = true;
                 this.collectionName = '';
 

@@ -93,7 +93,6 @@
 
                     this.collection.logs.unshift(response.data);
                 }).catch(error => {
-                    console.log(error);
                     if (error.response.status === 409) {
                         this.errors.push(`Die angegebene Anzahl von '${content.resource.name}' übersteigt das Sammlungsziel.`);
                     } else {
