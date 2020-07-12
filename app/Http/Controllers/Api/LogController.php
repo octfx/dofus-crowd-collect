@@ -7,6 +7,7 @@ use App\Models\Collection\Collection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\Rule;
 
 class LogController extends Controller
 {
@@ -35,7 +36,14 @@ class LogController extends Controller
     {
         $data = $request->validate([
             'collection_id' => ['required', 'integer', 'exists:collections,id'],
-            'resource_id' => ['required', 'integer', 'exists:resources,id'],
+            'resource_id' => [
+                'required',
+                'integer',
+                'exists:resources,id',
+                Rule::exists('collection_contents')->where(static function ($query) use ($request) {
+                    $query->where('collection_id', $request->get('collection_id'));
+                })
+            ],
             'update_amount' => ['required', 'integer', 'min:1', 'max:10000'],
         ]);
 
