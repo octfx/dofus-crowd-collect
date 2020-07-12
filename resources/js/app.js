@@ -32,15 +32,16 @@ window.Vue.mixin({
         }
     },
     methods: {
-        initAxios: function() {
-            if (window.apiKey === null) {
-                console.error('Missing Token');
-                return;
+        initAxios: async function() {
+            let response = await axios.get('/api_token');
+
+            if (response.data.api_token === null) {
+                throw new Error('Missing Token');
             }
 
             this.axios = axios.create({
                 headers: {
-                    'Authorization': 'Bearer ' + window.apiKey
+                    'Authorization': 'Bearer ' + response.data.api_token
                 }
             });
         },
@@ -52,5 +53,4 @@ window.Vue.mixin({
 
 const app = new Vue({
     el: '#app',
-
 });

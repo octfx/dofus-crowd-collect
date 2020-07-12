@@ -21,6 +21,8 @@ Route::group(
                 Route::post('logout', 'LoginController@logout')->name('logout');
                 Route::get('register', 'RegisterController@showRegistrationForm')->name('register');
                 Route::post('register', 'RegisterController@register');
+
+                Route::get('api_token', 'AuthController@getApiToken')->name('api_token');
             });
 
 

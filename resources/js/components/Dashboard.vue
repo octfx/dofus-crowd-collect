@@ -48,12 +48,13 @@
             };
         },
         mounted() {
-            this.initAxios();
-            this.loadContent(this.getUrl);
+            this.initAxios().then(() => {
+                this.loadContent(this.getUrl);
 
-            setInterval(function() {
-                this.loadContentUpdated(this.getUrl);
-            }.bind(this), 5000);
+                setInterval(function() {
+                    this.loadContentUpdated(this.getUrl);
+                }.bind(this), 5000);
+            });
         },
         methods: {
             loadContent: function(url) {
