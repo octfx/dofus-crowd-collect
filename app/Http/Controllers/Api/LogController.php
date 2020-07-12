@@ -35,9 +35,6 @@ class LogController extends Controller
      */
     public function store(Request $request): JsonResponse
     {
-        Log::info($request->get('collection_id'));
-
-
         $data = $request->validate([
             'collection_id' => ['required', 'integer', 'exists:collections,id'],
             'resource_id' => [
