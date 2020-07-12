@@ -50,7 +50,7 @@ class CollectionContent extends Model
 
     public function logs(): HasMany
     {
-        return $this->hasMany(CollectionLog::class, 'resource_id', 'resource_id');
+        return $this->hasMany(CollectionLog::class, 'resource_id', 'resource_id')->where('collection_id', $this->collection_id);
     }
 
     public function note(): HasOne

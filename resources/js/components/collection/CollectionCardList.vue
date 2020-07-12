@@ -4,10 +4,9 @@
 
         <div class="accordion" id="collectionList">
             <Collection
-                v-for="(collection, index) in collections"
+                v-for="collection in collections"
                 :key="collection.id + '_' + collection.vueKey"
                 :collection="collection"
-                :index="index"
                 :public-mode="publicMode"
                 :create-log-url="createLogUrl"
                 :update-url="updateUrl"

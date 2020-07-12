@@ -3,11 +3,11 @@
         <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger mb-0">
             {{ error }}
         </div>
-        <div class="card-header" :id="'collectionHeading-'+index">
+        <div class="card-header" :id="'collectionHeading-'+collection.id">
             <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
                 <button class="btn btn-link collapsed flex-grow-1 text-left" type="button"
-                        data-toggle="collapse" :data-target="'#collection-'+index" aria-expanded="true"
-                        :aria-controls="'collection-'+index">
+                        data-toggle="collapse" :data-target="'#collection-'+collection.id" aria-expanded="true"
+                        :aria-controls="'collection-'+collection.id">
                     <span v-if="publicMode">{{ collection.user.username }}: </span> {{ collection.name }}
                 </button>
                 <button v-if="!publicMode"
@@ -26,9 +26,9 @@
             </div>
         </div>
 
-        <div :id="'collection-'+index" class="collapse" :aria-labelledby="'collectionHeading-'+index"
+        <div :id="'collection-'+collection.id" class="collapse" :aria-labelledby="'collectionHeading-'+collection.id"
              data-parent="#collectionList">
-            <div class="card-body" v-if="collection.content.length" :id="'collectionForm-'+index">
+            <div class="card-body" v-if="collection.content.length" :id="'collectionForm-'+collection.id">
                 <ResourceList
                     :content="collection.content"
                     :update-method="updateCollection"
@@ -54,7 +54,6 @@
         components: {ResourceList, LogDisplay},
         props: {
             collection: Object,
-            index: Number,
             publicMode: Boolean,
             createLogUrl: String,
             updateUrl: String,
@@ -69,12 +68,6 @@
             this.initAxios();
         },
         methods: {
-            calculateMissing: function (content) {
-                return Math.max(content.amount - content.sum, 0);
-            },
-            resourceFinished: function (content) {
-                return content.sum >= content.amount;
-            },
             updateCollection: function (content) {
                 if (typeof content.update_amount === "undefined" || content.update_amount <= 0) {
                     return;

@@ -51,12 +51,12 @@ class Collection extends Model
 
     public function content(): HasMany
     {
-        return $this->hasMany(CollectionContent::class);
+        return $this->hasMany(CollectionContent::class, 'collection_id', 'id');
     }
 
     public function logs(): HasMany
     {
-        return $this->hasMany(CollectionLog::class)->orderByDesc('id');
+        return $this->hasMany(CollectionLog::class, 'collection_id', 'id')->orderByDesc('id');
     }
 
     public function scopePublic(Builder $query)

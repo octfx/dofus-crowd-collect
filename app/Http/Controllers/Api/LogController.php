@@ -7,6 +7,7 @@ use App\Models\Collection\Collection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 
 class LogController extends Controller
@@ -34,6 +35,9 @@ class LogController extends Controller
      */
     public function store(Request $request): JsonResponse
     {
+        Log::info($request->get('collection_id'));
+
+
         $data = $request->validate([
             'collection_id' => ['required', 'integer', 'exists:collections,id'],
             'resource_id' => [
@@ -48,7 +52,7 @@ class LogController extends Controller
         ]);
 
         /** @var Collection $collection */
-        $collection = Collection::findOrFail($data['collection_id']);
+        $collection = Collection::query()->where('id', $data['collection_id'])->firstOrFail();
 
         abort_if($request->user()->id !== $collection->user->id && !$collection->public, 403);
 
@@ -61,6 +65,7 @@ class LogController extends Controller
         }
 
         $log = $collection->logs()->create([
+            'collection_id' => $data['collection_id'],
             'resource_id' => $data['resource_id'],
             'user_id' => Auth::id(),
             'amount' => $data['update_amount'],
