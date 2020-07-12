@@ -3,9 +3,9 @@
 
 namespace App\Http\Controllers\Api;
 
-
 use App\Http\Controllers\Controller;
 use App\Models\Collection\Collection;
+use App\Models\Collection\CollectionContent;
 use App\Models\Resource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -56,7 +56,8 @@ class CollectionController extends Controller
             'public' => ['required', 'boolean'],
             'content' => ['required', 'array'],
             'content.*.name' => ['required', 'string', 'max:255', 'exists:resources'],
-            'content.*.amount' => ['required', 'integer', 'max:10000', 'min:1']
+            'content.*.amount' => ['required', 'integer', 'max:10000', 'min:1'],
+            'content.*.note' => ['nullable', 'string', 'max:250'],
         ]);
 
         /** @var Collection $collection */
@@ -68,10 +69,19 @@ class CollectionController extends Controller
 
         foreach ($data['content'] as $content) {
             $resource = Resource::firstOrCreate(['name' => $content['name']]);
-            $collection->content()->create([
+
+            /** @var CollectionContent $contentModel */
+            $contentModel = $collection->content()->create([
                 'resource_id' => $resource->id,
                 'amount' => $content['amount'],
             ]);
+
+
+            if (isset($content['note']) && !empty($content['note'])) {
+                $contentModel->note()->create([
+                    'content' => $content['note']
+                ]);
+            }
         }
 
         return response()->json($collection);

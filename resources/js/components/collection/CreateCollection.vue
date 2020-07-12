@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="submit" method="POST" :action="postUrl" class="mx-auto w-75 mb-4">
+    <form @submit.prevent="submit" method="POST" :action="postUrl" class="mx-auto mb-4">
         <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger">
             Fehler<br>
             Sammlung <i>{{error.collectionName}}</i> konnte nicht erstellt werden.

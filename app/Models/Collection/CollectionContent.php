@@ -6,6 +6,7 @@ use App\Models\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Str;
 
 class CollectionContent extends Model
@@ -18,6 +19,7 @@ class CollectionContent extends Model
 
     protected $with = [
         'resource',
+        'note'
     ];
 
     protected $appends = [
@@ -49,6 +51,11 @@ class CollectionContent extends Model
     public function logs(): HasMany
     {
         return $this->hasMany(CollectionLog::class, 'resource_id', 'resource_id');
+    }
+
+    public function note(): HasOne
+    {
+        return $this->hasOne(CollectionContentNote::class);
     }
 
     public function getSumAttribute(): int

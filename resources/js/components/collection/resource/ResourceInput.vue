@@ -1,6 +1,6 @@
 <template>
     <div class="form-group row">
-        <div class="col-12 col-md-6 mb-2 mb-sm-0">
+        <div class="col-12 col-md-5 mb-2 mb-sm-0">
             <autocomplete
                     :search="search"
                     placeholder="Ressourcenname"
@@ -11,13 +11,17 @@
             <small v-if="hasResourceError" class="d-block invalid-feedback">Diese Ressource existiert nicht im
                 Spiel.</small>
         </div>
-        <div class="col-12 col-md-3 mb-2 mb-sm-0">
+        <div class="col-12 col-md-2 mb-2 mb-sm-0">
             <input type="number" class="form-control" name="amount[]" placeholder="Anzahl" min="1" max="10000"
                    v-model.number="content.amount">
             <small v-if="hasValueError" class="d-block invalid-feedback">Die Anzahl übersteigt die zulässigen
                 10.000.</small>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 mb-2 mb-sm-0">
+            <input type="text" class="form-control" name="note[]" placeholder="Notiz" maxlength="250"
+                   v-model.number="content.note">
+        </div>
+        <div class="col-12 col-md-2">
             <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
                 <button type="button" class="btn btn-outline-success flex-fill" v-on:click.prevent="addMethod">&plus;</button>
                 <button type="button" class="btn btn-outline-danger flex-fill" v-on:click.prevent="remove">&minus;

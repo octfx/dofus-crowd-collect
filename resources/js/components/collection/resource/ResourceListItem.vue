@@ -1,7 +1,10 @@
 <template>
     <tbody v-if="unfinished">
     <tr :key="content.name">
-        <td class="pt-3 text-nowrap">{{ content.resource.name }}</td>
+        <td class="pt-3 text-nowrap">
+            {{ content.resource.name }}
+            <span v-if="hasContent" :title="content.note.content">✏</span>
+        </td>
         <td>
             <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
                    class="form-control-sm w-100" v-model.number="update" @input="saveAmount">
@@ -18,7 +21,10 @@
 
     <tbody v-else-if="finished">
     <tr :key="content.name">
-        <td class="pt-3 text-nowrap text-success">{{ content.resource.name }}</td>
+        <td class="pt-3 text-nowrap text-success">
+            {{ content.resource.name }}
+            <span v-if="hasContent" :title="content.note.content">✏</span>
+        </td>
         <td class="pt-3 text-nowrap" colspan="2">0</td>
         <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
         <td></td>
@@ -38,6 +44,11 @@
         data() {
             return {
                 update: 0,
+            }
+        },
+        computed: {
+            hasContent() {
+                return !!this.content.note;
             }
         },
         methods: {
