@@ -1,19 +1,15 @@
 <template>
     <div>
+        <div v-if="timeout" class="alert alert-info">Konnte Liste nicht aktualisieren...</div>
         <p v-if="loading" class="mb-0">Lade Sammlungen...</p>
         <collection-card-list
                 v-if="!loading && !publicMode"
-                :edit-url="editUrl"
                 :collections="collections"
-                :create-log-url="createLogUrl"
-                :remove-collection="removeCollection"
-                :update-url="updateUrl"
         ></collection-card-list>
         <collection-card-list
                 v-if="!loading && publicMode"
                 :collections="collections"
                 :public-mode="publicMode"
-                :create-log-url="createLogUrl"
         ></collection-card-list>
         <div class="d-flex mt-3">
             <button v-if="response.prev_page_url !== null"
@@ -32,33 +28,34 @@
     export default {
         components: {CollectionCardList},
         props: {
-            getUrl: String,
-            updateUrl: String,
-            editUrl: String,
-            createLogUrl: String,
-            deleteUrl: String,
             publicMode: Boolean,
         },
         data() {
             return {
                 loading: true,
-                errors: [],
+                timeout: false,
                 collections: [],
                 response: {},
+                currentUrl: ""
             };
         },
         mounted() {
             this.initAxios().then(() => {
-                this.loadContent(this.getUrl);
+                if (this.publicMode) {
+                    this.loadContent(window.routes.collections.index);
+                } else {
+                    this.loadContent(window.routes.personal.collections.index);
+                }
 
                 setInterval(function() {
-                    this.loadContentUpdated(this.getUrl);
+                    this.loadContentUpdated();
                 }.bind(this), 5000);
             });
         },
         methods: {
             loadContent: function(url) {
                 this.loading = true;
+                this.currentUrl = url;
                 this.axios.get(url)
                     .then((response) => {
                         this.loading = false;
@@ -66,20 +63,15 @@
                         this.collections = response.data.data;
                     });
             },
-            loadContentUpdated: function(url) {
-                this.axios.get(url)
+            loadContentUpdated: function() {
+                this.axios.get(this.currentUrl, { timeout: 2000 })
                     .then((response) => {
+                        this.timeout = false;
                         this.response = response.data;
                         this.collections = response.data.data;
-                    });
-            },
-            removeCollection: function (collection) {
-                this.collections = this.collections.filter(item => item !== collection);
-                this.axios.delete(this.replaceUrl(this.deleteUrl, collection))
-                    .catch(() => {
-                        this.errors.push(`Fehler beim Löschen von ${collection.name}.`);
-                        this.collections.push(collection);
-                    });
+                    }).catch(error => {
+                        this.timeout = true;
+                });
             },
         }
     }

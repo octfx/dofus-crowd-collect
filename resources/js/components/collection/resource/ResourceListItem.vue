@@ -1,35 +1,43 @@
 <template>
-    <tbody v-if="unfinished">
-    <tr :key="content.name">
-        <td class="pt-3 text-nowrap">
-            {{ content.resource.name }}
-            <span v-if="hasContent" :title="content.note.content">✏</span>
+    <tr>
+        <td
+            class="pt-3 text-nowrap"
+            v-bind:class="{ 'text-success': finished} "
+        >
+            <label :for="content.collection_id + '-' + content.resource_id">
+                <span :title="content.resource.description">{{ content.resource.name }}</span>
+                <span v-if="hasContent" :title="content.note.content">✏</span>
+            </label>
         </td>
-        <td>
-            <input type="number" min="0" :max="calculateMissing(content)" placeholder="0"
-                   class="form-control-sm w-100" v-model.number="update" @input="saveAmount">
-        </td>
-        <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
+
+        <template v-if="!finished">
+            <td>
+                <input type="number"
+                       :id="content.collection_id + '-' + content.resource_id"
+                       :name="content.collection_id + '-' + content.resource_id"
+                       min="0"
+                       :max="calculateMissing(content)"
+                       placeholder="0"
+                       class="form-control-sm w-100"
+                       v-model.number="update"
+                       @input="saveAmount">
+            </td>
+            <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
+        </template>
+
+        <td v-else class="pt-3 text-nowrap" colspan="2">0</td>
+
         <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
+
         <td>
-            <button type="button" class="btn btn-outline-success flex-fill"
+            <button type="button"
+                    class="btn btn-outline-success flex-fill"
+                    v-if="!finished"
+                    title="Angegebene Anzahl hinzufügen"
                     v-on:click.prevent="callUpdate">&plus;
             </button>
         </td>
     </tr>
-    </tbody>
-
-    <tbody v-else-if="finished">
-    <tr :key="content.name">
-        <td class="pt-3 text-nowrap text-success">
-            {{ content.resource.name }}
-            <span v-if="hasContent" :title="content.note.content">✏</span>
-        </td>
-        <td class="pt-3 text-nowrap" colspan="2">0</td>
-        <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
-        <td></td>
-    </tr>
-    </tbody>
 </template>
 
 <script>

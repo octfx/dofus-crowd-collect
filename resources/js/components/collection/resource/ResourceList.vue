@@ -8,19 +8,21 @@
             <th></th>
         </tr>
         </thead>
+        <tbody>
         <ResourceListItem
             v-for="item in filterUnFinished(content)"
-            :key="'item_' + item.id + '_' + item.vueKey"
+            :key="'item_' + item.id + '_' + item.collection_id + '_' + item.vueKey"
             :content="item"
             :update-method="updateMethod"
             unfinished
         ></ResourceListItem>
         <ResourceListItem
             v-for="item in filterFinished(content)"
-            :key="'item_' + item.id + '_' + item.vueKey"
+            :key="'item_' + item.id + '_' + item.collection_id + '_' + item.vueKey"
             :content="item"
             finished
         ></ResourceListItem>
+        </tbody>
     </table>
 </template>
 

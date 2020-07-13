@@ -1,32 +1,50 @@
 <template>
     <div class="form-group row">
-        <div class="col-12 col-md-5 mb-2 mb-sm-0">
+        <div class="col-12 col-md-5">
             <autocomplete
-                    :search="search"
-                    placeholder="Ressourcenname"
-                    :get-result-value="format"
-                    :default-value="content.name"
-                    @submit="submit"
+                :search="search"
+                placeholder="Ressourcenname"
+                :get-result-value="format"
+                :default-value="content.name"
+                v-bind:base-class="[hasResourceError ? 'autocomplete is-invalid' : 'autocomplete']"
+                @submit="submit"
             ></autocomplete>
-            <small v-if="hasResourceError" class="d-block invalid-feedback">Diese Ressource existiert nicht im
-                Spiel.</small>
+            <small v-if="hasResourceError"
+                   class="d-block invalid-feedback">
+                <span v-if="!content.name">Dieses Feld wird benötigt.</span>
+                <span v-else>Diese Ressource existiert nicht im Spiel.</span>
+
+            </small>
         </div>
-        <div class="col-12 col-md-2 mb-2 mb-sm-0">
-            <input type="number" class="form-control" name="amount[]" placeholder="Anzahl" min="1" max="10000"
+        <div class="col-12 col-md-3">
+            <input type="number"
+                   class="form-control"
+                   v-bind:class="{ 'is-invalid': hasValueError }"
+                   name="amount[]"
+                   placeholder="Anzahl"
+                   min="1"
+                   max="10000"
                    v-model.number="content.amount">
-            <small v-if="hasValueError" class="d-block invalid-feedback">Die Anzahl übersteigt die zulässigen
-                10.000.</small>
+            <small v-if="hasValueError"
+                   class="d-block invalid-feedback">
+                <span v-if="!content.amount">Dieses Feld wird benötigt.</span>
+                <span v-else>Die Anzahl übersteigt die zulässigen 10.000.</span>
+            </small>
         </div>
-        <div class="col-12 col-md-3 mb-2 mb-sm-0">
-            <input type="text" class="form-control" name="note[]" placeholder="Notiz" maxlength="250"
+        <div class="col-12 col-md-3">
+            <input type="text"
+                   class="form-control"
+                   name="note[]"
+                   placeholder="Notiz"
+                   maxlength="250"
                    v-model.number="content.note">
         </div>
-        <div class="col-12 col-md-2">
-            <div class="btn-group d-flex" role="group" aria-label="Edit Buttons">
-                <button type="button" class="btn btn-outline-success flex-fill" v-on:click.prevent="addMethod">&plus;</button>
-                <button type="button" class="btn btn-outline-danger flex-fill" v-on:click.prevent="remove">&minus;
-                </button>
-            </div>
+        <div class="col-12 col-md-1">
+            <button type="button"
+                    class="btn btn-outline-danger flex-fill"
+                    title="Resource aus der Sammlung entfernen"
+                    v-on:click.prevent="$emit('remove')">&minus;
+            </button>
         </div>
 
     </div>
@@ -41,17 +59,12 @@
             Autocomplete,
         },
         props: {
-            addMethod: Function,
-            removeMethod: Function,
             searchMethod: Function,
             content: Object,
             hasResourceError: Boolean,
             hasValueError: Boolean
         },
         methods: {
-            remove: function () {
-                this.removeMethod(this.content);
-            },
             search: function (input) {
                 this.content.name = input;
 
@@ -59,7 +72,11 @@
                     return [];
                 }
 
-                return this.searchMethod(input);
+                return this.axios.post(window.routes.resources.search, {
+                    name: input,
+                }).then(result => {
+                    return result.data;
+                });
             },
             submit: function (result) {
                 this.content.name = result.name;

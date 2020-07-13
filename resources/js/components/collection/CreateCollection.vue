@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="submit" method="POST" :action="postUrl" class="mx-auto mb-4">
+    <form @submit.prevent="submit" method="POST" :action="store" class="mx-auto mb-4">
         <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger">
             Fehler<br>
             Sammlung <i>{{error.collectionName}}</i> konnte nicht erstellt werden.
@@ -29,36 +29,40 @@
         <h5>Inhalt</h5>
         <resource-input
             v-for="(content, index) in collectionContent"
-            :key="'resourceInput-'+index+'_'+id"
+            :key="content.uuid+'_'+id"
             :content="content"
-            :add-method="addContent"
-            :search-method="search"
-            :remove-method="removeContent"
             :has-resource-error="hasResourceError(index)"
             :has-value-error="hasValueError(index)"
+            v-on:remove="removeContent(index)"
         ></resource-input>
 
-        <div class="form-group mb-0">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-success btn-block mb-3" v-on:click.prevent="addContent">
+                    Weitere Ressource hinzufügen
+                </button>
+            </div>
+        </div>
+
+        <div class="form-group mt-4 mb-0">
             <button type="submit" class="btn btn-block btn-outline-dark">
-                Erstellen
+                Sammlung erstellen
             </button>
         </div>
     </form>
 </template>
 
 <script>
+    import {uniqueId} from "lodash";
+
     import ResourceInput from "./resource/ResourceInput";
 
     export default {
         name: "CreateCollection",
         components: {ResourceInput},
-        props: {
-            postUrl: String,
-            editUrl: String,
-            searchUrl: String,
-        },
         data() {
             return {
+                store: window.routes.collections.store,
                 collectionName: '',
                 collectionPublic: true,
                 collectionContent: [],
@@ -79,7 +83,7 @@
                 this.invalidFields = {};
                 this.creating = `Erstelle Sammlung ${this.collectionName}...`;
 
-                this.axios.post(this.postUrl, {
+                this.axios.post(window.routes.collections.store, {
                     name: this.collectionName,
                     public: this.collectionPublic,
                     content: this.collectionContent,
@@ -96,12 +100,13 @@
                 })
             },
             addContent: function () {
-                this.collectionContent.push({});
+                this.collectionContent.push({
+                    uuid: uniqueId('resourceInput_')
+                });
             },
-            removeContent: function (content) {
-                const len = this.collectionContent.length;
-                if (len > 1) {
-                    this.collectionContent = this.collectionContent.filter(item => item !== content);
+            removeContent: function (index) {
+                if (this.collectionContent.length > 1) {
+                    this.$delete(this.collectionContent, index);
                 }
             },
             clear: function () {
@@ -112,13 +117,6 @@
                 this.collectionName = '';
 
                 this.addContent();
-            },
-            search: function (input) {
-                return this.axios.post(this.searchUrl, {
-                    name: input,
-                }).then(result => {
-                    return result.data;
-                });
             },
             hasResourceError(index) {
                 for (const invalidFieldsKey in this.invalidFields) {

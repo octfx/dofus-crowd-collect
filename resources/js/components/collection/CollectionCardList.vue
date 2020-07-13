@@ -8,9 +8,7 @@
                 :key="collection.id + '_' + collection.vueKey"
                 :collection="collection"
                 :public-mode="publicMode"
-                :create-log-url="createLogUrl"
-                :update-url="updateUrl"
-                :remove-collection="removeCollection"
+                v-on:delete-collection="removeCollection(collection)"
             ></Collection>
         </div>
     </div>
@@ -26,9 +24,11 @@
         props: {
             collections: Array,
             publicMode: Boolean,
-            createLogUrl: String,
-            updateUrl: String,
-            removeCollection: Function
         },
+        methods: {
+            removeCollection: function (collection) {
+                this.collections.filter(item => item !== collection);
+            },
+        }
     }
 </script>

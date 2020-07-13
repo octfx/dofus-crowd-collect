@@ -45,8 +45,8 @@ window.Vue.mixin({
                 }
             });
         },
-        replaceUrl: function (type, collection) {
-            return _.replace(type, 'zzz', collection.id);
+        replaceUrl: function (type, id) {
+            return _.replace(type, 'zzz', id);
         },
     }
 });

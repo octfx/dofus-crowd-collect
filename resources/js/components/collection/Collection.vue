@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <div v-for="(error, index) in errors" :key="'error-'+index" class="alert alert-danger mb-0">
+        <div v-for="(error, index) in errors" :key="'error-'+collection.id+'-'+index" class="alert alert-danger mb-0">
             {{ error }}
         </div>
         <div class="card-header" :id="'collectionHeading-'+collection.id">
@@ -15,13 +15,13 @@
                         class="btn flex-grow-0"
                         :class="collection.public ? 'btn-outline-success' : 'btn-outline-info'"
                         :title="collection.public ? 'Öffentlich' : 'Nicht Öffentlich'"
-                        @click.prevent="updateCollectionVisibility(collection)"
+                        @click.prevent="updateCollectionVisibility"
                 >
                     <span v-if="collection.public">👁️</span>
                     <span v-else>🔒</span>
                 </button>
                 <button v-if="removeCollection && !publicMode" type="button" class="btn btn-outline-danger flex-grow-0"
-                        v-on:click.prevent="removeCollection(collection)" title="Löschen">🗑️
+                        v-on:click.prevent="removeCollection" title="Löschen">🗑️
                 </button>
             </div>
         </div>
@@ -34,12 +34,8 @@
                     :update-method="updateCollection"
                 ></ResourceList>
 
-                <hr class="my-5">
-
-                <div>
-                    <h5>Log:</h5>
-                    <log-display :logs="collection.logs"></log-display>
-                </div>
+                <h5>Log:</h5>
+                <log-display :logs="collection.logs"></log-display>
             </div>
         </div>
     </div>
@@ -55,9 +51,6 @@
         props: {
             collection: Object,
             publicMode: Boolean,
-            createLogUrl: String,
-            updateUrl: String,
-            removeCollection: Function
         },
         data() {
             return {
@@ -75,7 +68,7 @@
 
                 this.errors = [];
 
-                this.axios.post(this.createLogUrl, {
+                this.axios.post(window.routes.logs.store, {
                     collection_id: this.collection.id,
                     resource_id: content.resource_id,
                     update_amount: content.update_amount,
@@ -93,15 +86,25 @@
                     }
                 });
             },
-            updateCollectionVisibility: function (collection) {
-                this.axios.patch(this.replaceUrl(this.updateUrl, collection), {
-                    public: !collection.public,
+            updateCollectionVisibility: function () {
+                this.axios.patch(this.replaceUrl(window.routes.collections.update, this.collection.id), {
+                    public: !this.collection.public,
                 }).then(response => {
-                    collection.public = response.data.public;
+                    this.collection.public = response.data.public;
                 }).catch(() => {
-                    this.errors.push(`Fehler beim Ändern der Sichtbarkeit von ${collection.name}.`);
+                    this.errors.push(`Fehler beim Ändern der Sichtbarkeit von ${this.collection.name}.`);
                 });
             },
+            removeCollection: function () {
+                this.axios
+                    .delete(this.replaceUrl(window.routes.collections.destroy, this.collection.id))
+                    .then(() => {
+                        this.$emit('delete-collection');
+                    })
+                    .catch(() => {
+                        this.errors.push(`Fehler beim Löschen von ${this.collection.name}.`);
+                    });
+            }
         }
     }
 </script>

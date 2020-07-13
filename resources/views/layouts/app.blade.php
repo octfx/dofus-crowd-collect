@@ -18,6 +18,34 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    @auth
+        <script>
+            window.routes = {
+                resources: {
+                    search: "{{ route('api.resource.search') }}"
+                },
+                collections: {
+                    index: "{{ route('api.collections.index') }}",
+                    destroy: "{{ route('api.collections.destroy', 'zzz') }}",
+                    show: "{{ route('api.collections.show', 'zzz') }}",
+                    store: "{{ route('api.collections.store') }}",
+                    update: "{{ route('api.collections.update', 'zzz') }}",
+                },
+                personal: {
+                    collections: {
+                        index: "{{ route('api.collections.personal.index') }}",
+                    },
+                    logs: {
+                        index: "{{ route('api.logs.personal.index') }}"
+                    }
+                },
+                logs: {
+                    store: "{{ route('api.logs.store') }}"
+                }
+            }
+        </script>
+    @endauth
 </head>
 <body class="@yield('body-class')">
     <div id="app">
