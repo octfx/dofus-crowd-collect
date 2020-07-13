@@ -10,6 +10,12 @@
                         :aria-controls="'collection-'+collection.id">
                     <span v-if="publicMode">{{ collection.user.username }}: </span> {{ collection.name }}
                 </button>
+                <a type="button"
+                   class="btn flex-grow-0 btn-outline-light"
+                   style="margin-right: 1px"
+                   title="Direktlink"
+                   :href="directLink"
+                >🔗</a>
                 <button v-if="!publicMode"
                         type="button"
                         class="btn flex-grow-0"
@@ -55,6 +61,7 @@
         data() {
             return {
                 errors: [],
+                directLink: this.replaceUrl(window.routes.web.collections.show, this.collection.id)
             }
         },
         mounted() {

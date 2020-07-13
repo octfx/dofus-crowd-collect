@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Collection\Collection;
 use Illuminate\Contracts\Support\Renderable;
 
 class CollectionController extends Controller
@@ -34,5 +35,20 @@ class CollectionController extends Controller
     public function index(): Renderable
     {
         return view('collection.public.index');
+    }
+
+    /**
+     * Returns a single collection
+     *
+     * @param  Collection  $collection
+     * @return Renderable
+     */
+    public function show(Collection $collection): Renderable
+    {
+        abort_if(!$collection->public, 403);
+
+        return view('collection.show', [
+            'collection' => $collection,
+        ]);
     }
 }

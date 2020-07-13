@@ -42,6 +42,11 @@
                 },
                 logs: {
                     store: "{{ route('api.logs.store') }}"
+                },
+                web: {
+                    collections: {
+                        show: "{{ route('collections.show', 'zzz') }}"
+                    }
                 }
             }
         </script>

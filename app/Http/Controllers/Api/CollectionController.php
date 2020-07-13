@@ -44,6 +44,19 @@ class CollectionController extends Controller
     }
 
     /**
+     * Returns a single collection
+     *
+     * @param  Collection  $collection
+     * @return JsonResponse
+     */
+    public function show(Collection $collection): JsonResponse
+    {
+        abort_if(!$collection->public, 403);
+
+        return response()->json($collection);
+    }
+
+    /**
      * Store a new collection
      *
      * @param  Request  $request
