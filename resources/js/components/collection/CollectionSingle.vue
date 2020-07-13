@@ -1,5 +1,6 @@
 <template>
     <div v-if="!loading">
+        <div v-if="timeout" class="alert alert-info">Konnte Sammlung nicht aktualisieren...</div>
         <div v-for="(error, index) in errors" :key="'error-'+collection.id+'-'+index" class="alert alert-danger mb-0">
             {{ error }}
         </div>
@@ -26,6 +27,7 @@
         data() {
             return {
                 loading: true,
+                timeout: false,
                 errors: [],
                 collection: {}
             }
@@ -35,6 +37,10 @@
                 this.axios.get(this.replaceUrl(window.routes.collections.show, this.id)).then(response => {
                     this.collection = response.data;
                     this.loading = false;
+
+                    setInterval(function () {
+                        this.loadContentUpdated();
+                    }.bind(this), 5000);
                 })
             });
         },
@@ -63,6 +69,16 @@
                         this.errors.push(`Konnte '${content.resource.name}' nicht zur Sammlung hinzufügen.`);
                     }
                 });
+            },
+            loadContentUpdated: function () {
+                this.axios.get(this.replaceUrl(window.routes.collections.show, this.id), {timeout: 2000})
+                    .then((response) => {
+                        this.timeout = false;
+                        this.collection = response.data;
+                    })
+                    .catch(() => {
+                        this.timeout = true;
+                    });
             },
         }
     }

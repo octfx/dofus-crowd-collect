@@ -64,14 +64,15 @@
                     });
             },
             loadContentUpdated: function() {
-                this.axios.get(this.currentUrl, { timeout: 2000 })
+                this.axios.get(this.currentUrl, {timeout: 2000})
                     .then((response) => {
                         this.timeout = false;
                         this.response = response.data;
                         this.collections = response.data.data;
-                    }).catch(error => {
+                    })
+                    .catch(() => {
                         this.timeout = true;
-                });
+                    });
             },
         }
     }
