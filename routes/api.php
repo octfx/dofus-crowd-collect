@@ -21,5 +21,7 @@ Route::namespace('Api')
         Route::get('personal/collections', 'CollectionController@indexPersonal')->name('collections.personal.index');
         Route::get('personal/logs', 'LogController@indexPersonal')->name('logs.personal.index');
 
+        Route::get('{user}/collections', 'CollectionController@showUser')->name('collections.show.user');
+
         Route::post('logs', 'LogController@store')->name('logs.store');
     });

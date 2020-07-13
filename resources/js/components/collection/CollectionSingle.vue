@@ -1,6 +1,6 @@
 <template>
     <div v-if="!loading">
-        <div v-if="timeout" class="alert alert-info">Konnte Sammlung nicht aktualisieren...</div>
+        <div v-if="timeout" class="alert alert-info">Konnte Sammlung nicht aktualisieren&hellip;</div>
         <div v-for="(error, index) in errors" :key="'error-'+collection.id+'-'+index" class="alert alert-danger mb-0">
             {{ error }}
         </div>

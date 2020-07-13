@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Collection\Collection;
 use App\Models\Collection\CollectionContent;
 use App\Models\Resource;
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -30,7 +31,7 @@ class CollectionController extends Controller
      */
     public function index()
     {
-        return Collection::public()->paginate(25);
+        return Collection::public()->paginate(10);
     }
 
     /**
@@ -40,7 +41,7 @@ class CollectionController extends Controller
      */
     public function indexPersonal()
     {
-        return Auth::user()->collections()->orderByDesc('public')->paginate(25);
+        return Auth::user()->collections()->orderByDesc('public')->paginate(10);
     }
 
     /**
@@ -51,9 +52,20 @@ class CollectionController extends Controller
      */
     public function show(Collection $collection): JsonResponse
     {
-        abort_if(!$collection->public, 403);
+        abort_if(!$collection->public && (Auth::id() !== $collection->user_id), 403);
 
         return response()->json($collection);
+    }
+
+    /**
+     * Returns collections for a user
+     *
+     * @param  User  $user
+     * @return JsonResponse
+     */
+    public function showUser(User $user): JsonResponse
+    {
+        return response()->json($user->collections()->where('public', true)->get());
     }
 
     /**

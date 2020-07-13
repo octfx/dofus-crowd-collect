@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 
 
 use App\Models\Collection\Collection;
+use App\Models\User;
 use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Support\Facades\Auth;
 
 class CollectionController extends Controller
 {
@@ -45,10 +47,23 @@ class CollectionController extends Controller
      */
     public function show(Collection $collection): Renderable
     {
-        abort_if(!$collection->public, 403);
+        abort_if(!$collection->public && (Auth::id() !== $collection->user_id), 403);
 
         return view('collection.show', [
             'collection' => $collection,
+        ]);
+    }
+
+    /**
+     * Returns a single collection
+     *
+     * @param  User  $user
+     * @return Renderable
+     */
+    public function showUser(User $user): Renderable
+    {
+        return view('collection.users.show', [
+            'user' => $user,
         ]);
     }
 }

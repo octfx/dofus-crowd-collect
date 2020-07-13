@@ -28,20 +28,18 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 window.Vue.mixin({
     data() {
         return {
-            axios: null,
+            axios: null
         }
     },
     methods: {
         initAxios: async function() {
-            let response = await axios.get('/api_token');
-
-            if (response.data.api_token === null) {
+            if (window.apiToken === null) {
                 throw new Error('Missing Token');
             }
 
             this.axios = axios.create({
                 headers: {
-                    'Authorization': 'Bearer ' + response.data.api_token
+                    'Authorization': 'Bearer ' + window.apiToken
                 }
             });
         },

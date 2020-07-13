@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class LoginController extends Controller
 {
@@ -55,8 +56,17 @@ class LoginController extends Controller
      * @param  Request  $request
      * @param  User  $user
      */
-    protected function authenticated(Request $request, User $user): void
+    protected function authenticated(Request $request, User $user)
     {
+        error_log("test");
+        if ($user->name_slug == null) {
+            $user->name_slug = Str::slug($user->username);
+        }
+
         $user->rollApiKey();
+
+        $user->save();
+
+        return response()->redirectTo($this->redirectTo);
     }
 }

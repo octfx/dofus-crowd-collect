@@ -19,6 +19,9 @@
                             <a class="nav-link @if(Route::currentRouteName() === 'collections.index')active @endif" href="{{ route('collections.index') }}">{{ __('Alle aktiven Sammlungen') }}</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link @if(Route::currentRouteName() === 'users.index')active @endif" href="{{ route('users.index') }}">{{ __('Sammlungen nach Benutzer') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link @if(Route::currentRouteName() === 'logs.index')active @endif" href="{{ route('logs.index') }}">{{ __('Deine Beiträge') }}</a>
                         </li>
                         <li class="nav-item">

@@ -19,7 +19,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username', 'password', 'api_token'
+        'username', 'password', 'api_token', 'name_slug'
     ];
 
     /**
@@ -35,12 +35,34 @@ class User extends Authenticatable
     ];
 
     protected $withCount = [
-        'collections'
+        'collections',
+        'collectionsPublic'
     ];
+
+    public function getRouteKeyName()
+    {
+        return 'name_slug';
+    }
+
+    /**
+     * Retrieve the model for a bound value.
+     *
+     * @param  mixed  $value
+     * @return \Illuminate\Database\Eloquent\Model|null
+     */
+    public function resolveRouteBinding($value)
+    {
+        return $this->where('name_slug', $value)->first() ?? abort(404);
+    }
 
     public function collections(): HasMany
     {
         return $this->hasMany(Collection::class);
+    }
+
+    public function collectionsPublic(): HasMany
+    {
+        return $this->hasMany(Collection::class)->scopes(['public']);
     }
 
     public function collectionLogs(): HasMany
@@ -50,8 +72,7 @@ class User extends Authenticatable
 
     public function rollApiKey(): void
     {
-        $this->save([
-            'api_token' => Str::random(60)
-        ]);
+        $this->api_token = Str::random(60);
+        $this->save();
     }
 }

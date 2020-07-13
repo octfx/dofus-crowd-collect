@@ -22,6 +22,7 @@
 
     @auth
         <script>
+            window.apiToken = "{{ Auth::user()->api_token }}"
             window.routes = {
                 resources: {
                     search: "{{ route('api.resource.search') }}"
@@ -30,6 +31,7 @@
                     index: "{{ route('api.collections.index') }}",
                     destroy: "{{ route('api.collections.destroy', 'zzz') }}",
                     show: "{{ route('api.collections.show', 'zzz') }}",
+                    showUser: "{{ route('api.collections.show.user', 'zzz') }}",
                     store: "{{ route('api.collections.store') }}",
                     update: "{{ route('api.collections.update', 'zzz') }}",
                 },

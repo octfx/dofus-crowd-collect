@@ -30,6 +30,9 @@ Route::group(
 
         Route::resource('collections', 'CollectionController');
 
+        Route::get('{user}/collections', 'CollectionController@showUser')->name('collections.show.user');
+        Route::get('users', 'UserController@index')->name('users.index');
+
         Route::get('/logs', 'LogController@index')->name('logs.index');
     }
 );

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div v-if="timeout" class="alert alert-info">Konnte Liste nicht aktualisieren...</div>
-        <p v-if="loading" class="mb-0">Lade Sammlungen...</p>
+        <div v-if="timeout" class="alert alert-info">Konnte Liste nicht aktualisieren&hellip;</div>
+        <p v-if="loading" class="mb-0">Lade Sammlungen&hellip;</p>
         <collection-card-list
                 v-if="!loading && !publicMode"
                 :collections="collections"
