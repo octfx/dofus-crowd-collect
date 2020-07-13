@@ -6,7 +6,7 @@
                 placeholder="Ressourcenname"
                 :get-result-value="format"
                 :default-value="content.name"
-                v-bind:base-class="[hasResourceError ? 'autocomplete is-invalid' : 'autocomplete']"
+                :base-class="searchBaseClass"
                 @submit="submit"
             ></autocomplete>
             <small v-if="hasResourceError"
@@ -63,6 +63,14 @@
             content: Object,
             hasResourceError: Boolean,
             hasValueError: Boolean
+        },
+        mounted() {
+            this.initAxios();
+        },
+        computed: {
+            searchBaseClass: function() {
+                return 'autocomplete' + (this.hasResourceError ? ' is-invalid' : '');
+            }
         },
         methods: {
             search: function (input) {
