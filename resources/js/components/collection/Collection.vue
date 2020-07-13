@@ -1,4 +1,5 @@
 <template>
+    <transition name="fade" v-if="!deleting">
     <div class="card">
         <div v-for="(error, index) in errors" :key="'error-'+collection.id+'-'+index" class="alert alert-danger mb-0">
             {{ error }}
@@ -17,6 +18,7 @@
                    :href="directLink"
                 >🔗</a>
                 <button v-if="!publicMode"
+                        :disabled="deleting || updating"
                         type="button"
                         class="btn flex-grow-0"
                         :class="collection.public ? 'btn-outline-success' : 'btn-outline-info'"
@@ -26,8 +28,12 @@
                     <span v-if="collection.public">👁️</span>
                     <span v-else>🔒</span>
                 </button>
-                <button v-if="removeCollection && !publicMode" type="button" class="btn btn-outline-danger flex-grow-0"
-                        v-on:click.prevent="removeCollection" title="Löschen">🗑️
+                <button v-if="removeCollection && !publicMode"
+                        :disabled="deleting"
+                        type="button"
+                        class="btn btn-outline-danger flex-grow-0"
+                        v-on:click.prevent="removeCollection"
+                        title="Löschen">🗑️
                 </button>
             </div>
         </div>
@@ -45,6 +51,7 @@
             </div>
         </div>
     </div>
+    </transition>
 </template>
 
 <script>
@@ -61,6 +68,8 @@
         data() {
             return {
                 errors: [],
+                deleting: false,
+                updating: false,
                 directLink: this.replaceUrl(window.routes.web.collections.show, this.collection.id)
             }
         },
@@ -74,12 +83,15 @@
                 }
 
                 this.errors = [];
+                this.updating = true;
 
                 this.axios.post(window.routes.logs.store, {
                     collection_id: this.collection.id,
                     resource_id: content.resource_id,
                     update_amount: content.update_amount,
                 }).then(response => {
+                    this.updating = false;
+
                     let updatedContent = this.collection.content.find(con => con.id === content.id);
                     updatedContent.sum += (content.update_amount);
                     content.update_amount = 0;
@@ -91,18 +103,25 @@
                     } else {
                         this.errors.push(`Konnte '${content.resource.name}' nicht zur Sammlung hinzufügen.`);
                     }
+                }).finally(() => {
+                    this.updating = false;
                 });
             },
             updateCollectionVisibility: function () {
+                this.updating = true;
+
                 this.axios.patch(this.replaceUrl(window.routes.collections.update, this.collection.id), {
                     public: !this.collection.public,
                 }).then(response => {
                     this.collection.public = response.data.public;
                 }).catch(() => {
                     this.errors.push(`Fehler beim Ändern der Sichtbarkeit von ${this.collection.name}.`);
+                }).finally(() => {
+                    this.updating = false;
                 });
             },
             removeCollection: function () {
+                this.deleting = true;
                 this.axios
                     .delete(this.replaceUrl(window.routes.collections.destroy, this.collection.id))
                     .then(() => {
@@ -110,6 +129,7 @@
                     })
                     .catch(() => {
                         this.errors.push(`Fehler beim Löschen von ${this.collection.name}.`);
+                        this.deleting = false;
                     });
             }
         }
