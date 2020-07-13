@@ -11,4 +11,4 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./env:/var/www/html/.env
-      - ./db.sqlite:/var/www/html/database/db.sqlite
+      - ./database.sqlite:/var/www/html/database/database.sqlite
