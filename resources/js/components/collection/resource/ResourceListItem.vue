@@ -23,12 +23,16 @@
                        class="form-control-sm w-100"
                        v-model.number="update">
             </td>
-            <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
+            <td class="pt-3 text-nowrap">
+                <label :for="content.collection_id + '-' + content.resource_id">/ {{ calculateMissing(content) }}</label>
+            </td>
         </template>
 
         <td v-else class="pt-3 text-nowrap" colspan="2">0</td>
 
-        <td class="pt-3 text-nowrap">{{ content.sum }} / {{ content.amount }}</td>
+        <td class="pt-3 text-nowrap">
+            <label :for="content.collection_id + '-' + content.resource_id">{{ content.sum }} / {{ content.amount }}</label>
+        </td>
 
         <td>
             <button type="button"
