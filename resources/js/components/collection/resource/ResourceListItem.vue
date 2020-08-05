@@ -21,8 +21,7 @@
                        :max="calculateMissing(content)"
                        placeholder="0"
                        class="form-control-sm w-100"
-                       v-model.number="update"
-                       @input="saveAmount">
+                       v-model.number="update">
             </td>
             <td class="pt-3 text-nowrap">/ {{ calculateMissing(content) }}</td>
         </template>
@@ -63,11 +62,9 @@
         },
         methods: {
             callUpdate: function () {
+                this.content.update_amount = this.update;
                 this.updateMethod(this.content);
                 this.update = null;
-            },
-            saveAmount: function () {
-                this.content.update_amount = this.update;
             },
             calculateMissing: function (content) {
                 return Math.max(content.amount - content.sum, 0);
