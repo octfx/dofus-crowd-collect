@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 class Resource extends Model
 {
     protected $fillable = [
+        'type_id',
         'name',
         'description',
         'level',
