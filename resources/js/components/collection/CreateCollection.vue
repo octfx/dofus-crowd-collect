@@ -80,6 +80,7 @@
         methods: {
             submit: function () {
                 this.errors = [];
+                this.successes = [];
                 this.invalidFields = {};
                 this.creating = `Erstelle Sammlung ${this.collectionName}...`;
 
