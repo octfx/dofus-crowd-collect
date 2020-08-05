@@ -645,7 +645,7 @@
         "ankamaId": 17970,
         "name": "Mol Usk-Sabber",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15937.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/17970-mol-usk-sabber",
         "description": "Mol Usk-Sabber wird eine heilende Wirkung zugesprochen, die die Wundheilung bestimmter Verletzungen erleichtert. Die einzige Nebenwirkung ist die Farbveränderung der Haut im Auftragsbereich. Manche benutzen es an Höll O'Feen als Schminke.",
@@ -711,7 +711,7 @@
         "ankamaId": 18441,
         "name": "Kakteen-Cocktail",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164122.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/18441-kakteen-cocktail",
         "description": "Dieser Cocktail besteht aus Wasser, das es nicht gibt, und Kakteenmark. Zum Herstellen eins qualitativ hochwertigen Doradohuts ist er unerlässlich, denn er ermöglicht es dem Schneider, seinen Durst bei der Arbeit zu löschen.",
@@ -902,7 +902,7 @@
                     "ankamaId": 19402,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/19402-moribombe-granate",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/114008.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 200,
                     "quantity": 5
                 }
@@ -1471,7 +1471,7 @@
         "ankamaId": 15447,
         "name": "Terristokrats Zündschnur",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15887.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/15447-terristokrats-zuendschnur",
         "description": "Da diese Zündschnur aus dem Boden herausragt, könnte man eine vergrabene Bombe vortäuschen. Naja, der Einsatz einer echten Bombe wäre vielleicht wirkungsvoller.",
@@ -1553,7 +1553,7 @@
                     "ankamaId": 15447,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/15447-terristokrats-zuendschnur",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15887.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 200,
                     "quantity": 1
                 }
@@ -1717,7 +1717,7 @@
         "ankamaId": 17621,
         "name": "Soldaten-Pike",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164088.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/17621-soldaten-pike",
         "description": "Diese Pike wird wie eine Hellebarde benutzt und trifft immer mitten ins Ziel.",
@@ -3096,7 +3096,7 @@
         "ankamaId": 14859,
         "name": "Fritze Bohgens Blut",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15840.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14859-fritze-bohgens-blut",
         "description": "Bei der Blutuntersuchung wurde eine überdurchschnnittlich große Menge an Eisen und Rost festgestellt. Sicherlich ein Zeichen guter Gesundheit.",
@@ -3653,7 +3653,7 @@
                     "ankamaId": 17621,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17621-soldaten-pike",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164088.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 200,
                     "quantity": 1
                 }
@@ -3778,7 +3778,7 @@
                     "ankamaId": 17978,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17978-trisuldreizack",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15941.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 200,
                     "quantity": 50
                 }
@@ -3831,7 +3831,7 @@
         "ankamaId": 17978,
         "name": "Trisuldreizack",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15941.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/17978-trisuldreizack",
         "description": "Es sind ihre Dreizacke, die es den Trisulen ermöglichen, unsichtbar zu sein: der Dreizack wirkt auf das umgebende Wasser so, dass das Licht unbemerkbar umgelenkt und gestreut wird.",
@@ -3885,7 +3885,7 @@
                     "ankamaId": 17970,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17970-mol-usk-sabber",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15937.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 200,
                     "quantity": 5
                 }
@@ -4496,6 +4496,17 @@
         "recipe": []
     },
     {
+        "_id": 22251,
+        "ankamaId": 22251,
+        "name": "Leinenpanzer",
+        "level": 200,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/24281.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/22251-leinenpanzer",
+        "description": "Diese Rüstung scheint perfekt dafür geeignet, die Gelenke des Trägers bei ausladenden Bewegungen zu schützen.",
+        "recipe": []
+    },
+    {
         "_id": 13915,
         "ankamaId": 13915,
         "name": "Ballonce-Leder",
@@ -4671,7 +4682,7 @@
                     "ankamaId": 13925,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13925-stoerfridick-blut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15824.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 200,
                     "quantity": 1
                 }
@@ -4691,7 +4702,7 @@
                     "ankamaId": 13929,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13929-barkanogen-blut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15825.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 200,
                     "quantity": 1
                 }
@@ -5229,7 +5240,7 @@
                     "ankamaId": 17978,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17978-trisuldreizack",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15941.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 200,
                     "quantity": 5
                 }
@@ -5427,7 +5438,7 @@
         "ankamaId": 19402,
         "name": "Moribombe-Granate",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/114008.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/19402-moribombe-granate",
         "description": "Die Zahnärzte der Verkohlten empfehlen ihren Patienten, sich eine solche Granate in den Mund zu stecken, um mit einem Schlag alle zahnmedizinischen Probleme zu beheben.",
@@ -5438,7 +5449,7 @@
         "ankamaId": 19405,
         "name": "Blut eines Verkohlten",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/12771.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/19405-blut-verkohlten",
         "description": "Im Gegensatz zur Lava kühlt das Blut von Verkohlten nicht ab und verbleibt in geschmolzenem Zustand. Diese Eigenschaft ist den Köchen aus Brâkmar nicht entgangen. Sie verwenden es gern, um ihre Speisen warmzuhalten.",
@@ -6176,7 +6187,7 @@
         "ankamaId": 22253,
         "name": "Scharfe Klinge",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/24279.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/22253-scharfe-klinge",
         "description": "Bei der Anzahl der Köpfe, die diese Klinge bereits abgesäbelt hat, werdet ihr euch noch umschauen.",
@@ -6231,7 +6242,7 @@
         "ankamaId": 13925,
         "name": "Störfridick-Blut",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15824.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13925-stoerfridick-blut",
         "description": "Das Blut dieser Kreatur würde sich noch nicht einmal für eine Blutwurst eignen! Welch ein Skandal!",
@@ -6253,7 +6264,7 @@
         "ankamaId": 13929,
         "name": "Barkanogen-Blut",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15825.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13929-barkanogen-blut",
         "description": "Selbst ein ausgedürsteter Vampyr würde dieses Blut verschmähen!",
@@ -6275,7 +6286,7 @@
         "ankamaId": 13937,
         "name": "Nessillus-Sabber",
         "level": 200,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15828.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13937-nessillus-sabber",
         "description": "Eine oberflächliche Analyse dieses Sabbers ergibt bereits Anzeichen dafür, dass die Mund- und Zahnpflege des Nessillus nicht ausreichend ist!",
@@ -6435,7 +6446,7 @@
                     "ankamaId": 13937,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13937-nessillus-sabber",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15828.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 200,
                     "quantity": 1
                 }
@@ -7788,7 +7799,7 @@
                     "ankamaId": 18731,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/18731-sabber-bruder-tack",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15958.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 190,
                     "quantity": 1
                 }
@@ -7958,7 +7969,7 @@
                     "ankamaId": 12001,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/12001-eisfux-traene",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/24871.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 190,
                     "quantity": 10
                 }
@@ -8632,7 +8643,7 @@
         "ankamaId": 18729,
         "name": "Blut von Mätzgargh",
         "level": 190,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15956.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/18729-blut-maetzgargh",
         "description": "Schwer zu sagen, ob es sich um das Blut von Mätzgargh oder von einem seiner Opfer handelt.",
@@ -8654,7 +8665,7 @@
         "ankamaId": 18731,
         "name": "Sabber von Bruder Tack",
         "level": 190,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15958.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/18731-sabber-bruder-tack",
         "description": "Wenn man einen einzigen Tropfen dieses Sabbers destilliert, kann man die Taverne von Amakna einen ganzen Monat lang mit Bier versorgen.",
@@ -8719,7 +8730,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -8871,7 +8882,7 @@
         "ankamaId": 12001,
         "name": "Eisfux-Träne",
         "level": 190,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/24871.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12001-eisfux-traene",
         "description": "Als er die Nachricht vom Ableben seiner Mutter erfuhr, da kullerte diese eine Träne aus Eis aus dem Auge des Eisfuxes, kurz bevor er verstarb.",
@@ -9755,7 +9766,7 @@
         "ankamaId": 15455,
         "name": "Acheroperfidiagift",
         "level": 180,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15890.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/15455-acheroperfidiagift",
         "description": "Wird dieses Gift in Organe gespritzt, so schwellen diese an. Man sagt, dass Srams Herold diese schmerzliche Erfahrung machen musste.",
@@ -9836,7 +9847,7 @@
                     "ankamaId": 15455,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/15455-acheroperfidiagift",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15890.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 180,
                     "quantity": 1
                 }
@@ -10455,36 +10466,6 @@
         "description": "Dieser Schlüssel wurde von einem einheimischen Handwerksmeister hergestellt. Die zähesten Monster der Weißnachtsinsel besitzen auch manchmal solche Schlüssel.",
         "recipe": [
             {
-                "Pelz des Pandikaze-Geistes": {
-                    "ankamaId": 7379,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7379-pelz-pandikaze-geistes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/55004.w48h48.png",
-                    "type": "Pelz",
-                    "level": 100,
-                    "quantity": 1
-                }
-            },
-            {
-                "Pelz des Feuerfux-Geistes": {
-                    "ankamaId": 7382,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7382-pelz-feuerfux-geistes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/55007.w48h48.png",
-                    "type": "Pelz",
-                    "level": 100,
-                    "quantity": 1
-                }
-            },
-            {
-                "Pelz des Pandel-Geistes": {
-                    "ankamaId": 7384,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7384-pelz-pandel-geistes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/55005.w48h48.png",
-                    "type": "Pelz",
-                    "level": 100,
-                    "quantity": 1
-                }
-            },
-            {
                 "Pilzkröt-Zunge": {
                     "ankamaId": 9269,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/9269-pilzkroet-zunge",
@@ -10509,8 +10490,18 @@
                     "ankamaId": 9279,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/9279-hieblingsgeifer",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15045.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 176,
+                    "quantity": 1
+                }
+            },
+            {
+                "Serpulett-Fruchtstandstengel": {
+                    "ankamaId": 11894,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/11894-serpulett-fruchtstandstengel",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/119006.w48h48.png",
+                    "type": "Pilz",
+                    "level": 180,
                     "quantity": 1
                 }
             },
@@ -10533,6 +10524,26 @@
                     "level": 1,
                     "quantity": 20
                 }
+            },
+            {
+                "Lederner String der Bwork-Mama": {
+                    "ankamaId": 13737,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13737-lederner-string-bwork-mama",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164000.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 174,
+                    "quantity": 1
+                }
+            },
+            {
+                "Schlüpfer des Cybworks": {
+                    "ankamaId": 13747,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13747-schluepfer-cybworks",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164009.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 179,
+                    "quantity": 1
+                }
             }
         ]
     },
@@ -10541,7 +10552,7 @@
         "ankamaId": 15451,
         "name": "Toxoliathblut",
         "level": 180,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15889.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/15451-toxoliathblut",
         "description": "Dieses Blut fasziniert Alchemisten, denn es ist das einzige Element des Toxoliath das absolut nicht schädlich ist, im Gegenteil, angeblich soll es heilende Wirkungen besitzen.",
@@ -10715,7 +10726,7 @@
                     "ankamaId": 15451,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/15451-toxoliathblut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15889.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 180,
                     "quantity": 10
                 }
@@ -10921,7 +10932,7 @@
         "type": "Erz",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/39110.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7033-dolomit",
-        "description": "\"Immer hart bleiben und nicht nachgeben\", dies waren die Worte mit denen Irko, ein Schattenbergmann, Dolomit beschrieb.",
+        "description": "„Total hart und unkaputtbar“, dies waren die Worte mit denen Irko, ein Schattenbergmann, Dolomit beschrieb.",
         "recipe": []
     },
     {
@@ -11304,7 +11315,7 @@
         "ankamaId": 9279,
         "name": "Hieblingsgeifer",
         "level": 176,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15045.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/9279-hieblingsgeifer",
         "description": "Er ist etwas klebrig, aber dennoch faszinierend vielseitig zu verwenden. Man kann mit ihm sowohl Waffen ölen, als auch Gladiatorenrücken entzücken.",
@@ -11440,7 +11451,7 @@
         "ankamaId": 12443,
         "name": "Ehrwürdige Pfütze",
         "level": 175,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15794.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12443-ehrwuerdige-pfuetze",
         "description": "Klein, aber oho! Gerade junge Xéloren geraten in große Gefahr, wenn sie in diese Pfützen geraten, da ihnen dann das Wasser auf einmal buchstäblich bis zum Halse steht!",
@@ -11484,7 +11495,7 @@
         "ankamaId": 12431,
         "name": "Ehrwürdiger Schlamm",
         "level": 175,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15793.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12431-ehrwuerdiger-schlamm",
         "description": "Seitdem ihr diesen Schlamm in euren Rucksack gestopft habt, umgibt euch ein seltsamer Geruch auf Schritt und Tritt. Unter diesen Umständen ist dringend davon abzuraten dem Litneg-Wald einen Besuch abzustatten. Ihr riskiert sonst, dass sich alle Trools der Region auf euch stürzen...",
@@ -12502,7 +12513,7 @@
                     "ankamaId": 8832,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8832-schnelmschleim",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15006.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 154,
                     "quantity": 10
                 }
@@ -12600,12 +12611,12 @@
                 }
             },
             {
-                "Maho Feuerfux-Haut": {
+                "Schopfrot-Haut": {
                     "ankamaId": 7298,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7298-maho-feuerfux-haut",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7298-schopfrot-haut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59042.w48h48.png",
                     "type": "Fell",
-                    "level": 150,
+                    "level": 140,
                     "quantity": 10
                 }
             },
@@ -13243,7 +13254,7 @@
                     "ankamaId": 2316,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2316-rolo-messer",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15980.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 86,
                     "quantity": 10
                 }
@@ -14525,12 +14536,12 @@
         "description": "Wenn der Weise auf den Horizont zeigt, blickt der Dumme seinen Finger an und das Monster frisst den Finger. Der Dumme überlebt, der Weise hat einen Finger verloren und das Monster ist satt.",
         "recipe": [
             {
-                "Maho Feuerfux-Haare": {
-                    "ankamaId": 7292,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7292-maho-feuerfux-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54202.w48h48.png",
-                    "type": "Haar",
-                    "level": 150,
+                "Fangshu-Speerspitze": {
+                    "ankamaId": 7300,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7300-fangshu-speerspitze",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164676.w48h48.png",
+                    "type": "Kampfressource",
+                    "level": 140,
                     "quantity": 10
                 }
             },
@@ -14770,7 +14781,7 @@
         "ankamaId": 8832,
         "name": "Schnelmschleim",
         "level": 154,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15006.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8832-schnelmschleim",
         "description": "Der Schleim eines Schnelm kann niemals das Federkleid des Bitoufs beflecken. Aber dafür euch mit Haut und Haaren am Boden festkleben...",
@@ -14797,12 +14808,12 @@
                 }
             },
             {
-                "Maho Feuerfux-Haut": {
+                "Schopfrot-Haut": {
                     "ankamaId": 7298,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7298-maho-feuerfux-haut",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7298-schopfrot-haut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59042.w48h48.png",
                     "type": "Fell",
-                    "level": 150,
+                    "level": 140,
                     "quantity": 10
                 }
             },
@@ -15027,7 +15038,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -15298,17 +15309,6 @@
         ]
     },
     {
-        "_id": 7292,
-        "ankamaId": 7292,
-        "name": "Maho Feuerfux-Haare",
-        "level": 150,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54202.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7292-maho-feuerfux-haare",
-        "description": "Diese Haare stammen vom gefährlichen Maho Feuerfux. Diese Kreatur sieht zwar ganz niedlich aus, doch besitzt sie in Wirklichkeit furchtbare magische Kräfte.",
-        "recipe": []
-    },
-    {
         "_id": 8476,
         "ankamaId": 8476,
         "name": "Erster Schlüssel zum Sphincter-Dungeon",
@@ -15435,17 +15435,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15871.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/15172-griesgrapsch-haut",
         "description": "Griesgrapsche haben keine Ohren. Dafür reagieren sie dank dieser Haut auf verschiedene Vibrationen ganz besonders empfindlich.",
-        "recipe": []
-    },
-    {
-        "_id": 7304,
-        "ankamaId": 7304,
-        "name": "Maho Feuerfux-Pelz",
-        "level": 150,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55011.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7304-maho-feuerfux-pelz",
-        "description": "Hierbei handelt es sich um einen magischen Pelz mit roten Haaren voller übermächtiger Magie. Mehr gibt es dazu nicht zu sagen.",
         "recipe": []
     },
     {
@@ -15577,17 +15566,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/41322.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/602-sichel-hammerhai",
         "description": "Dieser rote Hai von der Gesinnung her ist ein echter Kämpfer für die gerechte Sache. \"Einer für alle und alle für Einen\", auf die Herde, euh... Horde kommt es an. Für Individualisten gibt es keinen Platz in der Gruppe, ausgenommen ihren Chef, den Hai Starkhainovitsch, der von der ganzen Horde als Idol und Vorbild verehrt wird.",
-        "recipe": []
-    },
-    {
-        "_id": 7298,
-        "ankamaId": 7298,
-        "name": "Maho Feuerfux-Haut",
-        "level": 150,
-        "type": "Fell",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59042.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7298-maho-feuerfux-haut",
-        "description": "Diese glatte, feine Haut bietet einen hervorragenden Schutz gegen die unterschiedlichsten magischen Attacken des Maho Feuerfuxes. Mehr noch: sie gestattet es, die Angriffe des Maho Feuerfuxes gegen diesen selbst zurückzuwenden.",
         "recipe": []
     },
     {
@@ -16253,9 +16231,9 @@
                 }
             },
             {
-                "Essenz des Peki Pekis": {
+                "Fuxoroshi-Essenz": {
                     "ankamaId": 14683,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14683-essenz-peki-pekis",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14683-fuxoroshi-essenz",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/167001.w48h48.png",
                     "type": "Dungeonboss-Essenz",
                     "level": 140,
@@ -16392,12 +16370,12 @@
     {
         "_id": 7312,
         "ankamaId": 7312,
-        "name": "Schlüssel zum Dungeon der Feuerfuxe",
+        "name": "Schlüssel zur Feuerwirrk-Fabrik",
         "level": 140,
         "type": "Schlüssel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84232.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7312-schluessel-zum-dungeon-feuerfuxe",
-        "description": "Dieser Schlüssel öffnet euch die Türen zum Dungeon der Feuerfuxe. Doch ist er nur von kurzer Dauer, da er durch die Benutzung zerstört wird.",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84782.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7312-schluessel-zur-feuerwirrk-fabrik",
+        "description": "Wenn ihr ihn euch in die Nase steckt, schützt dieser Schlüssel vor Käsefüßen und Mundgeruch nach einem feuchtfröhlichen Abend in der Taverne.",
         "recipe": [
             {
                 "Hanf": {
@@ -16430,42 +16408,42 @@
                 }
             },
             {
-                "Maho Feuerfux-Haare": {
+                "Bummber-Haare": {
                     "ankamaId": 7292,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7292-maho-feuerfux-haare",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7292-bummber-haare",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54202.w48h48.png",
                     "type": "Haar",
-                    "level": 150,
+                    "level": 140,
                     "quantity": 1
                 }
             },
             {
-                "Haare des Soryo-Feuerfuxes": {
-                    "ankamaId": 7293,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7293-haare-soryo-feuerfuxes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54203.w48h48.png",
-                    "type": "Haar",
-                    "level": 130,
-                    "quantity": 1
-                }
-            },
-            {
-                "Haare des Yokai-Feuerfuxes": {
+                "Knallfuxer-Haare": {
                     "ankamaId": 7294,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7294-haare-yokai-feuerfuxes",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7294-knallfuxer-haare",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54204.w48h48.png",
                     "type": "Haar",
-                    "level": 110,
+                    "level": 140,
                     "quantity": 1
                 }
             },
             {
-                "Feuerfux-Haare": {
-                    "ankamaId": 7343,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7343-feuerfux-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54205.w48h48.png",
-                    "type": "Haar",
-                    "level": 131,
+                "Schopfrot-Haut": {
+                    "ankamaId": 7298,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7298-schopfrot-haut",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59042.w48h48.png",
+                    "type": "Fell",
+                    "level": 140,
+                    "quantity": 1
+                }
+            },
+            {
+                "Feuerfuxer-Haut": {
+                    "ankamaId": 7299,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7299-feuerfuxer-haut",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59038.w48h48.png",
+                    "type": "Fell",
+                    "level": 140,
                     "quantity": 1
                 }
             },
@@ -16480,6 +16458,17 @@
                 }
             }
         ]
+    },
+    {
+        "_id": 8400,
+        "ankamaId": 8400,
+        "name": "Shihans Haarstäbchen",
+        "level": 140,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164671.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8400-shihans-haarstaebchen",
+        "description": "Bestimmte Liebhaber der Materie fragen sich, ob die Kozaru eine Mähne auf dem Kopf haben oder einfach sehr lange Haare. Dadurch wiederum stellt sich die Frage, ob man diese Gegenstände Mähnenstäbchen oder Haarstäbchen nennen sollte.",
+        "recipe": []
     },
     {
         "_id": 8436,
@@ -16802,6 +16791,131 @@
         "recipe": []
     },
     {
+        "_id": 7293,
+        "ankamaId": 7293,
+        "name": "Akrobatifux-Haare",
+        "level": 140,
+        "type": "Haar",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54203.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7293-akrobatifux-haare",
+        "description": "Diese Haare stammen von einer kleinen, rothaarigen und bösartigen Kreatur, wie so viele andere.",
+        "recipe": []
+    },
+    {
+        "_id": 7300,
+        "ankamaId": 7300,
+        "name": "Fangshu-Speerspitze",
+        "level": 140,
+        "type": "Kampfressource",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164676.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7300-fangshu-speerspitze",
+        "description": "Erfahrene Fangshu nutzen die Spitze ihres Wurfspeers als Harpune, um ihre Gegner umzulegen.",
+        "recipe": []
+    },
+    {
+        "_id": 7301,
+        "ankamaId": 7301,
+        "name": "Kurookin-Stoff",
+        "level": 140,
+        "type": "Pelz",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164675.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7301-kurookin-stoff",
+        "description": "Dieses Stück Stoff ist wasserfest und sehr widerstandsfähig. Wenn die Naturkatastrophe durch Wind oder Wasser verursacht wird, ist er euer bester Freund. Natürlich wissen alle, dass sich eine solche Katastrophe nie ereignen wird.",
+        "recipe": []
+    },
+    {
+        "_id": 7309,
+        "ankamaId": 7309,
+        "name": "Schlüssel zum Dojo des Windes",
+        "level": 140,
+        "type": "Schlüssel",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84780.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7309-schluessel-zum-dojo-windes",
+        "description": "Dieser Schlüssel gewährt euch Zutritt zum Dojo des Windes. Achtung, er geht kaputt, wenn er benutzt wird.",
+        "recipe": [
+            {
+                "Bauxit": {
+                    "ankamaId": 446,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/446-bauxit",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/39076.w48h48.png",
+                    "type": "Erz",
+                    "level": 140,
+                    "quantity": 6
+                }
+            },
+            {
+                "Ebenholz": {
+                    "ankamaId": 449,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/449-ebenholz",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/38073.w48h48.png",
+                    "type": "Holz",
+                    "level": 140,
+                    "quantity": 6
+                }
+            },
+            {
+                "Fangshu-Speerspitze": {
+                    "ankamaId": 7300,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7300-fangshu-speerspitze",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164676.w48h48.png",
+                    "type": "Kampfressource",
+                    "level": 140,
+                    "quantity": 1
+                }
+            },
+            {
+                "Kurookin-Stoff": {
+                    "ankamaId": 7301,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7301-kurookin-stoff",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164675.w48h48.png",
+                    "type": "Pelz",
+                    "level": 140,
+                    "quantity": 1
+                }
+            },
+            {
+                "Ino-Naru-Armreif": {
+                    "ankamaId": 7343,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7343-ino-naru-armreif",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164674.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 140,
+                    "quantity": 1
+                }
+            },
+            {
+                "Geborstene Klinge von Lichangoro": {
+                    "ankamaId": 8347,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8347-geborstene-klinge-lichangoro",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164677.w48h48.png",
+                    "type": "Kampfressource",
+                    "level": 140,
+                    "quantity": 1
+                }
+            },
+            {
+                "Ginseng": {
+                    "ankamaId": 16385,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16385-ginseng",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36644.w48h48.png",
+                    "type": "Pflanze",
+                    "level": 140,
+                    "quantity": 6
+                }
+            },
+            {
+                "Frischfleisch": {
+                    "ankamaId": 17152,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17152-frischfleisch",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/63441.w48h48.png",
+                    "type": "Fleisch",
+                    "level": 160,
+                    "quantity": 1
+                }
+            }
+        ]
+    },
+    {
         "_id": 8916,
         "ankamaId": 8916,
         "name": "Tynril-Bernstein",
@@ -16813,43 +16927,34 @@
         "recipe": []
     },
     {
+        "_id": 13497,
+        "ankamaId": 13497,
+        "name": "Uchiwang-Haarband",
+        "level": 140,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164673.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13497-uchiwang-haarband",
+        "description": "Wenn sich eine Uchiwang die Haare zurückbindet, hat sie sich bestimmt gerade eine neue Technik überlegt, wie sie euch kaltmachen kann.",
+        "recipe": []
+    },
+    {
         "_id": 14683,
         "ankamaId": 14683,
-        "name": "Essenz des Peki Pekis",
+        "name": "Fuxoroshi-Essenz",
         "level": 140,
         "type": "Dungeonboss-Essenz",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14683-essenz-peki-pekis",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14683-fuxoroshi-essenz",
         "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
         "recipe": [
             {
-                "Peki Peki-Haar": {
-                    "ankamaId": 8251,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8251-peki-peki-haar",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54006.w48h48.png",
-                    "type": "Haar",
-                    "level": 140,
-                    "quantity": 10
-                }
-            },
-            {
-                "Peki Peki-Fell": {
-                    "ankamaId": 8380,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8380-peki-peki-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/55721.w48h48.png",
-                    "type": "Pelz",
-                    "level": 140,
-                    "quantity": 1
-                }
-            },
-            {
-                "Magischer Peki Peki-Schwanz": {
+                "Fuxoroshis Zauberschwanz": {
                     "ankamaId": 8381,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8381-magischer-peki-peki-schwanz",
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8381-fuxoroshis-zauberschwanz",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/65751.w48h48.png",
                     "type": "Schwanz",
                     "level": 140,
-                    "quantity": 1
+                    "quantity": 10
                 }
             }
         ]
@@ -16888,6 +16993,39 @@
         "recipe": []
     },
     {
+        "_id": 7292,
+        "ankamaId": 7292,
+        "name": "Bummber-Haare",
+        "level": 140,
+        "type": "Haar",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54202.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7292-bummber-haare",
+        "description": "Diese Haare stammen von einem Bummber, einer furchterregenden Kreatur, die zwar mickrig aussieht, in Wahrheit aber verheerende Zauberkräfte besitzt.",
+        "recipe": []
+    },
+    {
+        "_id": 7306,
+        "ankamaId": 7306,
+        "name": "Aerodynamischer Pelz",
+        "level": 140,
+        "type": "Haar",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164670.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7306-aerodynamischer-pelz",
+        "description": "Dank dieses Pelzes können die Kozaru mühelos durch die Luft schnellen.",
+        "recipe": []
+    },
+    {
+        "_id": 7343,
+        "ankamaId": 7343,
+        "name": "Ino-Naru-Armreif",
+        "level": 140,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164674.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7343-ino-naru-armreif",
+        "description": "Gewisse skrupellose Leute verkaufen diese Armreife und behaupten, dass sie dem Träger „beliebige Eigenschaft einfügen“ verleihen.",
+        "recipe": []
+    },
+    {
         "_id": 8251,
         "ankamaId": 8251,
         "name": "Peki Peki-Haar",
@@ -16899,14 +17037,25 @@
         "recipe": []
     },
     {
+        "_id": 8347,
+        "ankamaId": 8347,
+        "name": "Geborstene Klinge von Lichangoro",
+        "level": 140,
+        "type": "Kampfressource",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164677.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8347-geborstene-klinge-lichangoro",
+        "description": "Diese geborstene Klinge ist – wie gestutzte Brennnesseln und Brombeersträucher – auch weiterhin sehr gefährlich. Seid auf der Hut, der Kampf ist vielleicht noch nicht vorüber.",
+        "recipe": []
+    },
+    {
         "_id": 8381,
         "ankamaId": 8381,
-        "name": "Magischer Peki Peki-Schwanz",
+        "name": "Fuxoroshis Zauberschwanz",
         "level": 140,
         "type": "Schwanz",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/65751.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8381-magischer-peki-peki-schwanz",
-        "description": "Dieser Schwanz ist hochmagisch. Selbst jetzt, da ihr ihn abgeschnitten, getrocknet und ausgestopft habt, ist er noch am Zucken. Irgendetwas muss doch mit ihm anzufangen sein als ein bloßes Ausstellen auf dem Regal!",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8381-fuxoroshis-zauberschwanz",
+        "description": "Dieser Schwanz ist derart von Magie durchdrungen, dass er auch dann noch wedelt, wenn man ihn abgeschnitten, getrocknet und ausgestopft hat. Wenn ihr nur hartnäckig genug danach sucht, werdet ihr neben seiner dekorativen Eigenschaften sicher noch weitere Einsatzmöglichkeiten für ihn finden.",
         "recipe": []
     },
     {
@@ -17090,6 +17239,28 @@
         "recipe": []
     },
     {
+        "_id": 7304,
+        "ankamaId": 7304,
+        "name": "Feuerfuxpelz",
+        "level": 140,
+        "type": "Pelz",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55011.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7304-feuerfuxpelz",
+        "description": "Hierbei handelt es sich um einen magischen Pelz mit roten Haaren voller übermächtiger Magie. Mehr gibt es dazu nicht zu sagen.",
+        "recipe": []
+    },
+    {
+        "_id": 8401,
+        "ankamaId": 8401,
+        "name": "Hanshis Schal",
+        "level": 140,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164672.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8401-hanshis-schal",
+        "description": "Dieser Schal flattert immer, auch wenn gerade kein Wind weht. Das erhöht euer Charisma beträchtlich, außer ihr bekommt ihn ins Auge oder er verheddert sich in einem Ast.",
+        "recipe": []
+    },
+    {
         "_id": 8674,
         "ankamaId": 8674,
         "name": "Tynril-Reliquie",
@@ -17121,6 +17292,38 @@
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13169-meister-pandoars-dreiecksbein",
         "description": "Genau! Das Dreiecksbein ist der Knochen, der euch so weh getan hat, als euch der Meister neulich diese kräftig Ohrfeige verpasste…",
         "recipe": []
+    },
+    {
+        "_id": 14678,
+        "ankamaId": 14678,
+        "name": "Essenz von Shihan und Hanshi",
+        "level": 140,
+        "type": "Dungeonboss-Essenz",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14678-essenz-shihan-hanshi",
+        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
+        "recipe": [
+            {
+                "Shihans Haarstäbchen": {
+                    "ankamaId": 8400,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8400-shihans-haarstaebchen",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164671.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 140,
+                    "quantity": 10
+                }
+            },
+            {
+                "Hanshis Schal": {
+                    "ankamaId": 8401,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8401-hanshis-schal",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164672.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 140,
+                    "quantity": 10
+                }
+            }
+        ]
     },
     {
         "_id": 16466,
@@ -17225,6 +17428,39 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/38668.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/6489-holz-weich-eich",
         "description": "Dieses Holz hat bereits die scharfe Axt von Bruce Bulgour gekostet. Mehr noch, es hat im Laufe seines langen Lebens mysteriöse Dinge gesehen, die selbst im Grimoire des Bwork Magus nicht erwähnt werden. Man kann sich also das Schlimmste dabei denken.",
+        "recipe": []
+    },
+    {
+        "_id": 7294,
+        "ankamaId": 7294,
+        "name": "Knallfuxer-Haare",
+        "level": 140,
+        "type": "Haar",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54204.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7294-knallfuxer-haare",
+        "description": "Diese dichten und übelriechenden Haare wurden mit roher Gewalt einer schaurigen, rothaarigen Kreatur ausgerissen.",
+        "recipe": []
+    },
+    {
+        "_id": 7298,
+        "ankamaId": 7298,
+        "name": "Schopfrot-Haut",
+        "level": 140,
+        "type": "Fell",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59042.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7298-schopfrot-haut",
+        "description": "Diese glatte, feinporige Haut bietet einen exzellenten Schutz vor diversen magischen Angriffen, die Schopfrot erleiden muss, wenn ihre Zauber nach hinten losgehen.",
+        "recipe": []
+    },
+    {
+        "_id": 7299,
+        "ankamaId": 7299,
+        "name": "Feuerfuxer-Haut",
+        "level": 140,
+        "type": "Fell",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59038.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7299-feuerfuxer-haut",
+        "description": "Aus dieser Haut wurden einst die Unterhosen von Kindern mit empfindlicher Haut geschneidert. Diese Slips aus Schopfrot-Haut wurden von der Nachkommenschaft des Chafer-Offiziers genehmigt.",
         "recipe": []
     },
     {
@@ -17506,6 +17742,16 @@
         "description": "Sich zu verteilen ist im Allgemeinen eine schlechte Taktik. Fast so schlecht, wie in der Gruppe zusammen zu bleiben.",
         "recipe": [
             {
+                "Gurke": {
+                    "ankamaId": 2287,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2287-gurke",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164653.w48h48.png",
+                    "type": "Gemüse",
+                    "level": 130,
+                    "quantity": 10
+                }
+            },
+            {
                 "Kriptonit": {
                     "ankamaId": 6457,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/6457-kriptonit",
@@ -17513,16 +17759,6 @@
                     "type": "Legierung",
                     "level": 120,
                     "quantity": 4
-                }
-            },
-            {
-                "Haare des Soryo-Feuerfuxes": {
-                    "ankamaId": 7293,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7293-haare-soryo-feuerfuxes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54203.w48h48.png",
-                    "type": "Haar",
-                    "level": 130,
-                    "quantity": 10
                 }
             },
             {
@@ -17599,12 +17835,12 @@
         "description": "Was einen nicht frisst, macht euch stärker.",
         "recipe": [
             {
-                "Haut des Soryo-Feuerfuxes": {
-                    "ankamaId": 7299,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7299-haut-soryo-feuerfuxes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59038.w48h48.png",
-                    "type": "Fell",
-                    "level": 130,
+                "Bummber-Haare": {
+                    "ankamaId": 7292,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7292-bummber-haare",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54202.w48h48.png",
+                    "type": "Haar",
+                    "level": 140,
                     "quantity": 10
                 }
             },
@@ -17756,12 +17992,12 @@
                 }
             },
             {
-                "Feuerfux-Haare": {
-                    "ankamaId": 7343,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7343-feuerfux-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54205.w48h48.png",
-                    "type": "Haar",
-                    "level": 131,
+                "Kurookin-Stoff": {
+                    "ankamaId": 7301,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7301-kurookin-stoff",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164675.w48h48.png",
+                    "type": "Pelz",
+                    "level": 140,
                     "quantity": 10
                 }
             },
@@ -18054,17 +18290,6 @@
         "recipe": []
     },
     {
-        "_id": 7301,
-        "ankamaId": 7301,
-        "name": "Feuerfux-Haut",
-        "level": 131,
-        "type": "Fell",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59036.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7301-feuerfux-haut",
-        "description": "Diese Haut wurde einst von Pandawas verwendet, um daraus sehr leichte, \"minimalistische\" Unterwäsche anzufertigen.",
-        "recipe": []
-    },
-    {
         "_id": 16984,
         "ankamaId": 16984,
         "name": "Großer Teleb",
@@ -18147,17 +18372,6 @@
         ]
     },
     {
-        "_id": 7343,
-        "ankamaId": 7343,
-        "name": "Feuerfux-Haare",
-        "level": 131,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54205.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7343-feuerfux-haare",
-        "description": "Diese Haare sind keineswegs wie alle anderen, auch wenn alles dies zu glauben scheinen.",
-        "recipe": []
-    },
-    {
         "_id": 8775,
         "ankamaId": 8775,
         "name": "Rinde des Rindenhundes",
@@ -18191,6 +18405,17 @@
         "recipe": []
     },
     {
+        "_id": 7275,
+        "ankamaId": 7275,
+        "name": "Shinibaru-Maske",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164680.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7275-shinibaru-maske",
+        "description": "Dank dieser mit der Magie der Erde verzauberten Maske können sich die Shinibaru in furchterregende Golems verwandeln.",
+        "recipe": []
+    },
+    {
         "_id": 7284,
         "ankamaId": 7284,
         "name": "Tanukouï San-Haare",
@@ -18199,6 +18424,17 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54003.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7284-tanukoui-san-haare",
         "description": "Die Haare von Tanukouï San riechen nicht allzu gut. Aber das ist auch vollkommen egal, schließlich sind es die Haare von Tanukouï San.",
+        "recipe": []
+    },
+    {
+        "_id": 7308,
+        "ankamaId": 7308,
+        "name": "Kwappa-Latzhose",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164655.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7308-kwappa-latzhose",
+        "description": "Ein äußerst praktisches Kleidungsstück für mannigfaltige Gelegenheiten.",
         "recipe": []
     },
     {
@@ -18355,15 +18591,92 @@
         "recipe": []
     },
     {
-        "_id": 7293,
-        "ankamaId": 7293,
-        "name": "Haare des Soryo-Feuerfuxes",
+        "_id": 2287,
+        "ankamaId": 2287,
+        "name": "Gurke",
         "level": 130,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54203.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7293-haare-soryo-feuerfuxes",
-        "description": "Diese Haare stammen von einer kleinen, rothaarigen und bösartigen Kreatur, wie so viele andere.",
+        "type": "Gemüse",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164653.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2287-gurke",
+        "description": "Was eine Gurke ist, und wofür man sie benutzt, ist nicht ganz so leicht zu erklären. Vor allem da der jeweilige Kontext die Verwendung beeinflusst.",
         "recipe": []
+    },
+    {
+        "_id": 2654,
+        "ankamaId": 2654,
+        "name": "Kwappa-Wasser",
+        "level": 130,
+        "type": "Flüssig",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164651.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2654-kwappa-wasser",
+        "description": "Zwischen Kwappa-Wasser und dem, was ihr normalerweise trinkt, besteht eigentlich kein großer Unterschied, aber die Handwerker glauben immer noch, dass es für die Herstellung verschiedener Gegenstände unabdingbar ist.",
+        "recipe": []
+    },
+    {
+        "_id": 7259,
+        "ankamaId": 7259,
+        "name": "Lolojikis zerschlagenes Porzellan",
+        "level": 130,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164684.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7259-lolojikis-zerschlagenes-porzellan",
+        "description": "Leider enthielt das von euch zerstörte Tongeschirr keinen Rubin.",
+        "recipe": []
+    },
+    {
+        "_id": 7274,
+        "ankamaId": 7274,
+        "name": "Kwamurai-Katana",
+        "level": 130,
+        "type": "Kampfressource",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164656.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7274-kwamurai-katana",
+        "description": "Katana ist ein großes Wort für dieses stumpfe streichholzartige Ding. Und auch die Kwamurai sind nur miserable Samurai-Imitate. Sie ähneln eher mit Stöckchen bewaffneten Kindern als echten Schwertkämpfern. Auf Nimmerwiedersehen!",
+        "recipe": []
+    },
+    {
+        "_id": 7276,
+        "ankamaId": 7276,
+        "name": "Tittanuki-Stab",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164682.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7276-tittanuki-stab",
+        "description": "Schwer zu sagen, was stärker mit der ausladenden Brust der Tittanuki kollidierte, der ihr diesen Stab entwendet habt: der Stab selbst oder euer Gesicht.",
+        "recipe": []
+    },
+    {
+        "_id": 7277,
+        "ankamaId": 7277,
+        "name": "Parashukuis Brille",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164683.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7277-parashukuis-brille",
+        "description": "Für euren Kopf ist diese Brille zwar zu klein, aber wenn ihr eure Freunde und Bekannten belustigen wollt, dann wäre sie sicher eine Bereicherung für euren Familienschmuck.",
+        "recipe": []
+    },
+    {
+        "_id": 14663,
+        "ankamaId": 14663,
+        "name": "Nagates Essenz",
+        "level": 130,
+        "type": "Dungeonboss-Essenz",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14663-nagates-essenz",
+        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
+        "recipe": [
+            {
+                "Nagates Quietsche-Quark-Quak": {
+                    "ankamaId": 8399,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8399-nagates-quietsche-quark-quak",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164657.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 130,
+                    "quantity": 10
+                }
+            }
+        ]
     },
     {
         "_id": 14682,
@@ -18376,33 +18689,13 @@
         "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
         "recipe": [
             {
-                "Tanukouï San-Haut": {
-                    "ankamaId": 7283,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7283-tanukoui-san-haut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59002.w48h48.png",
-                    "type": "Fell",
-                    "level": 130,
-                    "quantity": 10
-                }
-            },
-            {
-                "Tanukouï San-Haare": {
-                    "ankamaId": 7284,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7284-tanukoui-san-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54003.w48h48.png",
-                    "type": "Haar",
-                    "level": 130,
-                    "quantity": 10
-                }
-            },
-            {
                 "Hoden des Tanukouï San": {
                     "ankamaId": 7386,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7386-hoden-tanukoui-san",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15002.w48h48.png",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164679.w48h48.png",
                     "type": "Verschiedene Ressourcen",
                     "level": 130,
-                    "quantity": 1
+                    "quantity": 10
                 }
             }
         ]
@@ -18445,7 +18738,7 @@
         "ankamaId": 16010,
         "name": "Rosarosapantas Parfüm",
         "level": 130,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164051.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/16010-rosarosapantas-parfuem",
         "description": "Die Diebin Rosarosapanta hinterlässt bei all ihren Missetaten den unverkennbaren Duft dieses Parfüms. Ein Duft, der genauso verführerisch und tödlich ist wie seine Trägerin.",
@@ -18489,7 +18782,7 @@
         "ankamaId": 18357,
         "name": "Kakteensaft",
         "level": 130,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15948.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/18357-kakteensaft",
         "description": "Wenn man Kakteen nur genug ausquetscht, sondern sie einen besonders süßen und erfrischenden Saft ab.",
@@ -18585,13 +18878,105 @@
     {
         "_id": 7305,
         "ankamaId": 7305,
-        "name": "Pelz des Soryo-Feuerfuxes",
+        "name": "Magisches Haar der Tanuki",
         "level": 130,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55010.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7305-pelz-soryo-feuerfuxes",
-        "description": "Dieser kleine Pelz ist perfekt dazu geeignet, im Winter Löcher in Wänden und Türen zu stopfen.",
+        "type": "Haar",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164678.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7305-magisches-haar-tanuki",
+        "description": "Den Tanuki eilt der Ruf voraus, Glück und Segen zu bringen. Diese Haare, um die ihr sie ganz nett gebeten habt, werden sicher ein toller Glücksbringer sein.",
         "recipe": []
+    },
+    {
+        "_id": 7310,
+        "ankamaId": 7310,
+        "name": "Schlüssel zum Tal der Herrin über die Gewässer",
+        "level": 130,
+        "type": "Schlüssel",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84779.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7310-schluessel-zum-tal-herrin-ueber-gewaesser",
+        "description": "Mit diesem Schlüssel kann man das Tal der Herrin über die Gewässer betreten, einen mystischen Ort an der Grenze nach Akwadala. Ein wirklich herrlicher Ort, an dem vom Baden allerdings abgeraten wird.",
+        "recipe": [
+            {
+                "Silber": {
+                    "ankamaId": 350,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/350-silber",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/39028.w48h48.png",
+                    "type": "Erz",
+                    "level": 120,
+                    "quantity": 7
+                }
+            },
+            {
+                "Malz": {
+                    "ankamaId": 405,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/405-malz",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/34083.w48h48.png",
+                    "type": "Getreide",
+                    "level": 120,
+                    "quantity": 7
+                }
+            },
+            {
+                "Blaurochen": {
+                    "ankamaId": 1784,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/1784-blaurochen",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/41296.w48h48.png",
+                    "type": "Fisch",
+                    "level": 130,
+                    "quantity": 6
+                }
+            },
+            {
+                "Gurke": {
+                    "ankamaId": 2287,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2287-gurke",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164653.w48h48.png",
+                    "type": "Gemüse",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Bambusblasrohr": {
+                    "ankamaId": 7017,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7017-bambusblasrohr",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164652.w48h48.png",
+                    "type": "Kampfressource",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Pandürbissamen": {
+                    "ankamaId": 7059,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7059-panduerbissamen",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/58067.w48h48.png",
+                    "type": "Samenkorn",
+                    "level": 120,
+                    "quantity": 7
+                }
+            },
+            {
+                "Kwappa-Latzhose": {
+                    "ankamaId": 7308,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7308-kwappa-latzhose",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164655.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Akakwas roter Slip": {
+                    "ankamaId": 8344,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8344-akakwas-roter-slip",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164654.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 130,
+                    "quantity": 1
+                }
+            }
+        ]
     },
     {
         "_id": 7386,
@@ -18599,7 +18984,7 @@
         "name": "Hoden des Tanukouï San",
         "level": 130,
         "type": "Verschiedene Ressourcen",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15002.png",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164679.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7386-hoden-tanukoui-san",
         "description": "Diese gewaltigen Hoden sind in ein außergewöhnlich warmes und weiches Futteral eingebettet, das magische Angriffe abwehrt. Auch etwaige Fusstritte mit den Getas des Tanukouï San können ihnen nichts anhaben. Also, gut aufheben!",
         "recipe": []
@@ -18832,51 +19217,91 @@
     {
         "_id": 7311,
         "ankamaId": 7311,
-        "name": "Schlüssel zum Kitsoune-Dungeon",
+        "name": "Schlüssel zu Tanukouï Sans Werkstatt",
         "level": 130,
         "type": "Schlüssel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84231.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7311-schluessel-zum-kitsoune-dungeon",
-        "description": "Dieser Schlüssel öffnet euch die Türen zum Kitsoune-Dungeon. Doch ist er nur von kurzer Dauer, da er durch die Benutzung zerstört wird.",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84781.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7311-schluessel-tanukoui-werkstatt",
+        "description": "Mit diesem Schlüssel gelangt man in Tanukouï Sans Werkstatt. Achtung, er geht kaputt, wenn er benutzt wird.",
         "recipe": [
             {
-                "Kitsou Nae-Fell": {
-                    "ankamaId": 7279,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7279-kitsou-nae-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59046.w48h48.png",
-                    "type": "Fell",
-                    "level": 75,
+                "Silber": {
+                    "ankamaId": 350,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/350-silber",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/39028.w48h48.png",
+                    "type": "Erz",
+                    "level": 120,
                     "quantity": 7
                 }
             },
             {
-                "Kitsou Nufeu-Fell": {
-                    "ankamaId": 7280,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7280-kitsou-nufeu-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59044.w48h48.png",
-                    "type": "Fell",
-                    "level": 79,
+                "Pandürbissamen": {
+                    "ankamaId": 7059,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7059-panduerbissamen",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/58067.w48h48.png",
+                    "type": "Samenkorn",
+                    "level": 120,
                     "quantity": 7
                 }
             },
             {
-                "Kitsou Nere-Fell": {
-                    "ankamaId": 7281,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7281-kitsou-nere-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59045.w48h48.png",
-                    "type": "Fell",
-                    "level": 77,
-                    "quantity": 7
+                "Lolojikis zerschlagenes Porzellan": {
+                    "ankamaId": 7259,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7259-lolojikis-zerschlagenes-porzellan",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164684.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 130,
+                    "quantity": 1
                 }
             },
             {
-                "Kitsou Nakwa-Fell": {
-                    "ankamaId": 7282,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7282-kitsou-nakwa-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59043.w48h48.png",
-                    "type": "Fell",
-                    "level": 73,
-                    "quantity": 7
+                "Tittanuki-Stab": {
+                    "ankamaId": 7276,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7276-tittanuki-stab",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164682.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Parashukuis Brille": {
+                    "ankamaId": 7277,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7277-parashukuis-brille",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164683.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Felsenfaust des Ishigro Pake": {
+                    "ankamaId": 7278,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7278-felsenfaust-ishigro-pake",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164681.w48h48.png",
+                    "type": "Kleidung",
+                    "level": 130,
+                    "quantity": 1
+                }
+            },
+            {
+                "Haselnussholz": {
+                    "ankamaId": 16488,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16488-haselnussholz",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/38143.w48h48.png",
+                    "type": "Holz",
+                    "level": 130,
+                    "quantity": 6
+                }
+            },
+            {
+                "Marmoriertes Fleisch": {
+                    "ankamaId": 17146,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17146-marmoriertes-fleisch",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/63457.w48h48.png",
+                    "type": "Fleisch",
+                    "level": 130,
+                    "quantity": 1
                 }
             }
         ]
@@ -19198,14 +19623,47 @@
         "recipe": []
     },
     {
-        "_id": 7299,
-        "ankamaId": 7299,
-        "name": "Haut des Soryo-Feuerfuxes",
+        "_id": 7017,
+        "ankamaId": 7017,
+        "name": "Bambusblasrohr",
         "level": 130,
-        "type": "Fell",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59038.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7299-haut-soryo-feuerfuxes",
-        "description": "Diese Haut diente einst zur Anfertigung von Unterwäsche für Kinder mit empfindlicher Haut. Schlüpfer aus Soryo Feuerfux-Haut wurden selbst von den Nachkommen des Chafer-Offiziers für gut geheißen.",
+        "type": "Kampfressource",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164652.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7017-bambusblasrohr",
+        "description": "Bei diesem Objekt handelt es sich um ein hohles Rohr, mit dem man kleine Projektile mit der Kraft seines Atems abschießen kann. Wie eine Art Blasrohr aus Bambus.",
+        "recipe": []
+    },
+    {
+        "_id": 7278,
+        "ankamaId": 7278,
+        "name": "Felsenfaust des Ishigro Pake",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164681.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7278-felsenfaust-ishigro-pake",
+        "description": "Ihr stellt euch vielleicht die berechtigte Frage, wie es sein kann, dass Handschuhe aus Stein beweglich sind? Die Antwort ist: Eigentlich sind sie es nicht. Nur die Ishigro Pake können sie dank der erstaunlichen Magie des Felsens beweglich machen.",
+        "recipe": []
+    },
+    {
+        "_id": 8344,
+        "ankamaId": 8344,
+        "name": "Akakwas roter Slip",
+        "level": 130,
+        "type": "Kleidung",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164654.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8344-akakwas-roter-slip",
+        "description": "Der rote Slip für blaue Stunden. Was sage ich? Der rote Slip für Fahrten ins Grüne. Ein Meisterwerk! Da werden Neider sich schwarz ärgern … Diese Wortspiele werden auch nicht besser.",
+        "recipe": []
+    },
+    {
+        "_id": 8399,
+        "ankamaId": 8399,
+        "name": "Nagates Quietsche-Quark-Quak",
+        "level": 130,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164657.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8399-nagates-quietsche-quark-quak",
+        "description": "Die Herrin über die Gewässer ist eine glühende Anhängerin der Gummi-Quark-Quak-Methode. Ihr kommt bei eurem Plan, kleine Kinder zu fangen, einfach nicht weiter? Indem ihr eurem Quark-Quak eure Missetaten gesteht, könnt ihr möglicherweise herauszufinden, wo noch etwas im Argen liegt! Allerdings ist die Tatsache, dass ihr dieses Entchen in den Händen haltet, nicht unbedingt der beste Beweis für den Erfolg dieser Methode.",
         "recipe": []
     },
     {
@@ -19871,9 +20329,9 @@
                 }
             },
             {
-                "Essenz von Meister Pandoar": {
-                    "ankamaId": 14678,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14678-essenz-meister-pandoar",
+                "Essenz von Skeunk": {
+                    "ankamaId": 14681,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14681-essenz-skeunk",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/167001.w48h48.png",
                     "type": "Dungeonboss-Essenz",
                     "level": 120,
@@ -20061,7 +20519,7 @@
         "ankamaId": 12442,
         "name": "Ausgewachsene Pfütze",
         "level": 125,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15794.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12442-ausgewachsene-pfuetze",
         "description": "Ecaflips sind überwiegend wasserscheu. Sie mögen daher meist überhaupt nicht, in diese Art von Pfütze getaucht zu werden...",
@@ -20105,7 +20563,7 @@
         "ankamaId": 12430,
         "name": "Ausgewachsener Schlamm",
         "level": 125,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15793.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12430-ausgewachsener-schlamm",
         "description": "Da sie die Kosten der plastischen Chirurgie fürchten, schmieren sich eitle Abenteurerinnen mit diesem Schlamm ein, um ihre Falten verschwinden zu lassen. Sie vergessen dabei nur, dass sie schlammbedeckt nicht unbedingt schöner aussehen…",
@@ -20566,17 +21024,6 @@
         "recipe": []
     },
     {
-        "_id": 8400,
-        "ankamaId": 8400,
-        "name": "Meister Pandoars Fell",
-        "level": 120,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55724.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8400-meister-pandoars-fell",
-        "description": "Dieses Fell, das mal seinen Nacken, mal sein Hinterteil bedeckte, hat den Meister Pandoar bereits mehr als einmal gerettet. Doch nicht dieses Mal.",
-        "recipe": []
-    },
-    {
         "_id": 8405,
         "ankamaId": 8405,
         "name": "Skeunk-Haar",
@@ -20677,7 +21124,7 @@
         "ankamaId": 13705,
         "name": "Diamantienchens beschädigter Boomerang",
         "level": 120,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15806.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13705-diamantienchens-beschaedigter-boomerang",
         "description": "Dieser Boomerang ist in so schlechtem Zustand, wie die Außenpolitik Bontas. Vermutlich ist das auch der Grund, warum ihn Diamantienchen abgelegt hat.",
@@ -20884,58 +21331,6 @@
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7059-panduerbissamen",
         "description": "Diese riesigen Samen schwimmen in einem ungenießbaren und hochmagischem Öl. Der Schale sagt man nach, dass sie unzerstörbar sei. Viele Handwerksmeister verwenden sie, um daraus Waffen herzustellen. Manchmal auch Cochonnets zum Boules-Spielen.",
         "recipe": []
-    },
-    {
-        "_id": 7309,
-        "ankamaId": 7309,
-        "name": "Schlüssel zum Dungeon der Pandikaze",
-        "level": 120,
-        "type": "Schlüssel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84229.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7309-schluessel-zum-dungeon-pandikaze",
-        "description": "Dieser Schlüssel öffnet euch die Türen zum Dungeon der Pandikaze. Doch ist er nur von kurzer Dauer, da er durch die Benutzung zerstört wird.",
-        "recipe": [
-            {
-                "Pandikaze-Haar": {
-                    "ankamaId": 7258,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7258-pandikaze-haar",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54556.w48h48.png",
-                    "type": "Haar",
-                    "level": 46,
-                    "quantity": 2
-                }
-            },
-            {
-                "Pandikaze-Haut": {
-                    "ankamaId": 7260,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7260-pandikaze-haut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59040.w48h48.png",
-                    "type": "Fell",
-                    "level": 46,
-                    "quantity": 2
-                }
-            },
-            {
-                "Pandel-Haare": {
-                    "ankamaId": 7297,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7297-pandel-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54206.w48h48.png",
-                    "type": "Haar",
-                    "level": 70,
-                    "quantity": 2
-                }
-            },
-            {
-                "Pandel-Haut": {
-                    "ankamaId": 7303,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7303-pandel-haut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59039.w48h48.png",
-                    "type": "Fell",
-                    "level": 70,
-                    "quantity": 2
-                }
-            }
-        ]
     },
     {
         "_id": 8356,
@@ -21332,7 +21727,7 @@
         "ankamaId": 14474,
         "name": "WerWabbit-Blut",
         "level": 120,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/150006.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14474-werwabbit-blut",
         "description": "Dieses Blut verändert seine Farbe in Abhängigkeit der Mondphasen. Das ist der absolute Alptraum für jeden zerstreuten Alchemisten.",
@@ -21687,17 +22082,6 @@
         "recipe": []
     },
     {
-        "_id": 8401,
-        "ankamaId": 8401,
-        "name": "Meister Pandoars Haut",
-        "level": 120,
-        "type": "Fell",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59619.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8401-meister-pandoars-haut",
-        "description": "Gegerbt von Wind und Wetter der Insel Pandala und von magischen Angriffen gezeichnet, befindet sich die Haut von Meister Pandoar ist in sehr schlechtem Zustand. Dennoch hängt ihr an ihr. Womöglich, um sie als Andenken an den guten alten Meister aufzubewahren, der euch bei mehreren Gelegenheiten beinahe ohne Gnade das Leben genommen hätte?",
-        "recipe": []
-    },
-    {
         "_id": 8803,
         "ankamaId": 8803,
         "name": "Kniescheibe des Zoth-Schülers",
@@ -21769,58 +22153,6 @@
                     "type": "Blume",
                     "level": 150,
                     "quantity": 1
-                }
-            }
-        ]
-    },
-    {
-        "_id": 14678,
-        "ankamaId": 14678,
-        "name": "Essenz von Meister Pandoar",
-        "level": 120,
-        "type": "Dungeonboss-Essenz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14678-essenz-meister-pandoar",
-        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
-        "recipe": [
-            {
-                "Meister Pandoars Haar": {
-                    "ankamaId": 8399,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8399-meister-pandoars-haar",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54668.w48h48.png",
-                    "type": "Haar",
-                    "level": 120,
-                    "quantity": 1
-                }
-            },
-            {
-                "Meister Pandoars Fell": {
-                    "ankamaId": 8400,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8400-meister-pandoars-fell",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/55724.w48h48.png",
-                    "type": "Pelz",
-                    "level": 120,
-                    "quantity": 1
-                }
-            },
-            {
-                "Meister Pandoars Haut": {
-                    "ankamaId": 8401,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8401-meister-pandoars-haut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59619.w48h48.png",
-                    "type": "Fell",
-                    "level": 120,
-                    "quantity": 1
-                }
-            },
-            {
-                "Meister Pandoars Dreiecksbein": {
-                    "ankamaId": 13169,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13169-meister-pandoars-dreiecksbein",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/47693.w48h48.png",
-                    "type": "Knochen",
-                    "level": 140,
-                    "quantity": 10
                 }
             }
         ]
@@ -22171,17 +22503,6 @@
         "recipe": []
     },
     {
-        "_id": 8399,
-        "ankamaId": 8399,
-        "name": "Meister Pandoars Haar",
-        "level": 120,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54668.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8399-meister-pandoars-haar",
-        "description": "Ein Mal mehr wollte Meister Pandoar angeben, doch habt ihr ihm eine gute Abreibung verpasst. Er hätte besser in seiner Boxx bleiben sollen.",
-        "recipe": []
-    },
-    {
         "_id": 8404,
         "ankamaId": 8404,
         "name": "Skeunk-Haut",
@@ -22230,7 +22551,7 @@
         "ankamaId": 13707,
         "name": "Saphiras Kalyptus-Shampoo",
         "level": 120,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15808.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13707-saphiras-kalyptus-shampoo",
         "description": "Dank dieses Shampoos behalten Saphiras Haare stets ihre leuchtenden Glanz. Allerdings ebenfalls ihren durchdringenden Geruch!",
@@ -22774,17 +23095,6 @@
         "recipe": []
     },
     {
-        "_id": 13497,
-        "ankamaId": 13497,
-        "name": "Kralle des Schwindeligen Pandikazes",
-        "level": 115,
-        "type": "Knochen",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47664.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13497-kralle-schwindeligen-pandikazes",
-        "description": "Diese Kralle ist ein beliebter Glücksbringer für Zirkusakrobaten. Trapezkünstler, die immer eine unter ihrem hautengen Kostüm zu tragen pflegen, schwören darauf, dass die Kralle sie vor Schwindelanfällen schütze. Dabei weiß doch jeder, dass die Kralle vielmehr ihren großen Erfolg beim weiblichen Geschlecht garantiert...",
-        "recipe": []
-    },
-    {
         "_id": 11223,
         "ankamaId": 11223,
         "name": "Feder eines Ti-Pings",
@@ -22905,7 +23215,7 @@
         "ankamaId": 8076,
         "name": "Koalak Meister-Boomerang",
         "level": 114,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15723.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8076-koalak-meister-boomerang",
         "description": "Dieses seltsam geformte Stück Holz saust gern lange durch die Luft. Manchmal durchpflügt es dabei auch die Reihen der Gegner. Doch kehrt es immer zurück zum Werfer. Nur nicht immer in dessen Hand…",
@@ -23298,6 +23608,17 @@
         "recipe": []
     },
     {
+        "_id": 7291,
+        "ankamaId": 7291,
+        "name": "Belebender Nektar",
+        "level": 110,
+        "type": "Flüssig",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164658.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7291-belebender-nektar",
+        "description": "In diesem Nektar ist die gesamte Energie Pflanzalas enthalten. Ihr würdet überrascht sein, welch unerwartete natürliche Kraft ihm innewohnt.",
+        "recipe": []
+    },
+    {
         "_id": 8486,
         "ankamaId": 8486,
         "name": "Weißer Rattenpelz",
@@ -23330,52 +23651,52 @@
         "description": "Dieser Schlüssel wurde von einem einheimischen Handwerksmeister hergestellt. Relativ zähe Monster der Weißnachtsinsel besitzen auch manchmal solche Schlüssel.",
         "recipe": [
             {
-                "Kitsou Nufeu-Haare": {
-                    "ankamaId": 7276,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7276-kitsou-nufeu-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54557.w48h48.png",
-                    "type": "Haar",
-                    "level": 79,
-                    "quantity": 1
-                }
-            },
-            {
-                "Haare des Soryo-Feuerfuxes": {
-                    "ankamaId": 7293,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7293-haare-soryo-feuerfuxes",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54203.w48h48.png",
-                    "type": "Haar",
-                    "level": 130,
+                "Stempel der Stempelblume": {
+                    "ankamaId": 7272,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7272-stempel-stempelblume",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164666.w48h48.png",
+                    "type": "Pflanze",
+                    "level": 110,
                     "quantity": 5
                 }
             },
             {
-                "Rindefix-Fruchtblatt": {
-                    "ankamaId": 8779,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8779-rindefix-fruchtblatt",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36009.w48h48.png",
-                    "type": "Pflanze",
-                    "level": 133,
+                "Belebender Nektar": {
+                    "ankamaId": 7291,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7291-belebender-nektar",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164658.w48h48.png",
+                    "type": "Flüssig",
+                    "level": 110,
+                    "quantity": 1
+                }
+            },
+            {
+                "Kido-Schnabel": {
+                    "ankamaId": 8741,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8741-kido-schnabel",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/47022.w48h48.png",
+                    "type": "Knochen",
+                    "level": 101,
                     "quantity": 3
                 }
             },
             {
-                "Rindent-Kelch": {
-                    "ankamaId": 8781,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8781-rindent-kelch",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36012.w48h48.png",
-                    "type": "Pflanze",
-                    "level": 134,
+                "Killibri-Stock": {
+                    "ankamaId": 8765,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8765-killibri-stock",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15017.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 104,
                     "quantity": 3
                 }
             },
             {
-                "Same des dunklen Astakrachlers": {
-                    "ankamaId": 8785,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8785-same-dunklen-astakrachlers",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/58001.w48h48.png",
-                    "type": "Samenkorn",
-                    "level": 137,
+                "Kokosschale des Bitoufs der Ebenen": {
+                    "ankamaId": 8769,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/8769-kokosschale-bitoufs-ebenen",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/111001.w48h48.png",
+                    "type": "Schale",
+                    "level": 103,
                     "quantity": 3
                 }
             },
@@ -23400,6 +23721,17 @@
                 }
             }
         ]
+    },
+    {
+        "_id": 12735,
+        "ankamaId": 12735,
+        "name": "Schlüssel zu Damadryas Bambushain",
+        "level": 110,
+        "type": "Schlüssel",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84783.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12735-schluessel-damadryas-bambushain",
+        "description": "Die Handwerker kennen diesen Gegenstand noch nicht gut genug, daher können dessen Eigenschaften noch nicht für eventuelle Käufer sichtbar gemacht werden.",
+        "recipe": []
     },
     {
         "_id": 12836,
@@ -23604,14 +23936,14 @@
         "recipe": []
     },
     {
-        "_id": 7300,
-        "ankamaId": 7300,
-        "name": "Haut des Yokai-Feuerfuxes",
+        "_id": 7269,
+        "ankamaId": 7269,
+        "name": "Bulbiflora-Pollen",
         "level": 110,
-        "type": "Fell",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/59037.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7300-haut-yokai-feuerfuxes",
-        "description": "Diese dicke Haut gibt einen hervorragenden Schutz gegen Bambusschläge ab.",
+        "type": "Pflanze",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164668.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7269-bulbiflora-pollen",
+        "description": "Wenn ihre Saison anbricht, ist nichts gegen diese Pollen gefeit … Manchen jucken die Augen oder sie müssen niesen, andere haben ein Kratzen im Hals. Es ist eigentlich nichts Ernstes, aber alle Abenteurer sind sich einig, dass es trotzdem ein wahres Martyrium ist.",
         "recipe": []
     },
     {
@@ -24022,14 +24354,25 @@
         "recipe": []
     },
     {
-        "_id": 7306,
-        "ankamaId": 7306,
-        "name": "Pelz des Yokai-Feuerfuxes",
+        "_id": 7270,
+        "ankamaId": 7270,
+        "name": "Grenufar-Zunge",
         "level": 110,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55009.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7306-pelz-yokai-feuerfuxes",
-        "description": "Dieser Pelz stammt direkt von den empfindlichsten Teilen eines Yokai-Feuerfuxes. Gleichzeitig leider auch von den Übelriechendsten. Viele Abenteurer denken, es handele sich dabei um seine Barthaare, doch sie irren sich.",
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164669.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7270-grenufar-zunge",
+        "description": "Durch die Evolution ist es dieser Monsterart gelungen, den Aspekt des Tierjägers mit dem statischen Aspekt der Pflanzen zu verbinden. So kann dieses Monster stundenlang ausharren und die arglose Beute überrumpeln. Und wenn sie es am wenigsten erwartet, schnellt auch schon eine Zunge hervor und läutet das Ende ein.",
+        "recipe": []
+    },
+    {
+        "_id": 7272,
+        "ankamaId": 7272,
+        "name": "Stempel der Stempelblume",
+        "level": 110,
+        "type": "Pflanze",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164666.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7272-stempel-stempelblume",
+        "description": "Man sagt, dass Stempelblumen dank ihres aufblasbaren Stempels fliegen könnten, wenn sie Helium einatmen.",
         "recipe": []
     },
     {
@@ -24107,6 +24450,17 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/53362.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/1892-feder-meister-rab",
         "description": "\"Von Panik erfüllt, spreizte Meister Rab weit seine Flügel und ließ eine wunderschöne Feder fallen.\" In euren Träumen vielleicht läuft dies manchmal so ab, aber in Wirklichkeit sieht die Sache anders aus…",
+        "recipe": []
+    },
+    {
+        "_id": 7290,
+        "ankamaId": 7290,
+        "name": "Bimbambusstängel",
+        "level": 110,
+        "type": "Pflanze",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164665.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7290-bimbambusstaengel",
+        "description": "Dieser hohle Stängel hat vielfache Verwendungsmöglichkeiten. Es scheint sogar, dass manche Kwappas ihn im Falle von Bambusmangel als Blasrohr verwenden.",
         "recipe": []
     },
     {
@@ -24217,6 +24571,39 @@
         "recipe": []
     },
     {
+        "_id": 14656,
+        "ankamaId": 14656,
+        "name": "Damadryas Essenz",
+        "level": 110,
+        "type": "Dungeonboss-Essenz",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14656-damadryas-essenz",
+        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
+        "recipe": [
+            {
+                "Damadryas explosive Knospe": {
+                    "ankamaId": 16211,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16211-damadryas-explosive-knospe",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164664.w48h48.png",
+                    "type": "Knospe",
+                    "level": 110,
+                    "quantity": 10
+                }
+            }
+        ]
+    },
+    {
+        "_id": 16211,
+        "ankamaId": 16211,
+        "name": "Damadryas explosive Knospe",
+        "level": 110,
+        "type": "Knospe",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164664.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/16211-damadryas-explosive-knospe",
+        "description": "Diese Knospe verspricht einen sicheren Neuanfang, scheint allerdings auch sehr instabil zu sein. Es empfiehlt sich, sie an einem Ort zu verwahren, an dem sie nicht allzu sehr durchgeschüttelt wird.",
+        "recipe": []
+    },
+    {
         "_id": 17737,
         "ankamaId": 17737,
         "name": "Flohzilla-Essenz",
@@ -24239,14 +24626,14 @@
         ]
     },
     {
-        "_id": 7294,
-        "ankamaId": 7294,
-        "name": "Haare des Yokai-Feuerfuxes",
+        "_id": 7271,
+        "ankamaId": 7271,
+        "name": "Bulbuschdorn",
         "level": 110,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54204.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7294-haare-yokai-feuerfuxes",
-        "description": "Diese dichten und übelriechenden Haare wurden mit roher Gewalt einer schaurigen, rothaarigen Kreatur ausgerissen.",
+        "type": "Pflanze",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164667.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7271-bulbuschdorn",
+        "description": "Immer wenn man glaubt, eine Pflanze hätte keine Dornen, sticht man sich. Das ist auch die geheime Superkraft des Bulbusches.",
         "recipe": []
     },
     {
@@ -24417,7 +24804,7 @@
         "ankamaId": 8064,
         "name": "Blutrünstiger Koalak-Boomerang",
         "level": 108,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15721.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8064-blutruenstiger-koalak-boomerang",
         "description": "Dieses seltsam geformte Stück Holz saust gerne lange durch die Luft. Manchmal durchpflügt es dabei auch die Reihen der Gegner. Doch kehrt es immer zurück zum Werfer. Nur nicht immer in dessen Hand…",
@@ -25945,7 +26332,7 @@
                     "ankamaId": 477,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/477-schweinedrachenblut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15544.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 100,
                     "quantity": 1
                 }
@@ -26431,7 +26818,7 @@
                     "ankamaId": 2484,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2484-zerborstener-dreizack",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15512.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 46,
                     "quantity": 5
                 }
@@ -26570,17 +26957,6 @@
                 }
             }
         ]
-    },
-    {
-        "_id": 8347,
-        "ankamaId": 8347,
-        "name": "Glücksbringer des Luftigen Pandikaze",
-        "level": 100,
-        "type": "Knochen",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47645.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8347-gluecksbringer-luftigen-pandikaze",
-        "description": "Niemand weiß, wie dieses Dracoss-Horn hier gelandet ist, aber eins ist sicher: Der Luftige Pandikaze hängt wirklich sehr daran.",
-        "recipe": []
     },
     {
         "_id": 8402,
@@ -26925,7 +27301,7 @@
         "ankamaId": 13340,
         "name": "Vergifteter Speichel",
         "level": 100,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15133.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13340-vergifteter-speichel",
         "description": "Gemischt mit abgestandenem Bier, heilt dieser Speichel alle Schmerzen… Darunter auch den Lebenskummer.",
@@ -27088,7 +27464,7 @@
         "ankamaId": 477,
         "name": "Schweinedrachenblut",
         "level": 100,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15544.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/477-schweinedrachenblut",
         "description": "Diese Phiole enthält das Blut, welches Schweinedrachen die gewaltigen teuflischen Kräfte verleiht. Nur in Maßen verwenden oder gut kochen lassen, wenn ihr wieder einmal schwarze Schweinedrachenblutwurst herstellen wollt.",
@@ -27110,7 +27486,7 @@
         "ankamaId": 1018,
         "name": "Gleister",
         "level": 100,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15171.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/1018-gleister",
         "description": "Aus diesem kleinen Topf mit dem wohlriechenden rosa Gelee sollte unter keinen Umständen genascht werden. Denn sonst kann der Übeltäter wahrscheinlich sein Lebtag lang nicht mehr reden, so gut wirkt dieser klebrige Stoff.",
@@ -27176,7 +27552,7 @@
         "ankamaId": 2632,
         "name": "Omni-Rum",
         "level": 100,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15177.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2632-omni-rum",
         "description": "Diese Buddel Rum wurde im Inneren eines Omnischlunds zurückgelassen. Sowas wie ein wandelnder Weinkeller.",
@@ -27219,7 +27595,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -27267,17 +27643,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47002.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7411-knochen-yokai-feuerfux-geistes",
         "description": "Dieser Knochen lässt sich wunderbar als Keule verwenden, wenn euch die Lust überkommt, ein paar Schädel von Mitstreitern zu zerschmettern oder Enutrofs in den Boden zu stampfen. Doch jetzt, da er sich in euren Händen befindet, ändert sich ja vielleicht sein Schicksal.",
-        "recipe": []
-    },
-    {
-        "_id": 8344,
-        "ankamaId": 8344,
-        "name": "Glücksbringer des Pandikwackaze",
-        "level": 100,
-        "type": "Knochen",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47648.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8344-gluecksbringer-pandikwackaze",
-        "description": "Niemand weiß, wie dieses Dracoss-Horn hier gelandet ist, aber eins ist sicher: Der Pandikwackaze hängt wirklich sehr daran.",
         "recipe": []
     },
     {
@@ -27563,7 +27928,7 @@
         "ankamaId": 13490,
         "name": "Morph-Sabber",
         "level": 98,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15093.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13490-morph-sabber",
         "description": "Einer Legende nach soll der Gestank, der diesem Sabber entströmt ein Gemisch aus allen Gerüchen der Welt sein. Dieser wahre Potpourri der Gerüche weckt in euch den Drang, euch schnellstmöglich die Nase abzuschneiden!",
@@ -28426,16 +28791,6 @@
                 }
             },
             {
-                "Magische Wurzel des heiligen Bimbambus": {
-                    "ankamaId": 7291,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7291-magische-wurzel-heiligen-bimbambus",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98099.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 87,
-                    "quantity": 1
-                }
-            },
-            {
                 "Leuchtender Kieselstein": {
                     "ankamaId": 12740,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/12740-leuchtender-kieselstein",
@@ -28463,6 +28818,16 @@
                     "type": "Dungeonboss-Essenz",
                     "level": 90,
                     "quantity": 2
+                }
+            },
+            {
+                "Grunzicher-Milch": {
+                    "ankamaId": 14947,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14947-grunzicher-milch",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15853.w48h48.png",
+                    "type": "Flüssig",
+                    "level": 86,
+                    "quantity": 1
                 }
             },
             {
@@ -28645,12 +29010,12 @@
                 }
             },
             {
-                "Heiliges Bimbambusholz": {
-                    "ankamaId": 7289,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7289-heiliges-bimbambusholz",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/38674.w48h48.png",
-                    "type": "Holz",
-                    "level": 87,
+                "Velo-Haut": {
+                    "ankamaId": 6740,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/6740-velo-haut",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15978.w48h48.png",
+                    "type": "Fell",
+                    "level": 86,
                     "quantity": 10
                 }
             },
@@ -28723,7 +29088,7 @@
         "ankamaId": 2620,
         "name": "Qualitäts-Rum",
         "level": 90,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15177.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2620-qualitaets-rum",
         "description": "Dieser Rum stammt aus einem renommierten Keller. Es kann natürlich auch sein, dass er seit mehreren Generationen in einer Jackentasche geschlummert hat.",
@@ -28858,7 +29223,7 @@
                     "ankamaId": 17075,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/17075-rostiges-taschenmesser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/164078.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 90,
                     "quantity": 1
                 }
@@ -28972,7 +29337,7 @@
                     "ankamaId": 2316,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2316-rolo-messer",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15980.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Kampfressource",
                     "level": 86,
                     "quantity": 1
                 }
@@ -29339,7 +29704,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -29423,7 +29788,7 @@
         "ankamaId": 17075,
         "name": "Rostiges Taschenmesser",
         "level": 90,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164078.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/17075-rostiges-taschenmesser",
         "description": "Tethanos war ein furchterregender Pirat, dessen Name allein jeden in Angst und Schrecken versetzte. Mit seinem rostigen Taschenmesser war er der Inbegriff des Todes und weitaus grausamer als der Tod selbst. Niemand weiß, was aus ihm geworden ist, aber es gibt viele Berichte über Piraten, die ihre Gegner mit rostigen Taschenmessern einschüchtern ...",
@@ -29522,17 +29887,6 @@
                 }
             }
         ]
-    },
-    {
-        "_id": 7291,
-        "ankamaId": 7291,
-        "name": "Magische Wurzel des heiligen Bimbambus",
-        "level": 87,
-        "type": "Wurzel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/98099.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7291-magische-wurzel-heiligen-bimbambus",
-        "description": "Diese Wurzel erlaubt es dem heiligen Bimbambus, Magie aus dem Boden zu speichern, bevor er sie im Kampf auf seine Gegner schleudert.",
-        "recipe": []
     },
     {
         "_id": 7672,
@@ -29653,12 +30007,12 @@
                 }
             },
             {
-                "Bulbusch-Wurzel": {
-                    "ankamaId": 7263,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7263-bulbusch-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98143.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 53,
+                "Bloblingsblume": {
+                    "ankamaId": 9382,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/9382-bloblingsblume",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/35008.w48h48.png",
+                    "type": "Blume",
+                    "level": 54,
                     "quantity": 10
                 }
             },
@@ -29798,7 +30152,7 @@
         "ankamaId": 2316,
         "name": "Rolo-Messer",
         "level": 86,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15980.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2316-rolo-messer",
         "description": "Dieses Messer wird allen, die seine Macht unterschätzen, einen gehörigen Schrecken einjagen.",
@@ -29919,7 +30273,7 @@
         "ankamaId": 14947,
         "name": "Grunzicher-Milch",
         "level": 86,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15853.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14947-grunzicher-milch",
         "description": "Die Handwerker kennen diesen Gegenstand noch nicht gut genug, daher können dessen Eigenschaften noch nicht für eventuelle Käufer sichtbar gemacht werden.",
@@ -30267,16 +30621,6 @@
                 }
             },
             {
-                "Essenz von Daigoro": {
-                    "ankamaId": 14663,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14663-essenz-daigoro",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/167001.w48h48.png",
-                    "type": "Dungeonboss-Essenz",
-                    "level": 80,
-                    "quantity": 2
-                }
-            },
-            {
                 "Wollstich-Wolle": {
                     "ankamaId": 16217,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16217-wollstich-wolle",
@@ -30284,6 +30628,16 @@
                     "type": "Wolle",
                     "level": 86,
                     "quantity": 1
+                }
+            },
+            {
+                "Essenz des Mantiskors": {
+                    "ankamaId": 19905,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/19905-essenz-mantiskors",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/167001.w48h48.png",
+                    "type": "Dungeonboss-Essenz",
+                    "level": 80,
+                    "quantity": 2
                 }
             }
         ]
@@ -30384,17 +30738,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84249.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/9252-teil-indigo-blob-schluessels",
         "description": "Wenn ihr die übrigen Schlüsselteile findet, werdet ihr vielleicht Gelegenheit haben, einen Multiblob herauszufordern!",
-        "recipe": []
-    },
-    {
-        "_id": 12735,
-        "ankamaId": 12735,
-        "name": "Schlüssel zu Daigoros Unterschlupf",
-        "level": 80,
-        "type": "Schlüssel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84718.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12735-schluessel-daigoros-unterschlupf",
-        "description": "Die Handwerker kennen diesen Gegenstand noch nicht gut genug, daher können dessen Eigenschaften noch nicht für eventuelle Käufer sichtbar gemacht werden.",
         "recipe": []
     },
     {
@@ -30725,38 +31068,6 @@
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14470-haare-wobot-ishungrigs",
         "description": "Die Haare des Wobot Ishungrig sind viel weicher und seidiger als die des Tiwabbit Ishungrigs. Er profitiert nämlich von einer Kawottensaft-Diät. Der Tiwabbit Ishungrig ist jedoch unbestritten der Sportlichere von beiden.",
         "recipe": []
-    },
-    {
-        "_id": 14663,
-        "ankamaId": 14663,
-        "name": "Essenz von Daigoro",
-        "level": 80,
-        "type": "Dungeonboss-Essenz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14663-essenz-daigoro",
-        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
-        "recipe": [
-            {
-                "Haarbüschel Daigoros": {
-                    "ankamaId": 12741,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/12741-haarbueschel-daigoros",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54684.w48h48.png",
-                    "type": "Haar",
-                    "level": 80,
-                    "quantity": 10
-                }
-            },
-            {
-                "Daigoros Windel": {
-                    "ankamaId": 12742,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/12742-daigoros-windel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15796.w48h48.png",
-                    "type": "Kleidung",
-                    "level": 80,
-                    "quantity": 1
-                }
-            }
-        ]
     },
     {
         "_id": 16150,
@@ -31395,17 +31706,6 @@
         "recipe": []
     },
     {
-        "_id": 7276,
-        "ankamaId": 7276,
-        "name": "Kitsou Nufeu-Haare",
-        "level": 79,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54557.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7276-kitsou-nufeu-haare",
-        "description": "Diese Haare sind weich wie die Kruppe eines weiblichen Trools. Das könnte glatt vergessene Kindheitserinnerungen in euch erwecken.",
-        "recipe": []
-    },
-    {
         "_id": 1612,
         "ankamaId": 1612,
         "name": "Wurzel eines Schattenastaknyden",
@@ -31443,21 +31743,10 @@
         "ankamaId": 8077,
         "name": "Brauner Warko-Boomerang",
         "level": 78,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15724.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8077-brauner-warko-boomerang",
         "description": "Dieses seltsam geformte Stück Holz saust gern lange durch die Luft. Manchmal durchpflügt es dabei auch die Reihen der Gegner. Doch kehrt es immer zurück zum Werfer. Nur nicht immer in dessen Hand…",
-        "recipe": []
-    },
-    {
-        "_id": 7277,
-        "ankamaId": 7277,
-        "name": "Kitsou Nere-Haare",
-        "level": 77,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54558.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7277-kitsou-nere-haare",
-        "description": "Diese Haare sind weich wie die Kruppe eines weiblichen Trools. Das könnte glatt vergessene Kindheitserinnerungen in euch erwecken.",
         "recipe": []
     },
     {
@@ -31534,22 +31823,11 @@
         ]
     },
     {
-        "_id": 7275,
-        "ankamaId": 7275,
-        "name": "Kitsou Nae-Haare",
-        "level": 75,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54560.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7275-kitsou-nae-haare",
-        "description": "Diese Haare sind weich wie die Kruppe eines weiblichen Trools. Das könnte glatt vergessene Kindheitserinnerungen in euch erwecken.",
-        "recipe": []
-    },
-    {
         "_id": 12441,
         "ankamaId": 12441,
         "name": "Unerfahrene Pfütze",
         "level": 75,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15794.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12441-unerfahrene-pfuetze",
         "description": "Das Wasser dieser Pfütze ist reich an Mineralsalzen und Vitaminen. Im industriellen Maßstab verkauft, ließe sich damit sicherlich viel Geld scheffeln... Überlegungen eines Enutrofs",
@@ -31658,7 +31936,7 @@
         "ankamaId": 838,
         "name": "Oni-Blut",
         "level": 75,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15662.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/838-oni-blut",
         "description": "Oni-Blut wird besonders von erfahrenen Alchemisten sehr gern verwendet, um bestimmten Waffen furchterregende Eigenschaften zu verleihen.",
@@ -31807,7 +32085,7 @@
         "ankamaId": 12429,
         "name": "Unerfahrener Schlamm",
         "level": 75,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15793.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12429-unerfahrener-schlamm",
         "description": "Dieser thermospasmische Schlamm ist der Schrecken jeder Hausfrau, da die Flecken mit nichts in der Welt wieder herausgehen. Nicht einmal Meister Propper wäre dazu in der Lage!",
@@ -32014,7 +32292,7 @@
         "ankamaId": 8075,
         "name": "Dok Alako-Boomerang",
         "level": 74,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15722.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8075-dok-alako-boomerang",
         "description": "Dieses seltsam geformte Stück Holz saust gern lange durch die Luft. Manchmal durchpflügt es dabei auch die Reihen der Gegner. Doch kehrt es immer zurück zum Werfer. Nur nicht immer in dessen Hand…",
@@ -32094,17 +32372,6 @@
         "recipe": []
     },
     {
-        "_id": 7278,
-        "ankamaId": 7278,
-        "name": "Kitsou Nakwa-Haare",
-        "level": 73,
-        "type": "Haar",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/54559.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7278-kitsou-nakwa-haare",
-        "description": "Diese Haare sind weich wie die Kruppe eines weiblichen Trools. Das könnte glatt vergessene Kindheitserinnerungen in euch erwecken.",
-        "recipe": []
-    },
-    {
         "_id": 16956,
         "ankamaId": 16956,
         "name": "Hulhu",
@@ -32119,7 +32386,7 @@
                     "ankamaId": 838,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/838-oni-blut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15662.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 75,
                     "quantity": 10
                 }
@@ -32186,17 +32453,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/41317.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/1805-glaenzende-sardine",
         "description": "Diesen Fisch sieht man schon von Weitem. Darum ist er auch ideal für angehende Fischer!",
-        "recipe": []
-    },
-    {
-        "_id": 7308,
-        "ankamaId": 7308,
-        "name": "Pandel-Pelz",
-        "level": 70,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55012.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7308-pandel-pelz",
-        "description": "Im Gegensatz zu allem, was man denken mag, ist dieser Pelz nicht essbar. Abenteurer, die dies versucht haben, wurden in einen Tanukouï San-Geist verwandelt. Für manche allerdings ein Glücksgriff...",
         "recipe": []
     },
     {
@@ -32622,22 +32878,22 @@
                 }
             },
             {
+                "Gerissenes Matiner-Halsband": {
+                    "ankamaId": 2320,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2320-gerissenes-matiner-halsband",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15462.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 66,
+                    "quantity": 10
+                }
+            },
+            {
                 "Sarbaks kanniballische Wuddupuppe": {
                     "ankamaId": 2627,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2627-sarbaks-kanniballische-wuddupuppe",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15612.w48h48.png",
                     "type": "Verschiedene Ressourcen",
                     "level": 60,
-                    "quantity": 10
-                }
-            },
-            {
-                "Pandel-Haare": {
-                    "ankamaId": 7297,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7297-pandel-haare",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54206.w48h48.png",
-                    "type": "Haar",
-                    "level": 70,
                     "quantity": 10
                 }
             },
@@ -33314,7 +33570,7 @@
         "ankamaId": 2296,
         "name": "Reptilhafter Schild",
         "level": 69,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15447.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2296-reptilhafter-schild",
         "description": "Wozu könnte bloß dieser wunderschöne, Edelstein verzierte Schild dienen? Bis ihr eine Antwort auf diese Frage findet, könnt ihr ihn ja als Unterlage zum Servieren von Tee benutzen.",
@@ -33363,12 +33619,12 @@
                 }
             },
             {
-                "Bulbusch-Wurzel": {
-                    "ankamaId": 7263,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7263-bulbusch-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98143.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 53,
+                "Sarbaks kanniballische Wuddupuppe": {
+                    "ankamaId": 2627,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2627-sarbaks-kanniballische-wuddupuppe",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15612.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 60,
                     "quantity": 10
                 }
             },
@@ -34071,7 +34327,7 @@
                     "ankamaId": 14944,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14944-geister-kaltschweiss",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15850.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 46,
                     "quantity": 10
                 }
@@ -34275,17 +34531,6 @@
         "recipe": []
     },
     {
-        "_id": 7274,
-        "ankamaId": 7274,
-        "name": "Ringelschnatterfangzahn",
-        "level": 63,
-        "type": "Knochen",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47016.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7274-ringelschnatterfangzahn",
-        "description": "Dieser Zahn gleicht keinem anderen. Er stinkt wirklich besonders schlimm. Fast so, als sei der ganze üble Geruch der Ringelschnatter darin konzentriert worden.",
-        "recipe": []
-    },
-    {
         "_id": 16987,
         "ankamaId": 16987,
         "name": "Peho",
@@ -34400,12 +34645,12 @@
                 }
             },
             {
-                "Ringelschnatterhaut": {
-                    "ankamaId": 7273,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7273-ringelschnatterhaut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59041.w48h48.png",
-                    "type": "Fell",
-                    "level": 63,
+                "Dracotrutermilch": {
+                    "ankamaId": 2596,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2596-dracotrutermilch",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15424.w48h48.png",
+                    "type": "Flüssig",
+                    "level": 61,
                     "quantity": 10
                 }
             },
@@ -34458,7 +34703,7 @@
         "ankamaId": 2596,
         "name": "Dracotrutermilch",
         "level": 61,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15424.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2596-dracotrutermilch",
         "description": "Züchter schätzen die Tatsache, dass Dracotruter auch Milch geben. Einziger Makel ist dabei, dass diese Milch absolut scheußlich schmeckt. Darum werden damit bloß die kleinen Dracotrüterchen gefüttert, bis sie entwöhnt sind.",
@@ -34540,6 +34785,16 @@
                 }
             },
             {
+                "Blutwolfsohren": {
+                    "ankamaId": 2317,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2317-blutwolfsohren",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/106459.w48h48.png",
+                    "type": "Ohr",
+                    "level": 65,
+                    "quantity": 1
+                }
+            },
+            {
                 "Hochwald-Extrakt": {
                     "ankamaId": 2540,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2540-hochwald-extrakt",
@@ -34547,16 +34802,6 @@
                     "type": "Extrakt",
                     "level": 60,
                     "quantity": 2
-                }
-            },
-            {
-                "Ringelschnatterfangzahn": {
-                    "ankamaId": 7274,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7274-ringelschnatterfangzahn",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/47016.w48h48.png",
-                    "type": "Knochen",
-                    "level": 63,
-                    "quantity": 1
                 }
             },
             {
@@ -36009,22 +36254,22 @@
                 }
             },
             {
+                "Mikokoblatt": {
+                    "ankamaId": 2624,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2624-mikokoblatt",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36609.w48h48.png",
+                    "type": "Pflanze",
+                    "level": 50,
+                    "quantity": 10
+                }
+            },
+            {
                 "Löchriger Megabwork-Stiefel": {
                     "ankamaId": 3002,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/3002-loechriger-megabwork-stiefel",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15648.w48h48.png",
                     "type": "Kleidung",
                     "level": 86,
-                    "quantity": 10
-                }
-            },
-            {
-                "Bulbig-Wurzel": {
-                    "ankamaId": 7265,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7265-bulbig-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98144.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 50,
                     "quantity": 10
                 }
             },
@@ -36249,7 +36494,7 @@
         "ankamaId": 2508,
         "name": "Schlängelchengift",
         "level": 56,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15531.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2508-schlaengelchengift",
         "description": "Dieses äußerst wirksame Gift könnte selbst eine Armee tollwütiger Fresssäcke besiegen. Darum ist es auch kein Wunder, dass man es auch früher zu genau diesem Zweck verwendet hat.",
@@ -36516,21 +36761,11 @@
                 }
             },
             {
-                "Pandikaze-Haar": {
-                    "ankamaId": 7258,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7258-pandikaze-haar",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/54556.w48h48.png",
-                    "type": "Haar",
-                    "level": 46,
-                    "quantity": 10
-                }
-            },
-            {
-                "Pandikaze-Haut": {
-                    "ankamaId": 7260,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7260-pandikaze-haut",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/59040.w48h48.png",
-                    "type": "Fell",
+                "Zerfetzter Teddy": {
+                    "ankamaId": 6479,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/6479-zerfetzter-teddy",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15703.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
                     "level": 46,
                     "quantity": 10
                 }
@@ -36546,9 +36781,19 @@
                 }
             },
             {
-                "Essenz von Bulbig Brossa": {
-                    "ankamaId": 14656,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14656-essenz-bulbig-brossa",
+                "Familienreliquie": {
+                    "ankamaId": 13491,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13491-familienreliquie",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15094.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 46,
+                    "quantity": 10
+                }
+            },
+            {
+                "Essenz der Shin-Larve": {
+                    "ankamaId": 14654,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/14654-essenz-shin-larve",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/167001.w48h48.png",
                     "type": "Dungeonboss-Essenz",
                     "level": 50,
@@ -36787,17 +37032,6 @@
         "recipe": []
     },
     {
-        "_id": 7271,
-        "ankamaId": 7271,
-        "name": "Magische Bulbuschrinde",
-        "level": 53,
-        "type": "Rinde",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/96107.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7271-magische-bulbuschrinde",
-        "description": "Diese schuppige Rinde ist perfekt für Antirutsch-Schuhsohlen geeignet.",
-        "recipe": []
-    },
-    {
         "_id": 16974,
         "ankamaId": 16974,
         "name": "Petunia",
@@ -36930,7 +37164,7 @@
         "ankamaId": 2494,
         "name": "Schwertknauf",
         "level": 51,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15519.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2494-schwertknauf",
         "description": "Sicherlich konnte nur ein übermächtiger Schlag dieses gefürchtete Schwert zerbrechen. In der Tat hat jeder Abenteurer, der das Schwert des Ouginaks in der Hand hält, das Bedürfnis, vor Freude loszuheulen. Wa-hooooooo!",
@@ -37102,7 +37336,7 @@
         "ankamaId": 2619,
         "name": "Schildkrötenmilch",
         "level": 50,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15423.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2619-schildkroetenmilch",
         "description": "Welch tolle Idee! Nun gibt es Schildkrötenmilch auch in Flaschen. So kann man sie zu jeder Zeit und an jedem beliebigen Ort in Ruhe trinken.",
@@ -37301,17 +37535,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/98144.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7265-bulbig-wurzel",
         "description": "Diese Bulbig-Wurzel ist anders als alle anderen. Sie kann beispielsweise sehr lange gekaut werden, ohne die Zähne anzugreifen. Jedoch hat sie leider im Gegensatz zu richtigen Süßigkeiten überhaupt keinen Geschmack.",
-        "recipe": []
-    },
-    {
-        "_id": 7269,
-        "ankamaId": 7269,
-        "name": "Magische Bulbigrinde",
-        "level": 50,
-        "type": "Rinde",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/96105.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7269-magische-bulbigrinde",
-        "description": "Diese magische Rinde ist mindestens so widerstandsfähig wie der Schild von Captain Amakna, wenn auch vielleicht nicht ganz so schön.",
         "recipe": []
     },
     {
@@ -37647,98 +37870,6 @@
         "recipe": []
     },
     {
-        "_id": 7310,
-        "ankamaId": 7310,
-        "name": "Schlüssel zur Bulbi-Höhle",
-        "level": 50,
-        "type": "Schlüssel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/84230.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7310-schluessel-zur-bulbi-hoehle",
-        "description": "Dieser Schlüssel öffnet euch die Türen zur Bulbi-Höhle. Doch ist er nur von kurzer Dauer, da er durch die Benutzung zerstört wird.",
-        "recipe": [
-            {
-                "5-blättriges Kleeblatt": {
-                    "ankamaId": 3955,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/395-5-blaettriges-kleeblatt",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36067.w48h48.png",
-                    "type": "Pflanze",
-                    "level": 40,
-                    "quantity": 5
-                }
-            },
-            {
-                "Bronze": {
-                    "ankamaId": 442,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/442-bronze",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/39109.w48h48.png",
-                    "type": "Erz",
-                    "level": 40,
-                    "quantity": 5
-                }
-            },
-            {
-                "Walnussholz": {
-                    "ankamaId": 476,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/476-walnussholz",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/38095.w48h48.png",
-                    "type": "Holz",
-                    "level": 40,
-                    "quantity": 5
-                }
-            },
-            {
-                "Hafer": {
-                    "ankamaId": 533,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/533-hafer",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/34154.w48h48.png",
-                    "type": "Getreide",
-                    "level": 40,
-                    "quantity": 5
-                }
-            },
-            {
-                "Bulbig-Wurzel": {
-                    "ankamaId": 7265,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7265-bulbig-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98144.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 50,
-                    "quantity": 1
-                }
-            },
-            {
-                "Bulbiflora-Blüte": {
-                    "ankamaId": 7266,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7266-bulbiflora-bluete",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/35119.w48h48.png",
-                    "type": "Blume",
-                    "level": 42,
-                    "quantity": 1
-                }
-            },
-            {
-                "Bulbusch-Blatt": {
-                    "ankamaId": 7267,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7267-bulbusch-blatt",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36055.w48h48.png",
-                    "type": "Pflanze",
-                    "level": 53,
-                    "quantity": 1
-                }
-            },
-            {
-                "Bulbambus-Sprossen": {
-                    "ankamaId": 7268,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7268-bulbambus-sprossen",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/36056.w48h48.png",
-                    "type": "Pflanze",
-                    "level": 39,
-                    "quantity": 1
-                }
-            }
-        ]
-    },
-    {
         "_id": 7663,
         "ankamaId": 7663,
         "name": "Brett aus Bambusholz",
@@ -37995,18 +38126,18 @@
                     "ankamaId": 2619,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2619-schildkroetenmilch",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15423.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 50,
                     "quantity": 1
                 }
             },
             {
-                "Magische Bulbiflorarinde": {
-                    "ankamaId": 7270,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7270-magische-bulbiflorarinde",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/96106.w48h48.png",
-                    "type": "Rinde",
-                    "level": 42,
+                "Samen der Zwietracht": {
+                    "ankamaId": 13730,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13730-samen-zwietracht",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/58472.w48h48.png",
+                    "type": "Samenkorn",
+                    "level": 41,
                     "quantity": 1
                 }
             },
@@ -38362,49 +38493,6 @@
         ]
     },
     {
-        "_id": 14656,
-        "ankamaId": 14656,
-        "name": "Essenz von Bulbig Brossa",
-        "level": 50,
-        "type": "Dungeonboss-Essenz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/167001.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14656-essenz-bulbig-brossa",
-        "description": "Diese Essenz enthält einen Teil der Macht des Dungeonbosses, der zu den echten Elitemonstern der Welt der Zwölf zählte. Jetzt liegt es an euch, einen Verwendungszweck hierfür zu finden, der der innewohnenden Macht der Essenz gerecht wird…",
-        "recipe": [
-            {
-                "Wurzel von Bulbig Brossa": {
-                    "ankamaId": 16210,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16210-wurzel-bulbig-brossa",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98673.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 50,
-                    "quantity": 10
-                }
-            },
-            {
-                "Magische Rinde von Bulbig Brossa": {
-                    "ankamaId": 16211,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16211-magische-rinde-bulbig-brossa",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/96671.w48h48.png",
-                    "type": "Rinde",
-                    "level": 50,
-                    "quantity": 1
-                }
-            }
-        ]
-    },
-    {
-        "_id": 16211,
-        "ankamaId": 16211,
-        "name": "Magische Rinde von Bulbig Brossa",
-        "level": 50,
-        "type": "Rinde",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/96671.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/16211-magische-rinde-bulbig-brossa",
-        "description": "Diese magische Rinde weist keinerlei Falten auf, so als hätte die Zeit keine Macht über sie. Von eurem Spiegelbild könnt ihr das bestimmt nicht sagen, aber daran ist der Spiegel schuld, oder?",
-        "recipe": []
-    },
-    {
         "_id": 18721,
         "ankamaId": 18721,
         "name": "„Scha Pro Wa“-Rune",
@@ -38474,7 +38562,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -38506,7 +38594,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -38549,7 +38637,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -38799,16 +38887,6 @@
                 }
             },
             {
-                "Bulbambus-Wurzel": {
-                    "ankamaId": 7264,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7264-bulbambus-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98145.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 39,
-                    "quantity": 10
-                }
-            },
-            {
                 "Hainextrakt": {
                     "ankamaId": 12745,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/12745-hainextrakt",
@@ -38826,6 +38904,16 @@
                     "type": "Dungeonboss-Essenz",
                     "level": 40,
                     "quantity": 2
+                }
+            },
+            {
+                "Lamelle eines Blauen Spipilzes": {
+                    "ankamaId": 16165,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/16165-lamelle-blauen-spipilzes",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/119010.w48h48.png",
+                    "type": "Pilz",
+                    "level": 39,
+                    "quantity": 10
                 }
             }
         ]
@@ -38901,7 +38989,7 @@
         "ankamaId": 2484,
         "name": "Zerborstener Dreizack",
         "level": 46,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15512.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2484-zerborstener-dreizack",
         "description": "Dies ist ein kleines Andenken an euren Lausigen Schweinepriester-Freund. Hoffentlich ist er nicht nachtragend, doch mit seinem lausigen Charakter ist es gut möglich, dass er euch quer durchs Land verfolgt.",
@@ -38961,22 +39049,22 @@
                 }
             },
             {
+                "Dubbelstein": {
+                    "ankamaId": 965,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/965-dubbelstein",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/50663.w48h48.png",
+                    "type": "Edelstein",
+                    "level": 41,
+                    "quantity": 10
+                }
+            },
+            {
                 "Blutwolfsohren": {
                     "ankamaId": 2317,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2317-blutwolfsohren",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/106459.w48h48.png",
                     "type": "Ohr",
                     "level": 65,
-                    "quantity": 10
-                }
-            },
-            {
-                "Araknawa-Klaue": {
-                    "ankamaId": 7285,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7285-araknawa-klaue",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/103716.w48h48.png",
-                    "type": "Klaue",
-                    "level": 39,
                     "quantity": 10
                 }
             },
@@ -39044,17 +39132,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/47636.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2664-crocodyll-knochen",
         "description": "Dieser grünliche Knochen ist seltsam. Das ist das Mindeste, was man darüber sagen kann. Außerdem stammt er wohl von der Pfote eines Crocodylls. Dieses muss echte Crocodyllstränen vergossen haben, als es den Verlust bemerkte!",
-        "recipe": []
-    },
-    {
-        "_id": 7259,
-        "ankamaId": 7259,
-        "name": "Pandikaze-Pelz",
-        "level": 46,
-        "type": "Pelz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/55124.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7259-pandikaze-pelz",
-        "description": "Dieses Pelzstück ist trotz der furchtbaren Schläge, die ihr im Kampf dem Pandikaze zugefügt habt, noch nahezu unversehrt geblieben.",
         "recipe": []
     },
     {
@@ -39172,7 +39249,7 @@
         "ankamaId": 429,
         "name": "Elite-Chafer-Pfeilspitze",
         "level": 46,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15973.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/429-elite-chafer-pfeilspitze",
         "description": "Diese verrostete Pfeilspitze besteht aus einem sehr seltenen Metall, welches man ausschließlich in Form dieser Pfeilspitzen findet.",
@@ -39238,7 +39315,7 @@
         "ankamaId": 14944,
         "name": "Geister-Kaltschweiß",
         "level": 46,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15850.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/14944-geister-kaltschweiss",
         "description": "Die Handwerker kennen diesen Gegenstand noch nicht gut genug, daher können dessen Eigenschaften noch nicht für eventuelle Käufer sichtbar gemacht werden.",
@@ -39440,17 +39517,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/78143.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/20528-pako-do-neutral-rune",
         "description": "Diese Rune eines unendlichen Alptraums macht eure Schläge wirklich unparteiischer.",
-        "recipe": []
-    },
-    {
-        "_id": 2287,
-        "ankamaId": 2287,
-        "name": "Schwarzes Leder",
-        "level": 45,
-        "type": "Leder",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/56439.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2287-schwarzes-leder",
-        "description": "Dieses Leder wurde bereits bearbeitet. Es ist nun zwar nicht mehr auszumachen, von welcher Kreatur dieses Leder einmal stammte, jedoch lässt sich eindeutig bestimmen, dass die Färbung durch einen Spezialfarbstoff erzeugt wurde.",
         "recipe": []
     },
     {
@@ -39692,6 +39758,16 @@
         "description": "Wenn gut der Kampf läuft ab, das Schlimmste noch nicht geschieht.",
         "recipe": [
             {
+                "Weiße Scara-Flügel": {
+                    "ankamaId": 1456,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/1456-weisse-scara-fluegel",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/104213.w48h48.png",
+                    "type": "Flügel",
+                    "level": 38,
+                    "quantity": 1
+                }
+            },
+            {
                 "Zahn einer Garglyphe": {
                     "ankamaId": 2249,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/2249-zahn-garglyphe",
@@ -39708,16 +39784,6 @@
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15518.w48h48.png",
                     "type": "Verschiedene Ressourcen",
                     "level": 106,
-                    "quantity": 1
-                }
-            },
-            {
-                "Magische Bimbambus-Wurzel": {
-                    "ankamaId": 7290,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7290-magische-bimbambus-wurzel",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/98100.w48h48.png",
-                    "type": "Wurzel",
-                    "level": 40,
                     "quantity": 1
                 }
             },
@@ -39838,17 +39904,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/25130.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/410-grimoire-bwork-magus",
         "description": "Dieses alte Zauberbuch ist ein wahres Sammlerstück. Denn daraus zieht der Bwork Magus seine Inspiration und große Zaubermacht. Jede einzelne Seite verbirgt zahlreiche Geheimnisse über die genaue Anatomie einzelner Wesen Amaknas.",
-        "recipe": []
-    },
-    {
-        "_id": 7017,
-        "ankamaId": 7017,
-        "name": "Goldenes Bambusholz",
-        "level": 45,
-        "type": "Holz",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/38669.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7017-goldenes-bambusholz",
-        "description": "Galthus, ein junger Pandawa, fragte eines Tages seinen Vater: \"Was ist eigentlich der Unterschied zwischen einem Bambus und einem Goldenen Bambus, Papa?\". Sofort bekam er eine Tracht Prügel von seinem Vater, weil er eine solch dumme Frage gestellt hatte. Schließlich weiß doch jedes kleine Kind, daß der Unterschied zwischen den beiden die Größe der Wurzeln ist.",
         "recipe": []
     },
     {
@@ -40331,12 +40386,12 @@
                 }
             },
             {
-                "Bulbiflora-Blüte": {
-                    "ankamaId": 7266,
-                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7266-bulbiflora-bluete",
-                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/35119.w48h48.png",
-                    "type": "Blume",
-                    "level": 42,
+                "Gefälschtes Königssiegel": {
+                    "ankamaId": 13339,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/13339-gefaelschtes-koenigssiegel",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15131.w48h48.png",
+                    "type": "Verschiedene Ressourcen",
+                    "level": 43,
                     "quantity": 10
                 }
             },
@@ -40389,7 +40444,7 @@
         "ankamaId": 1985,
         "name": "Harz",
         "level": 44,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15382.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/1985-harz",
         "description": "Dieses kleine Harzstück kommt zahlreich zum Einsatz, vor allem in der Küche. Wenn euch jedoch was an euren Zähnen liegt, dann solltet ihr es nicht in diesem Zustand verzehren.",
@@ -40732,17 +40787,6 @@
                 }
             }
         ]
-    },
-    {
-        "_id": 7270,
-        "ankamaId": 7270,
-        "name": "Magische Bulbiflorarinde",
-        "level": 42,
-        "type": "Rinde",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/96106.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7270-magische-bulbiflorarinde",
-        "description": "Diese Rinde ist derart zerbrechlich, dass man sie als Spitzenbesatz für gewagte Unterwäsche verwenden könnte.",
-        "recipe": []
     },
     {
         "_id": 8734,
@@ -41295,7 +41339,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -41464,7 +41508,7 @@
                     "ankamaId": 752,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/752-vampirblut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15089.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 35,
                     "quantity": 1
                 }
@@ -41846,7 +41890,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -42204,17 +42248,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/36069.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7287-bimbambus-blatt",
         "description": "Bimbambusblätter sind breit und haarig. Also ein wenig wie Bwork-Weibchen, allerdings nicht so aggressiv.",
-        "recipe": []
-    },
-    {
-        "_id": 7290,
-        "ankamaId": 7290,
-        "name": "Magische Bimbambus-Wurzel",
-        "level": 40,
-        "type": "Wurzel",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/98100.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7290-magische-bimbambus-wurzel",
-        "description": "Diese Wurzel erlaubt es dem Bimbambus, Magie aus dem Boden zu speichern, bevor er sie im Kampf auf seine Gegner schleudert.",
         "recipe": []
     },
     {
@@ -42582,7 +42615,7 @@
         "ankamaId": 2553,
         "name": "DAU-GAU-Kugel",
         "level": 40,
-        "type": "Verschiedene Ressourcen",
+        "type": "Kampfressource",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15564.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2553-dau-gau-kugel",
         "description": "Dies ist eine richtige DAU-GAU-Kugel! Wenn man diese Kugel auf sich zukommen sieht, sollte man schleunigst Reißaus nehmen, sonst könnte es zu spät sein. Schwere Kopfschmerzen über eine große Zeitspanne wären die Folgen. Außerdem sind DAU-GAU-Kugeln sehr schwer, und daher auch sehr schwer wieder loszuwerden...",
@@ -42816,17 +42849,6 @@
         "recipe": []
     },
     {
-        "_id": 2654,
-        "ankamaId": 2654,
-        "name": "Araknawa-Ei",
-        "level": 39,
-        "type": "Ei",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/105630.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2654-araknawa-ei",
-        "description": "Das Problem mit Arachneen ist ihre rasante Vermehrung. Es braucht nur wenige heiße Sommertage, damit gleich mehrere Generationen in Folge schlüpfen. Darum gilt: Im Sommer keine langen Spaziergänge im Pandala-Wald!",
-        "recipe": []
-    },
-    {
         "_id": 16167,
         "ankamaId": 16167,
         "name": "Lamelle eines Roten Spipilzes",
@@ -42835,17 +42857,6 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/119012.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/16167-lamelle-roten-spipilzes",
         "description": "Um mit den Göttern zu kommunizieren, stopften sich die Tschamanen dereinst diese Lamellen in ihre Körperöffnungen. Auf diese Weise bekamen sie Visionen, aber neuere wissenschaftliche Studien haben bewiesen, dass diese vor allem auf die mangelnde Versorgung mit Sauerstoff zurückgingen, die ihren Gehirnen aufgrund der Blockierung der Atemwege zu schaffen machte.",
-        "recipe": []
-    },
-    {
-        "_id": 7272,
-        "ankamaId": 7272,
-        "name": "Magische Bulbambusrinde",
-        "level": 39,
-        "type": "Rinde",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/96108.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7272-magische-bulbambusrinde",
-        "description": "Diese glatte Rinde ist ideal für die Herstellung von Parkettböden und Tanzflächen.",
         "recipe": []
     },
     {
@@ -43301,7 +43312,7 @@
         "ankamaId": 8807,
         "name": "Morph-Säfte",
         "level": 36,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15758.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/8807-morph-saefte",
         "description": "Man muss schon völlig betrunken sein, um Morph-Säfte mit einer anderen trinkbaren Flüssigkeit zu verwechseln. Der widerliche Geruch würde sogar Blinde davon abhalten, einen Schluck davon zu probieren.",
@@ -43389,7 +43400,7 @@
         "ankamaId": 2012,
         "name": "Skorpiutblut",
         "level": 36,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15389.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2012-skorpiutblut",
         "description": "Dieses dickflüssige Blut enthält – entgegen dem allgemeinen Glauben – keine Spur von Gift. Es dient im Wesentlichen zur Herstellung von wirksamen Konservierungsmitteln und Gesichtsmasken.",
@@ -43411,7 +43422,7 @@
         "ankamaId": 752,
         "name": "Vampirblut",
         "level": 35,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15089.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/752-vampirblut",
         "description": "Dieses Blut ist hochmagisch, was es zu einem unverzichtbaren Bestandteil bei der Zubereitung der magischen, schwarzen Blutwurst macht. Die Nebenwirkungen derselben sind allerdings noch unerforscht.",
@@ -43703,7 +43714,7 @@
         "ankamaId": 2266,
         "name": "Ferkelchen-Milch",
         "level": 33,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15423.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2266-ferkelchen-milch",
         "description": "Diese Ferkelchen-Milch stammt wohl von einem Ferkelchen. Wann weiß ja nie, was die anderen denken. Falls ihr gemeint habt, sie käme von einem Tofu, so seid belehrt, dass das nicht wahr ist.",
@@ -44366,6 +44377,17 @@
         ]
     },
     {
+        "_id": 23345,
+        "ankamaId": 23345,
+        "name": "Fujibakamablatt",
+        "level": 30,
+        "type": "Pflanze",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/36609.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23345-fujibakamablatt",
+        "description": "Diese Pflanze wird nicht nur mit diversen Wundermittelchen unterschiedlichster Wirkung in Verbindung gebracht. Man verwendet sie auch, um Cocktails auf Bambusmilchbasis – wie der Fujikolada oder dem Fujito – das gewisse Etwas zu verleihen.",
+        "recipe": []
+    },
+    {
         "_id": 466,
         "ankamaId": 466,
         "name": "Geschliffener Saphir",
@@ -44380,7 +44402,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -44422,7 +44444,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 1
                 }
@@ -44432,7 +44454,7 @@
                     "ankamaId": 752,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/752-vampirblut",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15089.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 35,
                     "quantity": 1
                 }
@@ -44981,7 +45003,7 @@
         "ankamaId": 417,
         "name": "Boo-Schlamm",
         "level": 27,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15116.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/417-boo-schlamm",
         "description": "Boo-Schlamm ist sehr aggressiv. Er besteht aus einer Vielzahl von Schlammpartikeln großer Schlammigkeit. Kaum trocken zu kriegen. Man wird seiner meist erst nach einer großen Schlammschlacht habhaft. Ein wahres Schlammassel eben...",
@@ -45410,7 +45432,7 @@
         "ankamaId": 12440,
         "name": "Junge Pfütze",
         "level": 25,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15794.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12440-junge-pfuetze",
         "description": "Diese junge Pfütze gibt eine hervorragende Munition für Wasserbombenschlachten ab!",
@@ -45593,7 +45615,7 @@
         "ankamaId": 12428,
         "name": "Junger Schlamm",
         "level": 25,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15793.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/12428-junger-schlamm",
         "description": "Nach der Schließung ihrer Konditorei beschlossen die Unternehmer Ferro und Erro zu einer getrockneten Mischung dieses Schlammes einige Schockerschalen-Splitter hinzuzufügen und den Göttern der Welt der Zwölf anzubieten. Die Götter waren sehr geschmeichelt und genossen diese neue \"Schokolade\" sehr. So sehr, dass seitdem der Göttin Eniripsa ihre frühere Kleidung nicht mehr passt...",
@@ -46496,7 +46518,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 10
                 }
@@ -46583,7 +46605,7 @@
         "ankamaId": 2455,
         "name": "Fresssackblut",
         "level": 19,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15499.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2455-fresssackblut",
         "description": "Ein wahrer Fresssackjäger geht niemals ohne Fresssackblut auf die Jagd. Denn es zieht besonders gut die dicken Fresssäcke an. Leider auch Fliegen…",
@@ -46627,7 +46649,7 @@
         "ankamaId": 13502,
         "name": "Eiskaltes Fluid",
         "level": 18,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15100.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/13502-eiskaltes-fluid",
         "description": "Das Eiskalte Fluid ist eine beliebte Komponente für böse Streiche. Darüber hinaus ist es so ziemlich das einzige Mittel, um die hormongesteuerten Hitzewallungen brünftiger Draconixen wenigstens für kurze Zeit zu unterdrücken ...",
@@ -46943,7 +46965,7 @@
         "ankamaId": 2662,
         "name": "Dämonenrosenspeichel",
         "level": 16,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15634.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/2662-daemonenrosenspeichel",
         "description": "Die Dämonenrose hat die schlechte Angewohnheit, alles und jeden in ihrer Reichweite mit ihrem Speichel vollzusabbern. Doch soll dies angeblich ein Zeichen von Zuneigung sein. Darum ein Rat: wenn sie sich euch voll zuneigt, dann springt besser schnell aus dem Weg.",
@@ -48074,7 +48096,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 1
                 }
@@ -48228,7 +48250,7 @@
         "ankamaId": 385,
         "name": "Fresssackspeichel",
         "level": 7,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15057.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/385-fresssackspeichel",
         "description": "Dieser eitrige Speichel stinkt furchtbar. Das liegt daran, dass der Fresssack stets mit der Zunge über die Wolle zu streichen pflegt, um diese sauber zu halten. Kommt jetzt der Gestank der Wolle vom Speichel oder der Gestank des Speichels von der Wolle? Dinge, die man besser nicht allzugenau erforschen sollte.",
@@ -48874,7 +48896,7 @@
                     "ankamaId": 311,
                     "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
                     "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/15026.w48h48.png",
-                    "type": "Verschiedene Ressourcen",
+                    "type": "Flüssig",
                     "level": 1,
                     "quantity": 1
                 }
@@ -49749,6 +49771,17 @@
         "recipe": []
     },
     {
+        "_id": 23105,
+        "ankamaId": 23105,
+        "name": "Katanaklinge",
+        "level": 1,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164725.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23105-katanaklinge",
+        "description": "Endlich, das Ergebnis kann sich sehen lassen! Mit der Klinge allein werdet ihr euch im Kampf allerdings trotzdem schwertun.",
+        "recipe": []
+    },
+    {
         "_id": 289,
         "ankamaId": 289,
         "name": "Weizen",
@@ -49764,7 +49797,7 @@
         "ankamaId": 311,
         "name": "Trinkwasser",
         "level": 1,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15026.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/311-trinkwasser",
         "description": "Wasser ist ein wesentlicher Bestandteil von ganz vielen Dingen und Lebewesen. Grundsätzlich gilt: je trüber es ist, desto mehr Geschmack hat das Bier danach.",
@@ -50232,7 +50265,7 @@
         "name": "Pandawushu-Wasser-Artefakt",
         "level": 1,
         "type": "Edelstein",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/50104.png",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164659.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7222-pandawushu-wasser-artefakt",
         "description": "Dieses magische Artefakt wird von Pandawushu-Anhängern benutzt, um damit ihre Ausrüstung zu verzaubern.",
         "recipe": []
@@ -50240,22 +50273,22 @@
     {
         "_id": 7223,
         "ankamaId": 7223,
-        "name": "Pandawushu-Luft-Artefakt",
+        "name": "Pandawushu-Wind-Artefakt",
         "level": 1,
         "type": "Edelstein",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/50105.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7223-pandawushu-luft-artefakt",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164661.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7223-pandawushu-wind-artefakt",
         "description": "Dieses magische Artefakt wird von Pandawushu-Anhängern benutzt, um damit ihre Ausrüstung zu verzaubern.",
         "recipe": []
     },
     {
         "_id": 7224,
         "ankamaId": 7224,
-        "name": "Pandawushu-Erd-Artefakt",
+        "name": "Pandawushu-Fels-Artefakt",
         "level": 1,
         "type": "Edelstein",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/50106.png",
-        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7224-pandawushu-erd-artefakt",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164662.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7224-pandawushu-fels-artefakt",
         "description": "Dieses magische Artefakt wird von Pandawushu-Anhängern benutzt, um damit ihre Ausrüstung zu verzaubern.",
         "recipe": []
     },
@@ -50585,6 +50618,28 @@
         "recipe": []
     },
     {
+        "_id": 23480,
+        "ankamaId": 23480,
+        "name": "Reisöl",
+        "level": 1,
+        "type": "Öl",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/60069.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23480-reisoel",
+        "description": "Wenn ihr etwas Fettiges braucht, kommt dieses Öl ganz gelegen.",
+        "recipe": [
+            {
+                "Reis": {
+                    "ankamaId": 7018,
+                    "url": "https://www.dofus-touch.com/de/mmorpg/leitfaden/ressourcen/7018-reis",
+                    "imgUrl": "https://static.ankama.com/dofus/www/game/items/52/34010.w48h48.png",
+                    "type": "Getreide",
+                    "level": 100,
+                    "quantity": 10
+                }
+            }
+        ]
+    },
+    {
         "_id": 422,
         "ankamaId": 422,
         "name": "Flachs-Samen",
@@ -50862,7 +50917,7 @@
         "ankamaId": 11475,
         "name": "Kühles Wasser",
         "level": 1,
-        "type": "Verschiedene Ressourcen",
+        "type": "Flüssig",
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/15778.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/11475-kuehles-wasser",
         "description": "Dieses unterkühlte Wasser liegt in einem metastabilen Zustand vor. Eine Kleinigkeit reicht bereits aus, damit es gefriert. Drum ist es ideal, um Nahrung zu konservieren. Skrupellose Frigostianer behaupten, es würde sogar mit übellaunigen Schwiegermüttern funktionieren...",
@@ -51115,6 +51170,17 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164152.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/22059-unendliche-spiegelung",
         "description": "Um das unendliche Wesen dieser Spiegelung zu begreifen, genügt es, seinen Blick für einen Moment in ihre astralen Motive zu vertiefen, die tausendjährige Abenteuer bergen.",
+        "recipe": []
+    },
+    {
+        "_id": 23106,
+        "ankamaId": 23106,
+        "name": "Katanagriff",
+        "level": 1,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164726.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23106-katanagriff",
+        "description": "Von Anatakwa mit Sorgfalt angefertigt. Sie hatte wohl Angst, dass es zu lange dauern würde, wenn sie euch diese Arbeit anvertraut.",
         "recipe": []
     },
     {
@@ -51818,6 +51884,28 @@
         "recipe": []
     },
     {
+        "_id": 23481,
+        "ankamaId": 23481,
+        "name": "Felsstaub",
+        "level": 1,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/48691.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23481-felsstaub",
+        "description": "Haltet euch fern, wenn ihr allergisch seid.",
+        "recipe": []
+    },
+    {
+        "_id": 23523,
+        "ankamaId": 23523,
+        "name": "Ast eines spirituellen Bambus",
+        "level": 1,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/38670.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23523-ast-spirituellen-bambus",
+        "description": "Ein Ast, der vom letzten spirituellen Bambus von Pflanzala stammt. Eine ausgestorbene Pflanzenart, die ursprünglich aus der Astralebene stammt und erbittert von einem mächtigen Yokai namens Shinotake bewacht wird.",
+        "recipe": []
+    },
+    {
         "_id": 399,
         "ankamaId": 399,
         "name": "Sesamöl",
@@ -52339,7 +52427,7 @@
         "name": "Pandawushu-Feuer-Artefakt",
         "level": 1,
         "type": "Edelstein",
-        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/50107.png",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164663.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/7225-pandawushu-feuer-artefakt",
         "description": "Dieses magische Artefakt wird von Pandawushu-Anhängern benutzt, um damit ihre Ausrüstung zu verzaubern.",
         "recipe": []
@@ -52735,6 +52823,28 @@
         "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/78262.png",
         "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/21966-grosse-astralrune",
         "description": "Wenn die Träume der Zwölfianer miteinander verschmelzen, kristallisieren die träumerischen Gedanken aus und bilden eine Astralrune. Hilfreiche Gesten setzen sich nicht immer über Jahrhunderte fort, aber sie beeinflussen einige Seelen grundlegend. Ihre Träume kristallisieren zu einer Astralrune wie dieser hier aus.",
+        "recipe": []
+    },
+    {
+        "_id": 23038,
+        "ankamaId": 23038,
+        "name": "Itze Dawas Blutprobe",
+        "level": 1,
+        "type": "Verschiedene Ressourcen",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/24031.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23038-itze-dawas-blutprobe",
+        "description": "Eine Blutprobe von Itze Dawa. So werdet ihr immer ein kleines Stück von ihm in euch tragen. Das ist doch irgendwie süß … oder auch nicht.",
+        "recipe": []
+    },
+    {
+        "_id": 23311,
+        "ankamaId": 23311,
+        "name": "Hölzernes Pandawushu-Artefakt",
+        "level": 1,
+        "type": "Edelstein",
+        "imgUrl": "https://static.ankama.com/dofus/www/game/items/200/164660.png",
+        "url": "https://www.dofus.com/de/mmorpg/leitfaden/ressourcen/23311-hoelzernes-pandawushu-artefakt",
+        "description": "Mit diesem magischen Artefakt verzaubern die Pandawushu-Schüler ihre Ausrüstung.",
         "recipe": []
     }
 ]

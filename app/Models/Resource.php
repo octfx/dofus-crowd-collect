@@ -14,7 +14,8 @@ class Resource extends Model
         'name',
         'description',
         'level',
-        'img_url'
+        'img_url',
+        'url',
     ];
 
     protected $with = [

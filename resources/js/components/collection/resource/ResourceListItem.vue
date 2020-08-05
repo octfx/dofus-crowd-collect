@@ -5,7 +5,9 @@
             v-bind:class="{ 'text-success': finished} "
         >
             <label :for="content.collection_id + '-' + content.resource_id">
-                <span :title="content.resource.description">{{ content.resource.name }}</span>
+                <a :href="content.resource.url" target="_blank" rel="noreferrer noopener">
+                    <span :title="content.resource.description">{{ content.resource.name }}</span>
+                </a>
                 <span v-if="hasContent" :title="content.note.content">✏</span>
             </label>
         </td>

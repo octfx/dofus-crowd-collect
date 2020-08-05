@@ -5,8 +5,8 @@ namespace App\Console\Commands;
 use App\Models\Resource;
 use App\Models\ResourceType;
 use Illuminate\Console\Command;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Support\Facades\File;
-use Symfony\Component\HttpFoundation\File\Exception\FileException;
 
 class ImportResources extends Command
 {
@@ -15,35 +15,25 @@ class ImportResources extends Command
      *
      * @var string
      */
-    protected $signature = 'import:resources';
+    protected $signature = 'import:resources {--update}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Imports json resources into the db';
-
-    /**
-     * Create a new command instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
+    protected $description = 'Imports json resources into the db. Add --update to also update each existing resource.';
 
     /**
      * Execute the console command.
      *
      * @return void
      */
-    public function handle()
+    public function handle(): void
     {
         try {
             $fileContent = File::get(resource_path('data/resource.json'));
-        } catch (FileException $e) {
+        } catch (FileNotFoundException $e) {
             $this->error("Could not find file 'resource.json' in resources/data folder.");
             return;
         }
@@ -57,14 +47,26 @@ class ImportResources extends Command
         foreach ($parsed as $item) {
             $type = ResourceType::firstOrCreate(['name' => $item['type']]);
 
-            Resource::firstOrCreate([
+            /** @var Resource $resource */
+            $resource = Resource::firstOrCreate([
                 'name' => $item['name']
             ], [
+                'type_id' => $type->id,
                 'level' => $item['level'],
                 'description' => $item['description'],
                 'img_url' => $item['imgUrl'],
-                'type_id' => $type->id
+                'url' => $item['url'],
             ]);
+
+            if (!$resource->wasRecentlyCreated && $this->hasOption('update')) {
+                $resource->update([
+                    'type_id' => $type->id,
+                    'level' => $item['level'],
+                    'description' => $item['description'],
+                    'img_url' => $item['imgUrl'],
+                    'url' => $item['url'],
+                ]);
+            }
 
             $bar->advance();
         }
